@@ -1,0 +1,52 @@
+{
+  "topic_id": 7,
+  "topic_name": "GIA ĐÌNH TỪ LOẠI",
+  "description": "Giúp bé làm quen ngữ pháp một cách tự nhiên bằng cách nhận diện Từ chỉ Sự vật, Hoạt động và Đặc điểm.",
+  "questions": [
+    {
+      "question_id": 701,
+      "sub_topic": "Nhóm từ chỉ Sự vật",
+      "week": 7,
+      "question_text": "Trong các từ sau, từ nào là từ chỉ một 'Sự vật' (con vật quen thuộc trong nhà)?",
+      "options": [
+        "chạy nhanh",
+        "con mèo",
+        "xinh xắn",
+        "hát ca"
+      ],
+      "answer": "con mèo",
+      "hint": "Từ 'con mèo' chỉ con vật (sự vật). Còn 'chạy nhanh', 'hát ca' chỉ hoạt động, 'xinh xắn' chỉ đặc điểm.",
+      "image_url": "assets/images/con_meo.png"
+    },
+    {
+      "question_id": 702,
+      "sub_topic": "Nhóm từ chỉ Hoạt động",
+      "week": 7,
+      "question_text": "Bé Thỏ Hồng đang nhảy múa trên bãi cỏ. Từ nào trong câu chỉ 'Hoạt động' của bé Thỏ?",
+      "options": [
+        "Thỏ Hồng",
+        "bãi cỏ",
+        "nhảy múa",
+        "trên"
+      ],
+      "answer": "nhảy múa",
+      "hint": "'Nhảy múa' là từ chỉ hoạt động, cử động của cơ thể Thỏ Hồng vui đùa!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 703,
+      "sub_topic": "Nhóm từ chỉ Đặc điểm",
+      "week": 7,
+      "question_text": "Mẹ mua cho bé quả bóng bay màu đỏ rực. Từ nào dưới đây chỉ 'Đặc điểm' (màu sắc) của quả bóng?",
+      "options": [
+        "quả bóng",
+        "bay",
+        "đỏ rực",
+        "cho bé"
+      ],
+      "answer": "đỏ rực",
+      "hint": "'Đỏ rực' miêu tả đặc điểm màu sắc rất rực rỡ và nổi bật của quả bóng bay!",
+      "image_url": "assets/images/tho_hong.png"
+    }
+  ]
+}

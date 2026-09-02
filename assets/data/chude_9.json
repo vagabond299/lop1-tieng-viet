@@ -1,0 +1,37 @@
+{
+  "topic_id": 9,
+  "topic_name": "ĐIỀN TỪ VÀO CÂU & TỤC NGỮ",
+  "description": "Rèn luyện đạo đức và khả năng sử dụng từ trong ngữ cảnh qua câu tục ngữ, thành ngữ dân gian.",
+  "questions": [
+    {
+      "question_id": 901,
+      "sub_topic": "Chọn từ phù hợp điền vào câu văn",
+      "week": 9,
+      "question_text": "Bé hãy chọn từ thích hợp điền vào chỗ trống: 'Chú gà trống gáy vang ... để gọi mọi người thức dậy.'?",
+      "options": [
+        "ầm ĩ",
+        "o o o",
+        "ò ó o o",
+        "lặng lẽ"
+      ],
+      "answer": "ò ó o o",
+      "hint": "Tiếng gáy vang đặc trưng của chú gà trống đón bình minh mỗi sáng là 'ò ó o o'!",
+      "image_url": "assets/images/con_vit.png"
+    },
+    {
+      "question_id": 902,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ thích hợp vào chỗ trống để hoàn thành câu tục ngữ khuyên bảo chúng ta phải biết yêu thương, đùm bọc nhau: 'Lá lành đùm lá ...'?",
+      "options": [
+        "rách",
+        "héo",
+        "xanh",
+        "vàng"
+      ],
+      "answer": "rách",
+      "hint": "Câu tục ngữ đầy nghĩa tình của ông cha ta là 'Lá lành đùm lá rách', khuyên bảo bé phải biết giúp đỡ người gặp hoàn cảnh khó khăn!",
+      "image_url": "assets/images/tho_hong.png"
+    }
+  ]
+}

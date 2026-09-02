@@ -1,0 +1,143 @@
+{
+  "exam_category": "Học kỳ 2",
+  "exams": [
+    {
+      "exam_id": 1,
+      "exam_name": "ĐỀ THI THỬ HỌC KỲ 2 - ĐỀ SỐ 1",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1301,
+          "question_text": "Bé hãy điền vần thích hợp vào chỗ trống: 'điện th...?'?",
+          "options": [
+            "oai",
+            "oay",
+            "oan",
+            "oach"
+          ],
+          "answer": "oai",
+          "hint": "Từ chính xác là 'điện thoại', chứa vần đôi 'oai' ghép với âm đầu 'th' và thanh nặng.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1302,
+          "question_text": "Đọc đoạn văn sau và trả lời câu hỏi:\n'Chú chim sẻ nhỏ hót líu lo trên cành tre xanh mát đầu ngõ. Tiếng hót của chú gọi bình minh thức dậy.'\nCâu hỏi: Chú chim sẻ nhỏ hót líu lo ở đâu?",
+          "options": [
+            "trên cành tre",
+            "trên mái nhà",
+            "trên đồng cỏ",
+            "trong lồng chim"
+          ],
+          "answer": "trên cành tre",
+          "hint": "Ngay câu đầu tiên của đoạn văn chỉ rõ chú chim sẻ hót 'trên cành tre xanh mát đầu ngõ'. Bé hãy đọc kỹ nhé!",
+          "image_url": "assets/images/con_vit.png"
+        },
+        {
+          "question_id": 1303,
+          "question_text": "Từ nào dưới đây là từ chỉ HOẠT ĐỘNG của một chú mèo?",
+          "options": [
+            "bắt chuột",
+            "long lanh",
+            "mượt mà",
+            "ngủ khò"
+          ],
+          "answer": "bắt chuột",
+          "hint": "Từ chỉ hoạt động mô tả động tác của con vật. 'Bắt chuột' chính là hoạt động săn mồi quen thuộc của mèo con!",
+          "image_url": "assets/images/con_meo.png"
+        }
+      ]
+    },
+    {
+      "exam_id": 2,
+      "exam_name": "ĐỀ THI THỬ HỌC KỲ 2 - ĐỀ SỐ 2",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1304,
+          "question_text": "Bé hãy điền vần thích hợp vào chỗ trống: 'thu h...?'?",
+          "options": [
+            "oan",
+            "oat",
+            "oach",
+            "oanh"
+          ],
+          "answer": "oach",
+          "hint": "Vần thích hợp để điền vào 'thu h...' là vần 'oach' để tạo thành từ 'thu hoạch' mùa màng.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1305,
+          "question_text": "Đọc bài thơ ngắn sau và trả lời câu hỏi:\n'Mặt trời gác núi\nBóng tối lan dần\nBé đi ngủ ngoan\nChúc cả nhà nhé!'\nCâu hỏi: Khi bóng tối lan dần, em bé trong bài thơ làm gì?",
+          "options": [
+            "bé đi ngủ",
+            "bé đi chơi",
+            "bé đi học bài",
+            "bé quét nhà"
+          ],
+          "answer": "bé đi ngủ",
+          "hint": "Khổ thơ chỉ rõ: 'Bé đi ngủ ngoan'. Vậy đáp án đúng là bé đi ngủ để giữ sức khỏe tốt nhé!",
+          "image_url": "assets/images/con_trau.png"
+        },
+        {
+          "question_id": 1306,
+          "question_text": "Bé hãy tìm từ chỉ ĐẶC ĐIỂM miêu tả mùi hương đặc trưng của quả mít chín ngọt lịm?",
+          "options": [
+            "thơm nức",
+            "xanh mát",
+            "lạnh buốt",
+            "cay xè"
+          ],
+          "answer": "thơm nức",
+          "hint": "Quả mít chín có mùi thơm rất mạnh lan tỏa xa, từ chỉ đặc điểm mùi hương này là 'thơm nức'.",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "exam_id": 3,
+      "exam_name": "ĐỀ THI THỬ HỌC KỲ 2 - ĐỀ SỐ 3",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1307,
+          "question_text": "Sắp xếp các từ sau thành câu đúng ngữ pháp tả hoạt động: 'đang', 'Bé', 'đọc sách'.",
+          "options": [
+            "đang đọc sách Bé.",
+            "Bé đang đọc sách.",
+            "Bé đọc sách đang.",
+            "đang Bé đọc sách."
+          ],
+          "answer": "Bé đang đọc sách.",
+          "hint": "Câu hoàn chỉnh đúng cấu trúc ngữ pháp Tiếng Việt lớp 1 là: 'Bé đang đọc sách.' (Chủ ngữ - Trợ động từ - Hoạt động).",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1308,
+          "question_text": "Chọn từ thích hợp điền vào thành ngữ dân gian rèn luyện lòng nhân ái sau: 'Lá lành đùm lá ...'?",
+          "options": [
+            "xanh",
+            "rách",
+            "đỏ",
+            "vàng"
+          ],
+          "answer": "rách",
+          "hint": "Thành ngữ đầy đủ là 'Lá lành đùm lá rách', khuyên bảo mọi người biết đùm bọc, giúp đỡ lẫn nhau khi gặp khó khăn.",
+          "image_url": "assets/images/con_cua.png"
+        },
+        {
+          "question_id": 1309,
+          "question_text": "Bé hãy chọn chữ cái điền vào chỗ trống thích hợp: 'ngôi ...ao' lấp lánh trên trời?",
+          "options": [
+            "s",
+            "x",
+            "ch",
+            "tr"
+          ],
+          "answer": "s",
+          "hint": "Từ đúng chính tả là 'ngôi sao' (viết bằng phụ âm đầu 's' chứ không viết 'xao' nha bé!).",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    }
+  ]
+}

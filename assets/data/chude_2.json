@@ -1,0 +1,52 @@
+{
+  "topic_id": 2,
+  "topic_name": "NĂM THANH ĐIỆU KÌ DIỆU",
+  "description": "Bé tập nhận diện dấu thanh: sắc, huyền, hỏi, ngã, nặng để đánh vần đúng âm điệu.",
+  "questions": [
+    {
+      "question_id": 201,
+      "sub_topic": "Nhận diện Thanh sắc và Thanh huyền",
+      "week": 1,
+      "question_text": "Khi thêm dấu thanh vào chữ 'ca' để được tiếng chỉ con vật biết bay, có chân dài lội ruộng kiếm ăn, bé chọn dấu nào?",
+      "options": [
+        "dấu sắc",
+        "dấu huyền",
+        "dấu hỏi",
+        "dấu nặng"
+      ],
+      "answer": "dấu huyền",
+      "hint": "Chữ 'ca' thêm dấu huyền thành tiếng 'cà', thêm dấu sắc thành 'cá', thêm thanh nặng thành 'cạ', và nếu thêm dấu huyền ta được tiếng 'cò' (con cò) đó bé!",
+      "image_url": "assets/images/con_vit.png"
+    },
+    {
+      "question_id": 202,
+      "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+      "week": 1,
+      "question_text": "Mẹ mua cho bé một cốc 'sữa' ấm. Từ 'sữa' có chứa thanh điệu nào dưới đây?",
+      "options": [
+        "thanh sắc",
+        "thanh hỏi",
+        "thanh ngã",
+        "thanh nặng"
+      ],
+      "answer": "thanh ngã",
+      "hint": "Từ 'sữa' (trong sữa mẹ, sữa bò) được viết bằng thanh ngã (~). Nếu dùng thanh hỏi ta được từ 'sửa' (trong sửa xe) là sai nghĩa đấy bé!",
+      "image_url": "assets/images/con_meo.png"
+    },
+    {
+      "question_id": 203,
+      "sub_topic": "Ôn tập phản xạ nhanh dấu thanh",
+      "week": 1,
+      "question_text": "Từ 'mẹ' có chứa thanh điệu nào nằm dưới chữ 'e'?",
+      "options": [
+        "thanh huyền",
+        "thanh hỏi",
+        "thanh ngã",
+        "thanh nặng"
+      ],
+      "answer": "thanh nặng",
+      "hint": "Thanh nặng (.) nằm ở phía dưới chữ cái nguyên âm 'e' tạo thành tiếng 'mẹ' kính yêu!",
+      "image_url": "assets/images/tho_hong.png"
+    }
+  ]
+}

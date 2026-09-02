@@ -1,0 +1,143 @@
+{
+  "exam_category": "Học sinh giỏi",
+  "exams": [
+    {
+      "exam_id": 1,
+      "exam_name": "ĐỀ THI HỌC SINH GIỎI - ĐỀ SỐ 1",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1401,
+          "question_text": "Đọc hiểu câu chuyện ngụ ngôn 'Đeo chuông cho mèo' và trả lời:\n'Lũ chuột muốn đeo chuông vào cổ mèo để khi mèo đến gần sẽ nghe tiếng chuông mà chạy trốn. Nhưng khi bàn luận xem ai là người đi đeo chuông, cả đàn chuột im phăng phắc, không một con nào dám đi.'\nCâu hỏi: Vì sao đàn chuột im phăng phắc, không dám đi đeo chuông cho mèo?",
+          "options": [
+            "Vì chuông quá nặng chuột không xách nổi",
+            "Vì ai cũng sợ bị mèo bắt và ăn thịt",
+            "Vì chúng không mua được chiếc chuông nào",
+            "Vì chú mèo tự nguyện đeo chuông rồi"
+          ],
+          "answer": "Vì ai cũng sợ bị mèo bắt và ăn thịt",
+          "hint": "Chú chuột nào cũng lo sợ tính mạng của mình khi tiếp cận kẻ thù săn mồi truyền kiếp là mèo, do đó không con nào dám thực hiện.",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 1402,
+          "question_text": "Hãy phát hiện và đếm lỗi viết hoa sai quy tắc chính tả trong câu sau: 'bạn nam và bé lan đang dạo chơi ở thủ đô hà nội.'",
+          "options": [
+            "Có 2 lỗi viết hoa",
+            "Có 3 lỗi viết hoa",
+            "Có 4 lỗi viết hoa",
+            "Có 5 lỗi viết hoa"
+          ],
+          "answer": "Có 5 lỗi viết hoa",
+          "hint": "Các từ sai quy tắc do không viết hoa là: 'bạn' (đầu câu -> Bạn), 'nam' (tên riêng -> Nam), 'lan' (tên riêng -> Lan), 'hà' và 'nội' (địa danh riêng -> Hà Nội). Tổng cộng là 5 tiếng bị viết sai!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1403,
+          "question_text": "Điền cụm từ thích hợp vào tục ngữ dân gian sau: 'Một con ngựa đau, cả tàu ...'?",
+          "options": [
+            "ăn cỏ",
+            "bỏ cỏ",
+            "kéo xe",
+            "chạy trốn"
+          ],
+          "answer": "bỏ cỏ",
+          "hint": "Tục ngữ đầy đủ dạy về tinh thần đoàn kết, gắn bó sẻ chia thương yêu nhau là: 'Một con ngựa đau, cả tàu bỏ cỏ'.",
+          "image_url": "assets/images/con_trau.png"
+        }
+      ]
+    },
+    {
+      "exam_id": 2,
+      "exam_name": "ĐỀ THI HỌC SINH GIỎI - ĐỀ SỐ 2",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1404,
+          "question_text": "Đọc bài đọc nâng cao về 'Chú chuồn chuồn nước' và trả lời:\n'Ôi chao! Chú chuồn chuồn nước mới đẹp làm sao! Màu vàng trên lưng chú lấp lánh như nắng thu. Bốn cánh mỏng như giấy bóng, long lanh.'\nCâu hỏi: Màu sắc trên lưng chú chuồn chuồn nước được miêu tả thế nào?",
+          "options": [
+            "đỏ rực rỡ",
+            "vàng lấp lánh như nắng thu",
+            "xanh mướt mát",
+            "đen tuyền óng ả"
+          ],
+          "answer": "vàng lấp lánh như nắng thu",
+          "hint": "Văn bản tả rõ: 'Màu vàng trên lưng chú lấp lánh như nắng thu'. Bé hãy đọc thật kỹ đoạn văn miêu tả nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1405,
+          "question_text": "Trong câu văn sau: 'Bé Nga rất chăm chỉ học bài.', từ nào đóng vai trò là TỪ CHỈ ĐẶC ĐIỂM?",
+          "options": [
+            "Nga",
+            "bé",
+            "chăm chỉ",
+            "học bài"
+          ],
+          "answer": "chăm chỉ",
+          "hint": "'Chăm chỉ' mô tả nét tính chất, đặc điểm tính cách tốt của em bé trong học tập, đây là Từ chỉ Đặc điểm.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1406,
+          "question_text": "Hãy tìm một từ đồng nghĩa (có nghĩa giống hoặc tương tự) với từ 'chăm chỉ'?",
+          "options": [
+            "lười biếng",
+            "cần cù",
+            "nghịch ngợm",
+            "hiền lành"
+          ],
+          "answer": "cần cù",
+          "hint": "'Cần cù' miêu tả hành vi siêng năng chịu khó, có nghĩa tương đương với 'chăm chỉ'. 'Lười biếng' là trái nghĩa.",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "exam_id": 3,
+      "exam_name": "ĐỀ THI HỌC SINH GIỎI - ĐỀ SỐ 3",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1407,
+          "question_text": "Hãy giải câu đố dân gian miêu tả con vật hoang dã sau:\n'Cổ cao kiêu hãnh\nSải bước trên đường\nLưng mang đốm sao\nĂn lá ngọt ngào?'\nCâu đố trên nói về con vật nào?",
+          "options": [
+            "Con voi",
+            "Con ngựa",
+            "Con hươu cao cổ",
+            "Con trâu"
+          ],
+          "answer": "Con hươu cao cổ",
+          "hint": "Cổ cao kiêu hãnh, lưng mang những đốm lốm đốm như vì sao nhỏ và chuyên ăn những chiếc lá non ngọt ngào trên ngọn cây cao chính là Hươu cao cổ!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1408,
+          "question_text": "Hãy tìm ra từ viết SAI chính tả trong hai câu thơ lục bát quen thuộc sau:\n'Trời mưa bong bóng phập phồng\nMẹ đi cấy núa mang dòng lúa thơm.'",
+          "options": [
+            "bong bóng",
+            "cấy",
+            "núa",
+            "dòng"
+          ],
+          "answer": "núa",
+          "hint": "Từ sai chính tả vùng miền 'l/n' là 'núa'. Chữ viết đúng chuẩn chính tả phải là 'cấy lúa'.",
+          "image_url": "assets/images/con_cho.png"
+        },
+        {
+          "question_id": 1409,
+          "question_text": "Chọn từ thích hợp điền vào câu tục ngữ giáo dục đạo đức sau: 'Ăn quả nhớ kẻ ...'?",
+          "options": [
+            "mua quả",
+            "trồng cây",
+            "tưới nước",
+            "hái quả"
+          ],
+          "answer": "trồng cây",
+          "hint": "Tục ngữ đầy đủ khuyên bé luôn biết ơn người đi trước, người đã giúp đỡ mình là: 'Ăn quả nhớ kẻ trồng cây'.",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    }
+  ]
+}

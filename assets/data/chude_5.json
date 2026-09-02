@@ -1,0 +1,37 @@
+{
+  "topic_id": 5,
+  "topic_name": "BÁC SĨ BẮT BỆNH CHÍNH TẢ",
+  "description": "Bé đóng vai bác sĩ tìm lỗi viết sai phụ âm, vần và bẫy quên viết hoa danh từ riêng, đầu câu.",
+  "questions": [
+    {
+      "question_id": 501,
+      "sub_topic": "Sửa lỗi sai phụ âm và vần",
+      "week": 5,
+      "question_text": "Bé hãy tìm từ viết SAI chính tả trong câu sau: 'Nhà bà có một chú nghé con rất ngộ nghĩnh.'?",
+      "options": [
+        "nghé",
+        "con",
+        "ngộ",
+        "nghĩnh"
+      ],
+      "answer": "nghé",
+      "hint": "Câu trên hoàn toàn ĐÚNG chính tả! Nhưng nếu viết 'ngé con' thì sai vì 'ngh' phải đứng trước 'e'. Để bẫy bé, bé hãy nhớ: nghé (đúng), ngé (sai)!",
+      "image_url": "assets/images/con_trau.png"
+    },
+    {
+      "question_id": 502,
+      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
+      "week": 5,
+      "question_text": "Bé hãy tìm chữ viết SAI quy tắc viết hoa trong câu: 'Mẹ dắt bé nga đi chơi công viên vào chiều chủ nhật.'?",
+      "options": [
+        "Mẹ",
+        "nga",
+        "công viên",
+        "chủ nhật"
+      ],
+      "answer": "nga",
+      "hint": "Từ 'nga' là tên riêng của em bé, bắt buộc chúng ta phải viết hoa chữ cái đầu thành 'Nga' để lịch sự bé nhé!",
+      "image_url": "assets/images/tho_hong.png"
+    }
+  ]
+}

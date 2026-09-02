@@ -1,0 +1,84 @@
+{
+  "topic_id": 1,
+  "topic_name": "BẢNG CHỮ CÁI NGỘ NGHĨNH",
+  "description": "Bé nhận diện mặt chữ cái, nguyên âm, phụ âm và tham gia trò chơi nghe đoán âm chuẩn xác.",
+  "questions": [
+    {
+      "question_id": 101,
+      "sub_topic": "Làm quen 12 Nguyên âm đơn",
+      "week": 1,
+      "question_text": "Bé hãy tìm chữ cái tương ứng với hình quả táo (quả táo bắt đầu bằng âm 'a')?",
+      "options": [
+        "ă",
+        "â",
+        "a",
+        "o"
+      ],
+      "answer": "a",
+      "hint": "Quả táo có chữ 'a' đứng đầu đấy bé ơi! Chữ 'a' có nét cong tròn và nét móc thẳng bên phải nhé.",
+      "image_url": "assets/images/qua_tao.png"
+    },
+    {
+      "question_id": 102,
+      "sub_topic": "Khám phá 17 Phụ âm đơn",
+      "week": 1,
+      "question_text": "Bé hãy tìm chữ cái d (dờ) trong các phương án dưới đây. Bé chú ý nhìn kỹ chiều của cái bụng nhé!",
+      "options": [
+        "b",
+        "d",
+        "đ",
+        "q"
+      ],
+      "answer": "d",
+      "hint": "Chữ 'd' (dờ) có cái bụng quay sang bên trái, còn chữ 'b' (bờ) bụng quay sang bên phải nha bé!",
+      "image_url": "assets/images/chu_d.png"
+    },
+    {
+      "question_id": 103,
+      "sub_topic": "Chinh phục 11 Phụ âm ghép",
+      "week": 2,
+      "question_text": "Từ 'con chó' bắt đầu bằng âm ghép nào dưới đây nhỉ?",
+      "options": [
+        "tr",
+        "kh",
+        "nh",
+        "ch"
+      ],
+      "answer": "ch",
+      "hint": "Âm 'ch' (chờ) được ghép từ hai chữ cái là chữ 'c' đứng trước và chữ 'h' đứng sau. Bé đừng nhầm với 'tr' nha!",
+      "image_url": "assets/images/con_meo.png"
+    },
+    {
+      "question_id": 104,
+      "sub_topic": "🎧 Trò chơi nghe và đoán chữ cái",
+      "week": 2,
+      "question_text": "Bé hãy lắng nghe âm thanh và chọn đúng chữ cái vừa được phát âm (Âm phát ra: 'bờ')!",
+      "options": [
+        "d",
+        "đ",
+        "b",
+        "p"
+      ],
+      "answer": "b",
+      "hint": "Âm 'bờ' tương ứng với chữ cái 'b' bụng tròn quay sang bên phải đấy bé ơi!",
+      "audio_text": "bờ",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 105,
+      "sub_topic": "🎧 Trò chơi nghe và đoán chữ cái",
+      "week": 2,
+      "question_text": "Bé hãy lắng nghe âm thanh và chọn đúng chữ cái vừa được phát âm (Âm phát ra: 'ngờ')!",
+      "options": [
+        "ng",
+        "ngh",
+        "nh",
+        "g"
+      ],
+      "answer": "ng",
+      "hint": "Âm 'ngờ' đơn tương ứng với chữ 'ng' (gồm chữ n và g ghép lại). Chữ 'ngh' là âm ngờ kép bé nhé!",
+      "audio_text": "ngờ",
+      "image_url": "assets/images/tho_hong.png"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "topic_id": 8,
+  "topic_name": "NHÀ THÔNG THÁI SẮP CÂU",
+  "description": "Luyện ghép các chữ cái, từ ngữ xáo trộn thành một câu hoàn chỉnh, đúng ngữ pháp và viết hoa.",
+  "questions": [
+    {
+      "question_id": 801,
+      "sub_topic": "Ghép câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Bé hãy sắp xếp các từ xáo trộn sau đây thành câu đúng ngữ pháp nhất: 'đi học', 'Bé', 'Lan'.",
+      "options": [
+        "Bé đi học Lan.",
+        "Lan Bé đi học.",
+        "Bé Lan đi học.",
+        "đi học Bé Lan."
+      ],
+      "answer": "Bé Lan đi học.",
+      "hint": "Câu hoàn chỉnh đúng ngữ pháp là 'Bé Lan đi học.' diễn tả hành động đi học của bé tên Lan.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 802,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Hãy ghép các từ sau thành câu tả chú mèo nằm sưởi nắng: 'nằm', 'ngoài sân', 'Chú mèo', 'sưởi nắng'.",
+      "options": [
+        "Chú mèo nằm sưởi nắng ngoài sân.",
+        "Nằm ngoài sân chú mèo sưởi nắng.",
+        "Sưởi nắng ngoài sân chú mèo nằm.",
+        "Chú mèo sưởi nắng nằm ngoài sân."
+      ],
+      "answer": "Chú mèo nằm sưởi nắng ngoài sân.",
+      "hint": "Câu miêu tả tự nhiên, xuôi tai nhất là 'Chú mèo nằm sưởi nắng ngoài sân.' bé nhé!",
+      "image_url": "assets/images/con_meo.png"
+    }
+  ]
+}

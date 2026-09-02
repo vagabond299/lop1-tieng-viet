@@ -1,0 +1,52 @@
+{
+  "topic_id": 4,
+  "topic_name": "ĐIỀN CHỮ CÁI CÒN THIẾU",
+  "description": "Thách thức luật chính tả kinh điển s/x, tr/ch, r/d/gi, c/k, g/gh, ng/ngh và quy tắc âm đệm q/u.",
+  "questions": [
+    {
+      "question_id": 401,
+      "sub_topic": "Luật chính tả kinh điển: c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Bé hãy điền chữ cái thích hợp vào chỗ trống trong từ sau: '...ẻ vở' (chỉ hành động kẻ những dòng kẻ trong vở)?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "k",
+      "hint": "Luật chính tả quy định: Âm 'cờ' đứng trước các nguyên âm 'e, ê, i' bắt buộc phải viết bằng chữ 'k' (ca) bé nhé!",
+      "image_url": "assets/images/ke_vo.png"
+    },
+    {
+      "question_id": 402,
+      "sub_topic": "Phân biệt cặp phụ âm dễ lẫn",
+      "week": 4,
+      "question_text": "Bé hãy điền chữ thích hợp vào chỗ trống để được từ chỉ một em bé rất đáng yêu: '...inh xắn'?",
+      "options": [
+        "s",
+        "x",
+        "ch",
+        "tr"
+      ],
+      "answer": "x",
+      "hint": "Từ đúng chính tả là 'xinh xắn' (viết bằng chữ 'x'). Bé viết 'sinh xắn' là sai rồi đó!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 403,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Điền âm thích hợp đứng trước vần 'a' để được tiếng chỉ một loại quả ngọt mát: '...uả táo'?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "q",
+      "hint": "Âm đầu 'q' kết hợp với âm đệm 'u' tạo thành tổ hợp 'qu'. Trong từ 'quả táo', ta điền chữ 'q' đứng trước 'uả' nha!",
+      "image_url": "assets/images/qua_tao.png"
+    }
+  ]
+}

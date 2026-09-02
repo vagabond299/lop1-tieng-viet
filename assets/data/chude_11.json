@@ -1,0 +1,41 @@
+{
+  "topic_id": 11,
+  "topic_name": "BÉ TẬP ĐỌC HIỂU",
+  "description": "Luyện đọc diễn cảm các tác phẩm thơ, nhạc và câu chuyện văn học ngắn ngụ ngôn ý nghĩa.",
+  "questions": [
+    {
+      "question_id": 1101,
+      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
+      "week": 11,
+      "passage_title": "Bài thơ: Ai gõ cửa?",
+      "passage_text": "Cộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là gió mát\nMang hương thơm trời\nGhé vào chơi nhé!\n\nCộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là mưa rào\nMang nước mát lành\nTưới cho cây trái.",
+      "question_text": "Trong bài thơ trên, nhân vật nào đã gõ cửa đầu tiên để mang hương thơm trời ghé vào chơi?",
+      "options": [
+        "Mưa rào",
+        "Gió mát",
+        "Cây trái",
+        "Bé Thỏ"
+      ],
+      "answer": "Gió mát",
+      "hint": "Khổ thơ đầu tiên viết: 'Tôi là gió mát, Mang hương thơm trời, Ghé vào chơi nhé!' nên gió mát chính là người gõ cửa đầu tiên!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 1102,
+      "sub_topic": "Đọc truyện ngắn & Trả lời",
+      "week": 11,
+      "passage_title": "Câu chuyện: Chú chim sẻ thông minh",
+      "passage_text": "Một chú chim sẻ nhỏ đậu trên cành cây cao. Bỗng một chú mèo mướp rón rén đi tới định vồ lấy sẻ. Sẻ nhanh trí kêu to lên: 'Chào bác Mèo! Bác đã rửa mặt chưa mà đi săn thế ạ?'. Mèo ngượng ngùng dừng lại dùng chân lau mặt. Sẻ lập tức đập cánh bay vút lên bầu trời xanh mát.",
+      "question_text": "Chú sẻ nhỏ trong câu chuyện đã làm gì khi phát hiện mèo mướp đang rón rén đi tới định vồ mình?",
+      "options": [
+        "Sẻ sợ hãi khóc lóc van xin.",
+        "Sẻ nhanh trí hỏi mèo đã rửa mặt chưa để mèo phân tâm.",
+        "Sẻ đứng im chịu trận không động đậy.",
+        "Sẻ gọi các bạn chim sẻ khác tới đánh mèo."
+      ],
+      "answer": "Sẻ nhanh trí hỏi mèo đã rửa mặt chưa để mèo phân tâm.",
+      "hint": "Sẻ hỏi mèo rửa mặt chưa để mèo dừng lại lấy chân lau mặt. Nhờ vậy sẻ có thời gian đập cánh bay đi cứu mạng mình! Thật thông minh phải không bé!",
+      "image_url": "assets/images/con_meo.png"
+    }
+  ]
+}

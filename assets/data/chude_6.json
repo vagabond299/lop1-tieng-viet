@@ -1,0 +1,52 @@
+{
+  "topic_id": 6,
+  "topic_name": "TỪ VỰNG",
+  "description": "Mở rộng vốn từ của bé qua hình ảnh trực quan, mùi vị, xúc giác thực tế và ghép cặp trái nghĩa.",
+  "questions": [
+    {
+      "question_id": 601,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+      "week": 6,
+      "question_text": "Khi bé ăn quả ớt, bé sẽ cảm thấy đầu lưỡi có vị gì nhỉ?",
+      "options": [
+        "ngọt ngọt",
+        "cay xè",
+        "đắng ngắt",
+        "chua loét"
+      ],
+      "answer": "cay xè",
+      "hint": "Quả ớt đỏ chứa chất cay xè, nếu bé ăn phải sẽ rất cay và nóng tai đấy, hãy cẩn thận nhé!",
+      "image_url": "assets/images/qua_ot.png"
+    },
+    {
+      "question_id": 602,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+      "week": 6,
+      "question_text": "Mùa hè nóng nực, bé chạm tay vào viên nước đá lạnh thì thấy có cảm giác thế nào?",
+      "options": [
+        "ấm áp",
+        "nóng rát",
+        "lạnh buốt",
+        "mềm mại"
+      ],
+      "answer": "lạnh buốt",
+      "hint": "Viên đá lạnh làm từ nước đóng băng nên khi sờ vào sẽ thấy lạnh buốt đầu ngón tay tê tê!",
+      "image_url": "assets/images/vien_da.png"
+    },
+    {
+      "question_id": 603,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa",
+      "week": 6,
+      "question_text": "Từ nào dưới đây có nghĩa ngược lại (trái nghĩa) với từ 'to lớn'?",
+      "options": [
+        "khổng lồ",
+        "nhỏ bé",
+        "cao vút",
+        "dài ngoẵng"
+      ],
+      "answer": "nhỏ bé",
+      "hint": "Ngược lại hoàn toàn với một chú voi 'to lớn' là một chú kiến rất 'nhỏ bé' xinh xinh!",
+      "image_url": "assets/images/con_vit.png"
+    }
+  ]
+}

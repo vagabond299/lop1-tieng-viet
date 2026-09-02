@@ -1,0 +1,37 @@
+{
+  "topic_id": 10,
+  "topic_name": "ĐỐ VUI BÉ NGOAN",
+  "description": "Phát triển chỉ số thông minh IQ và khả năng liên tưởng thông qua kho tàng câu đố dân gian về con vật, đồ dùng.",
+  "questions": [
+    {
+      "question_id": 1001,
+      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
+      "week": 10,
+      "question_text": "Con gì cẳng dọc hai hàng / Mai thì hai mảnh, bò ngang rõ ràng?",
+      "options": [
+        "Con ghẹ",
+        "Con cá",
+        "Con cua",
+        "Con tôm"
+      ],
+      "answer": "Con cua",
+      "hint": "Con cua có 8 cẳng 2 càng, bò ngang và có mai cứng bảo vệ cơ thể đấy bé!",
+      "image_url": "assets/images/con_cua.png"
+    },
+    {
+      "question_id": 1002,
+      "sub_topic": "Câu đố về đồ dùng học tập",
+      "week": 10,
+      "question_text": "Cái gì dài một gang tay / Bé cầm vẽ vẽ mỗi ngày vẽ tranh?",
+      "options": [
+        "Cái thước kẻ",
+        "Cái bút chì",
+        "Cái bảng đen",
+        "Cái cặp sách"
+      ],
+      "answer": "Cái bút chì",
+      "hint": "Cái bút chì nhỏ xinh giúp bé vẽ những bức tranh rực rỡ và tập viết chữ đẹp hàng ngày!",
+      "image_url": "assets/images/tho_hong.png"
+    }
+  ]
+}

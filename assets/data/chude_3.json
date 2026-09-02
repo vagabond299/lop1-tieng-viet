@@ -1,0 +1,52 @@
+{
+  "topic_id": 3,
+  "topic_name": "GHÉP ÂM - VẦN",
+  "description": "Luyện đánh vần trơn từ phụ âm đơn đến các vần đôi và vần ghép phức tạp của học kỳ 2.",
+  "questions": [
+    {
+      "question_id": 301,
+      "sub_topic": "Ghép phụ âm đầu với nguyên âm đơn",
+      "week": 2,
+      "question_text": "Ghép âm 'b', âm 'a' và thanh sắc, ta được tiếng nào dưới đây?",
+      "options": [
+        "bà",
+        "bả",
+        "bá",
+        "bạ"
+      ],
+      "answer": "bá",
+      "hint": "Âm 'b' ghép với 'a' thành 'ba', thêm thanh sắc ta được tiếng 'bá' (trong bá chủ, bác bá)!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 302,
+      "sub_topic": "Ghép phụ âm đầu với vần xuôi cơ bản",
+      "week": 2,
+      "question_text": "Bé hãy ghép âm 'đ', vần 'ep' và thanh sắc để được từ chỉ đồ dùng bé đi dưới chân hàng ngày?",
+      "options": [
+        "đáp",
+        "đẹp",
+        "đập",
+        "dép"
+      ],
+      "answer": "dép",
+      "hint": "Âm 'd' (dờ) ghép với vần 'ep' và thanh sắc ta được từ 'dép' (đôi dép). Bé đừng nhầm chữ 'd' với chữ 'đ' nha!",
+      "image_url": "assets/images/doi_dep.png"
+    },
+    {
+      "question_id": 303,
+      "sub_topic": "Chinh phục vần ghép phức tạp",
+      "week": 3,
+      "question_text": "Bác nông dân đang 'thu hoạch' lúa trên cánh đồng. Từ 'hoạch' chứa vần kép nào dưới đây?",
+      "options": [
+        "oai",
+        "oay",
+        "oach",
+        "uynh"
+      ],
+      "answer": "oach",
+      "hint": "Tiếng 'hoạch' gồm âm đầu 'h' ghép với vần kép 'oach' và thanh nặng ở dưới chữ 'a'.",
+      "image_url": "assets/images/con_trau.png"
+    }
+  ]
+}
