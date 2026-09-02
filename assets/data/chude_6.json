@@ -1,52 +1,460 @@
 {
   "topic_id": 6,
   "topic_name": "TỪ VỰNG",
-  "description": "Mở rộng vốn từ của bé qua hình ảnh trực quan, mùi vị, xúc giác thực tế và ghép cặp trái nghĩa.",
+  "description": "Làm phong phú vốn từ của bé qua hoạt động trực quan nhìn hình đoán sự vật, mô tả hương vị cuộc sống và tìm từ trái nghĩa.",
+  "lecture_title": "BÀI GIẢNG: THẾ GIỚI TỪ VỰNG BAO LA 🍏",
+  "lecture_content": "Chào mừng nhà từ vựng học nhỏ tuổi! Từ vựng là những từ ngữ tuyệt vời chúng ta dùng hàng ngày để chỉ sự vật, hoạt động, cảm xúc xung quanh. Để có một vốn từ phong phú, bé hãy chú ý cảm nhận thế giới bằng mọi giác quan nhé: quả chanh thì chua loét, quả ớt thì cay xè, viên đá thì lạnh buốt... và nhớ học thêm các từ trái nghĩa thú vị như cao - thấp, to - nhỏ, cười - khóc nha!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với bài học Từ vựng. Chúng ta cùng rèn luyện khả năng quan sát hình ảnh, liên tưởng tính chất giác quan và học từ trái nghĩa nhé!",
   "questions": [
     {
       "question_id": 601,
-      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+      "sub_topic": "Nhìn hình đoán từ",
       "week": 6,
-      "question_text": "Khi bé ăn quả ớt, bé sẽ cảm thấy đầu lưỡi có vị gì nhỉ?",
+      "question_text": "Mèo Mướp lười biếng hay nằm sưởi nắng có râu ở mép, kêu 'meo meo'. Đó là con vật nào?",
       "options": [
-        "ngọt ngọt",
+        "con mèo",
+        "con chó",
+        "con chuột",
+        "con thỏ"
+      ],
+      "answer": "con mèo",
+      "hint": "Con mèo thích nằm sưởi nắng, bắt chuột rất tài đấy bé!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 602,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Con gì bốn cẳng, da đen, tai vẫy vẫy kéo cày giúp bác nông dân?",
+      "options": [
+        "con trâu",
+        "con bò",
+        "con nghé",
+        "con voi"
+      ],
+      "answer": "con trâu",
+      "hint": "Chính là chú trâu đen sừng cong, kéo cày rất khỏe.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 603,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Con gì tám cẳng hai càng, bò ngang cả ngày?",
+      "options": [
+        "con cua",
+        "con ghẹ",
+        "con tôm",
+        "con ốc"
+      ],
+      "answer": "con cua",
+      "hint": "Con cua có 8 cẳng 2 càng và có thói quen bò ngang đặc biệt.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 604,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Bé đi học mang theo vật gì đựng sách vở, thước bút trên lưng?",
+      "options": [
+        "cái cặp sách",
+        "cái hộp bút",
+        "cái bảng đen",
+        "viên phấn"
+      ],
+      "answer": "cái cặp sách",
+      "hint": "Cái cặp sách đồng hành cùng bé đến lớp mỗi ngày.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 605,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Vật gì dài một gang tay giúp bé kẻ lề, vẽ đường thẳng tắp?",
+      "options": [
+        "cái thước kẻ",
+        "cái bút chì",
+        "cái kéo",
+        "cục tẩy"
+      ],
+      "answer": "cái thước kẻ",
+      "hint": "Cái thước kẻ thẳng tắp giúp anh học trò kẻ vẽ thường xuyên.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 606,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Mẹ mua cho bé vật gì để tẩy sạch vết bút chì vẽ sai?",
+      "options": [
+        "cục tẩy",
+        "cái bút màu",
+        "viên phấn",
+        "cái thước kẻ"
+      ],
+      "answer": "cục tẩy",
+      "hint": "Cục tẩy vừa mềm vừa bé giúp làm sạch vết mực bút chì vẽ sai.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 607,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Con gì mào đỏ gáy ò ó o gọi người thức giấc mỗi sáng?",
+      "options": [
+        "con gà trống",
+        "con gà mái",
+        "con vịt",
+        "con cò"
+      ],
+      "answer": "con gà trống",
+      "hint": "Chú gà trống mào đỏ gáy vang ò ó o đón ngày mới.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 608,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Con gì chân ngắn có màng mỏ bẹt hay kêu cạp cạp?",
+      "options": [
+        "con vịt",
+        "con gà",
+        "con ngỗng",
+        "con cò"
+      ],
+      "answer": "con vịt",
+      "hint": "Chú vịt con lông vàng kêu cạp cạp thích bơi lội dưới ao.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 609,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Bác nông dân cày ruộng bằng vật gì?",
+      "options": [
+        "cái cày",
+        "cái chổi",
+        "cái kéo",
+        "cái quạt"
+      ],
+      "answer": "cái cày",
+      "hint": "Cái cày đầu bằng sắt giúp cày đất tơi xốp gieo hạt lúa.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 610,
+      "sub_topic": "Nhìn hình đoán từ",
+      "week": 6,
+      "question_text": "Vật gì có mặt tròn, quay đều các chữ số chỉ thời gian giúp bé đi học đúng giờ?",
+      "options": [
+        "cái đồng hồ",
+        "cái bàn học",
+        "cái cặp sách",
+        "cái lược"
+      ],
+      "answer": "cái đồng hồ",
+      "hint": "Chiếc đồng hồ tích tắc chỉ giờ cho bé hàng ngày.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 611,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Khi bé ăn quả ớt đỏ rực, bé sẽ thấy có vị gì nhỉ?",
+      "options": [
         "cay xè",
+        "ngọt lịm",
         "đắng ngắt",
         "chua loét"
       ],
       "answer": "cay xè",
-      "hint": "Quả ớt đỏ chứa chất cay xè, nếu bé ăn phải sẽ rất cay và nóng tai đấy, hãy cẩn thận nhé!",
-      "image_url": "assets/images/qua_ot.png"
+      "hint": "Quả ớt có vị rất cay, bé nhớ cẩn thận đừng để dính vào mắt nhé!",
+      "image_url": "assets/images/tho_hong.png"
     },
     {
-      "question_id": 602,
-      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+      "question_id": 612,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
       "week": 6,
-      "question_text": "Mùa hè nóng nực, bé chạm tay vào viên nước đá lạnh thì thấy có cảm giác thế nào?",
+      "question_text": "Khi bé chạm tay vào viên nước đá, bé sẽ cảm thấy thế nào?",
       "options": [
-        "ấm áp",
-        "nóng rát",
         "lạnh buốt",
-        "mềm mại"
+        "ấm áp",
+        "nóng hổi",
+        "ẩm ướt"
       ],
       "answer": "lạnh buốt",
-      "hint": "Viên đá lạnh làm từ nước đóng băng nên khi sờ vào sẽ thấy lạnh buốt đầu ngón tay tê tê!",
-      "image_url": "assets/images/vien_da.png"
+      "hint": "Nước đá ở tủ lạnh tỏa ra nhiệt lạnh buốt tay.",
+      "image_url": "assets/images/tho_hong.png"
     },
     {
-      "question_id": 603,
-      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa",
+      "question_id": 613,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
       "week": 6,
-      "question_text": "Từ nào dưới đây có nghĩa ngược lại (trái nghĩa) với từ 'to lớn'?",
+      "question_text": "Quả chanh tươi vắt nước uống có vị gì đặc trưng?",
       "options": [
-        "khổng lồ",
-        "nhỏ bé",
-        "cao vút",
-        "dài ngoẵng"
+        "chua loét",
+        "ngọt ngào",
+        "mặn mà",
+        "chát chúa"
       ],
-      "answer": "nhỏ bé",
-      "hint": "Ngược lại hoàn toàn với một chú voi 'to lớn' là một chú kiến rất 'nhỏ bé' xinh xinh!",
-      "image_url": "assets/images/con_vit.png"
+      "answer": "chua loét",
+      "hint": "Quả chanh có chứa nhiều vitamin C và có vị rất chua.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 614,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Mùi hương của quả mít chín vàng như thế nào?",
+      "options": [
+        "thơm nức",
+        "thối hoắc",
+        "hắc nồng",
+        "không mùi"
+      ],
+      "answer": "thơm nức",
+      "hint": "Quả mít chín tỏa ra mùi hương thơm lừng cả nhà.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 615,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Khi chạm vào nước sôi vừa nấu xong, bé cảm thấy thế nào?",
+      "options": [
+        "nóng bỏng",
+        "ấm áp",
+        "mát mẻ",
+        "lạnh buốt"
+      ],
+      "answer": "nóng bỏng",
+      "hint": "Nước sôi rất nóng và nguy hiểm, bé tuyệt đối không được tự ý chạm vào nhé!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 616,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Khi sờ vào lông chú Thỏ Hồng mượt mà, bé thấy thế nào?",
+      "options": [
+        "mềm mịn",
+        "sần sùi",
+        "gai góc",
+        "ráp ráp"
+      ],
+      "answer": "mềm mịn",
+      "hint": "Lông thỏ hồng rất mềm mịn và êm ái.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 617,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Vỏ của quả sầu riêng có đặc điểm gì nổi bật?",
+      "options": [
+        "gai góc sần sùi",
+        "nhẵn nhụi phẳng lì",
+        "mềm mại êm ái",
+        "ướt át lạnh buốt"
+      ],
+      "answer": "gai góc sần sùi",
+      "hint": "Quả sầu riêng có vỏ sần sùi với những chiếc gai nhọn hoắt.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 618,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Khi nếm thử thìa muối biển, bé sẽ thấy có vị gì?",
+      "options": [
+        "mặn chát",
+        "ngọt lịm",
+        "chua loét",
+        "cay xè"
+      ],
+      "answer": "mặn chát",
+      "hint": "Muối biển lấy từ nước biển lên nên có vị mặn đặc trưng.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 619,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Màu sắc của quả chuối chín vàng ươm trông như thế nào?",
+      "options": [
+        "vàng rực",
+        "xanh ngắt",
+        "đỏ chói",
+        "tím lịm"
+      ],
+      "answer": "vàng rực",
+      "hint": "Chuối chín vàng rực chứa nhiều chất ngọt lành.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 620,
+      "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác, đặc điểm)",
+      "week": 6,
+      "question_text": "Khi ngửi bông hoa hồng nhung nở rộ, bé thấy có mùi gì?",
+      "options": [
+        "thơm ngào ngạt",
+        "không có mùi gì",
+        "khét lẹt",
+        "hôi thối"
+      ],
+      "answer": "thơm ngào ngạt",
+      "hint": "Bông hoa hồng nhung tỏa hương thơm ngào ngạt, quyến rũ.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 621,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào trái nghĩa với từ 'to'?",
+      "options": [
+        "nhỏ",
+        "bự",
+        "lớn",
+        "khổng lồ"
+      ],
+      "answer": "nhỏ",
+      "hint": "Từ trái nghĩa với 'to' (to lớn) là 'nhỏ' (nhỏ bé).",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 622,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào trái nghĩa với từ 'cao'?",
+      "options": [
+        "thấp",
+        "gầy",
+        "ngắn",
+        "nhỏ"
+      ],
+      "answer": "thấp",
+      "hint": "Từ trái nghĩa với 'cao' (cao lớn) là 'thấp' (thấp bé).",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 623,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào đồng nghĩa (cùng nghĩa) với từ 'chăm chỉ'?",
+      "options": [
+        "cần cù",
+        "lười biếng",
+        "ngoan ngoãn",
+        "học giỏi"
+      ],
+      "answer": "cần cù",
+      "hint": "Chăm chỉ có nghĩa tương đồng với cần cù, siêng năng làm việc.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 624,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào trái nghĩa với 'lười biếng'?",
+      "options": [
+        "siêng năng",
+        "ham ăn",
+        "lười nhác",
+        "rong chơi"
+      ],
+      "answer": "siêng năng",
+      "hint": "Người lười biếng thì trái ngược hoàn toàn với người siêng năng, chăm chỉ.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 625,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào đồng nghĩa với từ 'đẹp'?",
+      "options": [
+        "xinh xắn",
+        "xấu xí",
+        "ngoan ngoãn",
+        "khỏe mạnh"
+      ],
+      "answer": "xinh xắn",
+      "hint": "Từ đồng nghĩa với đẹp là xinh xắn, dễ thương.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 626,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào trái nghĩa với 'khóc'?",
+      "options": [
+        "cười",
+        "mếu",
+        "la",
+        "hét"
+      ],
+      "answer": "cười",
+      "hint": "Hành động khóc (buồn bã) trái ngược hoàn toàn với cười (vui vẻ).",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 627,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào trái nghĩa với 'nóng'?",
+      "options": [
+        "lạnh",
+        "ấm",
+        "mát",
+        "bỏng"
+      ],
+      "answer": "lạnh",
+      "hint": "Trái nghĩa với 'nóng' là 'lạnh'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 628,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào đồng nghĩa với từ 'ba' chỉ người sinh ra bé?",
+      "options": [
+        "bố",
+        "mẹ",
+        "ông",
+        "bà"
+      ],
+      "answer": "bố",
+      "hint": "Bé gọi người sinh ra mình là ba, hoặc có thể gọi là bố, tía, cha.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 629,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào trái nghĩa với từ 'dưới'?",
+      "options": [
+        "trên",
+        "trong",
+        "ngoài",
+        "sau"
+      ],
+      "answer": "trên",
+      "hint": "Từ trái nghĩa với 'dưới' là 'trên'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 630,
+      "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa đơn giản",
+      "week": 6,
+      "question_text": "Từ nào trái nghĩa với từ 'ngoan ngoãn'?",
+      "options": [
+        "nghịch ngợm",
+        "hiền lành",
+        "lễ phép",
+        "chăm chỉ"
+      ],
+      "answer": "nghịch ngợm",
+      "hint": "Trái với ngoan ngoãn là nghịch ngợm, phá phách.",
+      "image_url": "assets/images/tho_hong.png"
     }
   ]
 }

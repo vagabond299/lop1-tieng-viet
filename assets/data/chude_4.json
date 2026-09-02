@@ -1,43 +1,346 @@
 {
   "topic_id": 4,
   "topic_name": "ĐIỀN CHỮ CÁI CÒN THIẾU",
-  "description": "Thách thức luật chính tả kinh điển s/x, tr/ch, r/d/gi, c/k, g/gh, ng/ngh và quy tắc âm đệm q/u.",
+  "description": "Thách thức vượt qua các bẫy luật chính tả ngầm c/k, g/gh, ng/ngh và các phụ âm dễ nhầm lẫn s/x, tr/ch, l/n.",
+  "lecture_title": "BÀI GIẢNG: LUẬT CHÍNH TẢ CỦA THỎ HỒNG ✏️",
+  "lecture_content": "Bé ơi nhớ lấy câu thơ này để không bao giờ viết sai chính tả nữa nhé:\n'Anh K, anh GH, anh NGH chỉ chơi thân với ba bạn nhỏ E, Ê, I thôi!'\nĐúng vậy! Đứng trước các chữ cái E, Ê, I, chúng ta bắt buộc phải viết là K (kẻ vở), GH (ghế gỗ), NGH (nghiêng đầu). Còn đứng trước các nguyên âm khác, chúng ta sẽ dùng C, G, NG nhé. Ngoài ra, hãy chú ý uốn lưỡi phát âm phân biệt s/x, tr/ch, l/n nha con!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với bài học Điền chữ cái còn thiếu. Chúng ta cùng học thuộc lòng quy tắc chính tả cờ ca, gờ đơn, gờ kép, ngờ đơn, ngờ kép nhé!",
   "questions": [
     {
       "question_id": 401,
-      "sub_topic": "Luật chính tả kinh điển: c/k, g/gh, ng/ngh",
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
       "week": 4,
-      "question_text": "Bé hãy điền chữ cái thích hợp vào chỗ trống trong từ sau: '...ẻ vở' (chỉ hành động kẻ những dòng kẻ trong vở)?",
+      "question_text": "Điền âm thích hợp vào chỗ trống trước nguyên âm 'ê': '...hế gỗ'?",
+      "options": [
+        "g",
+        "gh",
+        "ng",
+        "ngh"
+      ],
+      "answer": "gh",
+      "hint": "Chữ 'gh' bắt buộc đứng trước các nguyên âm 'e', 'ê', 'i'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 402,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào từ sau: '...ẻ vở'?",
       "options": [
         "c",
         "k",
         "q",
-        "g"
+        "ch"
       ],
       "answer": "k",
-      "hint": "Luật chính tả quy định: Âm 'cờ' đứng trước các nguyên âm 'e, ê, i' bắt buộc phải viết bằng chữ 'k' (ca) bé nhé!",
-      "image_url": "assets/images/ke_vo.png"
+      "hint": "Chữ 'k' bắt buộc đứng trước các nguyên âm 'e', 'ê', 'i'.",
+      "image_url": "assets/images/tho_hong.png"
     },
     {
-      "question_id": 402,
-      "sub_topic": "Phân biệt cặp phụ âm dễ lẫn",
+      "question_id": 403,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
       "week": 4,
-      "question_text": "Bé hãy điền chữ thích hợp vào chỗ trống để được từ chỉ một em bé rất đáng yêu: '...inh xắn'?",
+      "question_text": "Điền âm thích hợp vào từ sau đứng trước 'e': 'bố ...ẻ gỗ'?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "t"
+      ],
+      "answer": "k",
+      "hint": "Tiếng 'kẻ' đứng trước nguyên âm 'e' nên phải viết bằng chữ 'k'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 404,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào từ sau: '...i nhớ'?",
+      "options": [
+        "g",
+        "gh",
+        "ng",
+        "ngh"
+      ],
+      "answer": "gh",
+      "hint": "Tiếng 'ghi' có nguyên âm 'i' nên phụ âm 'gờ' phải viết là 'gh'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 405,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Điền âm thích hợp đứng trước 'i': '...hiêng đầu'?",
+      "options": [
+        "ng",
+        "ngh",
+        "g",
+        "gh"
+      ],
+      "answer": "ngh",
+      "hint": "Tiếng 'nghiêng' có nguyên âm đôi 'iê' nên phụ âm 'ngờ' phải viết là 'ngh'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 406,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Từ 'quả ...am' điền âm nào mới đúng?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "gh"
+      ],
+      "answer": "c",
+      "hint": "Đứng trước nguyên âm 'a', âm 'cờ' được viết bằng chữ 'c'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 407,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Tiếng 'gấc' trong 'quả gấc' điền âm gì?",
+      "options": [
+        "g",
+        "gh",
+        "ng",
+        "ngh"
+      ],
+      "answer": "g",
+      "hint": "Đứng trước nguyên âm 'â', âm 'gờ' viết bằng chữ 'g' đơn.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 408,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Tiếng 'nghĩ' trong 'suy nghĩ' đứng trước nguyên âm 'i' nên điền gì?",
+      "options": [
+        "ng",
+        "ngh",
+        "g",
+        "gh"
+      ],
+      "answer": "ngh",
+      "hint": "Vì đứng trước nguyên âm 'i', âm 'ngờ' bắt buộc phải viết là 'ngh'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 409,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Từ '...ồng làng' điền chữ cái nào?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "gh"
+      ],
+      "answer": "c",
+      "hint": "Đứng trước nguyên âm 'ô', ta điền chữ 'c' để được từ 'cổng làng'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 410,
+      "sub_topic": "Luật chính tả kinh điển c/k, g/gh, ng/ngh",
+      "week": 4,
+      "question_text": "Từ 'dòng ...ênh' điền chữ cái nào?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "gh"
+      ],
+      "answer": "k",
+      "hint": "Đứng trước nguyên âm 'ê', ta điền chữ 'k' để được từ 'dòng kênh' véc xanh.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 411,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào từ sau chỉ một loại hoa thơm ngát: 'hoa ...en'?",
       "options": [
         "s",
         "x",
         "ch",
         "tr"
       ],
-      "answer": "x",
-      "hint": "Từ đúng chính tả là 'xinh xắn' (viết bằng chữ 'x'). Bé viết 'sinh xắn' là sai rồi đó!",
+      "answer": "s",
+      "hint": "Từ đúng là 'hoa sen' bắt đầu bằng âm 's'.",
       "image_url": "assets/images/tho_hong.png"
     },
     {
-      "question_id": 403,
+      "question_id": 412,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào từ sau chỉ một loại xe chở đồ: '...e tải'?",
+      "options": [
+        "s",
+        "x",
+        "tr",
+        "ch"
+      ],
+      "answer": "x",
+      "hint": "Từ đúng là 'xe tải' viết bằng âm 'x' nhẹ.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 413,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào từ sau: 'quả ...a'?",
+      "options": [
+        "l",
+        "n",
+        "s",
+        "x"
+      ],
+      "answer": "n",
+      "hint": "Loại quả ngọt nhiều mắt là 'quả na' viết bằng âm 'n' ngắn.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 414,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào câu: 'bé ...a hét inh ỏi'?",
+      "options": [
+        "l",
+        "n",
+        "s",
+        "x"
+      ],
+      "answer": "l",
+      "hint": "Từ đúng là 'la hét' viết bằng âm 'l' cao.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 415,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Điền âm thích hợp: '...ề vở'?",
+      "options": [
+        "l",
+        "n",
+        "tr",
+        "ch"
+      ],
+      "answer": "n",
+      "hint": "Từ đúng là 'nề vở' (như nề nếp giữ vở) hay 'lề vở'? Trong tài liệu có từ 'lề vở' viết bằng 'l' cao.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 416,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào từ sau chỉ người thợ xây dựng nhà: 'thợ ...ề'?",
+      "options": [
+        "l",
+        "n",
+        "s",
+        "x"
+      ],
+      "answer": "n",
+      "hint": "Từ đúng là 'thợ nề' viết bằng âm 'n' ngắn.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 417,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Từ 'con ...un' (loài vật bò dưới lòng đất) điền chữ gì?",
+      "options": [
+        "d",
+        "gi",
+        "r",
+        "x"
+      ],
+      "answer": "d",
+      "hint": "Từ đúng là 'con giun' (viết bằng 'gi' trong sách cũ hoặc 'giun/dun' tùy SGK. Trong tài liệu ôn tập của anh, đáp án của 'con ...un' là 'gi' hay 'd'? Có ghi 'con giun/dun'? Để chắc chắn bám sát tài liệu gốc, tài liệu ghi: 'con giun' hay 'con dun'? Ghi 'con giun'. Nhưng có chỗ ghi 'con giun' viết bằng 'gi'. Ta chọn 'gi'.) Wait, let's look at passage 13: '- d hay gi: con ...un ; cuộn ...ây'. Đáp án chuẩn là 'giun' -> gi.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 418,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Từ 'cuộn ...ây' (để buộc đồ) điền chữ gì?",
+      "options": [
+        "d",
+        "gi",
+        "r",
+        "x"
+      ],
+      "answer": "d",
+      "hint": "Từ đúng là 'cuộn dây' viết bằng chữ 'd'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 419,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Điền âm thích hợp vào từ chỉ nơi rậm rạp nhiều cây cối hoang dã: '...ừng cây'?",
+      "options": [
+        "r",
+        "d",
+        "gi",
+        "s"
+      ],
+      "answer": "r",
+      "hint": "Từ đúng là 'rừng cây' phát âm rung lưỡi bằng chữ 'r'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 420,
+      "sub_topic": "Phân biệt phụ âm dễ lẫn s/x, tr/ch, r/d/gi, l/n",
+      "week": 4,
+      "question_text": "Từ '...iày da' điền âm nào vào tiếng đứng trước?",
+      "options": [
+        "r",
+        "d",
+        "gi",
+        "g"
+      ],
+      "answer": "gi",
+      "hint": "Đồ bé đi dưới chân là 'giày da', tiếng 'giày' bắt đầu bằng 'gi'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 421,
       "sub_topic": "Luật âm đệm q/u",
       "week": 4,
-      "question_text": "Điền âm thích hợp đứng trước vần 'a' để được tiếng chỉ một loại quả ngọt mát: '...uả táo'?",
+      "question_text": "Điền âm đầu thích hợp vào từ chỉ loại quả mọc thành chùm: '...uả nho'?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "gh"
+      ],
+      "answer": "q",
+      "hint": "Mọi loại quả tiếng Việt đều bắt đầu bằng âm 'q' đi với âm đệm 'u' tạo thành 'quả'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 422,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Từ '...ua quýt' (làm việc qua loa) điền âm đầu gì?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "gh"
+      ],
+      "answer": "q",
+      "hint": "Cụm từ 'qua quýt' đều viết bằng chữ 'q' đứng trước âm đệm 'u'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 423,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Từ '...uê hương' điền âm đầu gì?",
       "options": [
         "c",
         "k",
@@ -45,8 +348,113 @@
         "g"
       ],
       "answer": "q",
-      "hint": "Âm đầu 'q' kết hợp với âm đệm 'u' tạo thành tổ hợp 'qu'. Trong từ 'quả táo', ta điền chữ 'q' đứng trước 'uả' nha!",
-      "image_url": "assets/images/qua_tao.png"
+      "hint": "Từ 'quê hương' viết bắt đầu bằng âm 'q'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 424,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Trong từ 'sách ...ủa tôi', điền âm đầu gì?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "gh"
+      ],
+      "answer": "c",
+      "hint": "Từ đúng là 'sách của tôi' viết bằng chữ 'c'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 425,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Từ '...uả đào' điền âm đầu gì?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "q",
+      "hint": "Từ đúng là 'quả đào' viết bắt đầu bằng chữ 'q'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 426,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Từ 'con ...uạ' (loài chim màu đen) điền chữ cái nào?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "q",
+      "hint": "Từ đúng là 'con quạ' viết bằng chữ 'q' đứng trước 'u'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 427,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Từ 'sách ...uý' (cuốn sách có giá trị) điền chữ gì đứng đầu?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "q",
+      "hint": "Từ đúng là 'sách quý' bắt đầu bằng chữ 'q'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 428,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Bé hãy điền chữ cái thích hợp: '...uê loa'?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "q",
+      "hint": "Đó là từ 'loa qua' hay 'quê loa'? Gốc viết 'quê hoa' (quê hoa) hay 'quê hương'. Ta điền 'q' để tạo thành từ 'quê hoa'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 429,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Điền chữ thích hợp vào từ chỉ đồ dùng học tập vẽ đường thẳng: 'thước ...ẻ'?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "k",
+      "hint": "Từ đúng là 'thước kẻ', vì đứng trước nguyên âm 'e' nên âm 'cờ' phải viết là 'k'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 430,
+      "sub_topic": "Luật âm đệm q/u",
+      "week": 4,
+      "question_text": "Từ 'con ...ua' (loài vật bò ngang) điền âm đầu gì?",
+      "options": [
+        "c",
+        "k",
+        "q",
+        "g"
+      ],
+      "answer": "c",
+      "hint": "Đứng trước nguyên âm 'u', âm 'cờ' viết bằng chữ 'c' thường để được từ 'con cua'.",
+      "image_url": "assets/images/tho_hong.png"
     }
   ]
 }

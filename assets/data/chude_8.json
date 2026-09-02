@@ -1,37 +1,460 @@
 {
   "topic_id": 8,
   "topic_name": "NHÀ THÔNG THÁI SẮP CÂU",
-  "description": "Luyện ghép các chữ cái, từ ngữ xáo trộn thành một câu hoàn chỉnh, đúng ngữ pháp và viết hoa.",
+  "description": "Luyện tư duy ngôn ngữ bằng cách sắp xếp các từ xáo trộn thành câu hoàn chỉnh đúng ngữ pháp tiếng Việt.",
+  "lecture_title": "BÀI GIẢNG: BÍ QUYẾT GHÉP CÂU CỦA THỎ HỒNG 🧠",
+  "lecture_content": "Chào mừng nhà thông thái nhỏ tuổi! Ghép câu là trò chơi xếp các từ ngữ rời rạc lại với nhau để tạo thành một câu văn có nghĩa. Bé hãy ghi nhớ các bước sau để luôn thắng cuộc nhé:\n1. Đầu câu bắt buộc phải viết hoa.\n2. Cuối câu luôn luôn có dấu chấm để kết thúc câu.\n3. Hãy xếp từ chỉ Sự vật đứng trước làm chủ ngữ, sau đó đến từ chỉ Hoạt động hoặc Đặc điểm nhé!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với bài học Nhà thông thái sắp câu. Chúng ta cùng rèn luyện khả năng sắp xếp từ ngữ và nối vế câu đúng nghĩa nhé!",
   "questions": [
     {
       "question_id": 801,
-      "sub_topic": "Ghép câu ngắn ngộ nghĩnh",
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
       "week": 8,
-      "question_text": "Bé hãy sắp xếp các từ xáo trộn sau đây thành câu đúng ngữ pháp nhất: 'đi học', 'Bé', 'Lan'.",
+      "question_text": "Bé hãy xếp các từ sau thành câu đúng ngữ pháp: 'học bài', 'Bé', 'chăm chỉ'.",
       "options": [
-        "Bé đi học Lan.",
-        "Lan Bé đi học.",
-        "Bé Lan đi học.",
-        "đi học Bé Lan."
+        "Bé chăm chỉ học bài.",
+        "Bé học bài chăm chỉ.",
+        "học bài Bé chăm chỉ.",
+        "chăm chỉ học bài Bé."
       ],
-      "answer": "Bé Lan đi học.",
-      "hint": "Câu hoàn chỉnh đúng ngữ pháp là 'Bé Lan đi học.' diễn tả hành động đi học của bé tên Lan.",
+      "answer": "Bé chăm chỉ học bài.",
+      "hint": "Chữ 'Bé' viết hoa đầu câu đứng trước, miêu tả hành động 'chăm chỉ học bài'.",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 802,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Sắp xếp câu ngộ nghĩnh: 'con mèo', 'sưởi nắng', 'Nằm'.",
+      "options": [
+        "Nằm sưởi nắng con mèo.",
+        "Con mèo nằm sưởi nắng.",
+        "Con mèo sưởi nắng nằm.",
+        "sưởi nắng con mèo nằm."
+      ],
+      "answer": "Con mèo nằm sưởi nắng.",
+      "hint": "Chủ ngữ 'Con mèo' đứng đầu, tiếp theo là hành động 'nằm sưởi nắng'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 803,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Xếp các từ sau: 'vẫy đuôi', 'chó', 'Con'.",
+      "options": [
+        "Con chó vẫy đuôi.",
+        "Chó con vẫy đuôi.",
+        "Vẫy đuôi con chó.",
+        "Chó vẫy đuôi con."
+      ],
+      "answer": "Con chó vẫy đuôi.",
+      "hint": "Mô tả hành động của chú cún mừng chủ: 'Con chó vẫy đuôi.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 804,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Xếp câu sau: 'quét nhà', 'Bé Thu', 'giúp mẹ'.",
+      "options": [
+        "Bé Thu quét nhà giúp mẹ.",
+        "Bé Thu giúp mẹ quét nhà.",
+        "quét nhà Bé Thu giúp mẹ.",
+        "Giúp mẹ quét nhà Bé Thu."
+      ],
+      "answer": "Bé Thu quét nhà giúp mẹ.",
+      "hint": "Chủ ngữ 'Bé Thu' đứng đầu, hành động 'quét nhà giúp mẹ' xếp sau.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 805,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Sắp xếp từ: 'gáy ò ó o', 'gà trống', 'Chú'.",
+      "options": [
+        "Chú gà trống gáy ò ó o.",
+        "Chú gà trống gáy ò ó o",
+        "gà trống gáy ò ó o Chú.",
+        "Chú gáy ò ó o gà trống."
+      ],
+      "answer": "Chú gà trống gáy ò ó o.",
+      "hint": "Đầu câu viết hoa chữ 'Chú', cuối câu có dấu chấm rõ ràng.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 806,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Xếp câu sau: 'lá xanh', 'cây', 'Rừng'.",
+      "options": [
+        "Rừng cây lá xanh.",
+        "Cây rừng lá xanh.",
+        "Lá xanh rừng cây.",
+        "Cây lá xanh rừng."
+      ],
+      "answer": "Rừng cây lá xanh.",
+      "hint": "Rừng cây có đặc điểm là lá xanh bát ngát.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 807,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Xếp câu sau: 'cá chép', 'bơi lội', 'Đàn'.",
+      "options": [
+        "Đàn cá chép bơi lội.",
+        "Bơi lội đàn cá chép.",
+        "Đàn bơi lội cá chép.",
+        "Cá chép đàn bơi lội."
+      ],
+      "answer": "Đàn cá chép bơi lội.",
+      "hint": "Đàn cá chép (sự vật) đang thực hiện hoạt động bơi lội.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 808,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Xếp câu sau: 'bay cao', 'Cánh diều', 'lộng gió'.",
+      "options": [
+        "Cánh diều bay cao lộng gió.",
+        "Cánh diều lộng gió bay cao.",
+        "Bay cao cánh diều lộng gió.",
+        "Lộng gió cánh diều bay cao."
+      ],
+      "answer": "Cánh diều bay cao lộng gió.",
+      "hint": "Sự vật 'Cánh diều' có đặc điểm 'bay cao lộng gió'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 809,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Xếp câu sau: 'bé ngủ rồi', 'Em', 'buông màn'.",
+      "options": [
+        "Em buông màn khi bé ngủ rồi.",
+        "Bé ngủ rồi em buông màn.",
+        "Em buông màn.",
+        "Bé ngủ rồi."
+      ],
+      "answer": "Em buông màn khi bé ngủ rồi.",
+      "hint": "Ghép câu dựa trên ý thơ của bài thơ Dỗ Bé.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 810,
+      "sub_topic": "Sắp xếp câu ngắn ngộ nghĩnh",
+      "week": 8,
+      "question_text": "Xếp câu sau: 'đồ chơi', 'Bé nặn', 'ngộ nghĩnh'.",
+      "options": [
+        "Bé nặn đồ chơi ngộ nghĩnh.",
+        "Đồ chơi ngộ nghĩnh bé nặn.",
+        "Ngộ nghĩnh bé nặn đồ chơi.",
+        "Bé nặn ngộ nghĩnh đồ chơi."
+      ],
+      "answer": "Bé nặn đồ chơi ngộ nghĩnh.",
+      "hint": "Chủ ngữ 'Bé' nặn ra những 'đồ chơi ngộ nghĩnh' xinh xắn.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 811,
       "sub_topic": "Thách thức sắp xếp câu dài",
       "week": 8,
-      "question_text": "Hãy ghép các từ sau thành câu tả chú mèo nằm sưởi nắng: 'nằm', 'ngoài sân', 'Chú mèo', 'sưởi nắng'.",
+      "question_text": "Bé hãy sắp xếp câu dài sau: 'thương yêu', 'Ba mẹ', 'chăm sóc', 'em', 'hết lòng'.",
       "options": [
-        "Chú mèo nằm sưởi nắng ngoài sân.",
-        "Nằm ngoài sân chú mèo sưởi nắng.",
-        "Sưởi nắng ngoài sân chú mèo nằm.",
-        "Chú mèo sưởi nắng nằm ngoài sân."
+        "Ba mẹ thương yêu và chăm sóc em hết lòng.",
+        "Ba mẹ hết lòng chăm sóc thương yêu em.",
+        "Em thương yêu chăm sóc ba mẹ hết lòng.",
+        "Ba mẹ chăm sóc hết lòng thương yêu em."
       ],
-      "answer": "Chú mèo nằm sưởi nắng ngoài sân.",
-      "hint": "Câu miêu tả tự nhiên, xuôi tai nhất là 'Chú mèo nằm sưởi nắng ngoài sân.' bé nhé!",
-      "image_url": "assets/images/con_meo.png"
+      "answer": "Ba mẹ thương yêu và chăm sóc em hết lòng.",
+      "hint": "Câu đầy đủ viết hoa đầu câu: 'Ba mẹ thương yêu và chăm sóc em hết lòng.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 812,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Sắp xếp câu dài: 'chăm chỉ', 'học sinh', 'Các bạn', 'học tập', 'lớp em'.",
+      "options": [
+        "Các bạn học sinh lớp em học tập rất chăm chỉ.",
+        "Các bạn học sinh lớp em rất chăm chỉ học tập.",
+        "Học sinh các bạn lớp em học tập rất chăm chỉ.",
+        "Các bạn học tập rất chăm chỉ học sinh lớp em."
+      ],
+      "answer": "Các bạn học sinh lớp em học tập rất chăm chỉ.",
+      "hint": "Sắp xếp đúng nghĩa bám sát câu mẫu đọc hiểu của sách giáo khoa.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 813,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Sắp xếp câu dài tả chú chuồn chuồn: 'chuồn chuồn', 'Chú', 'nhỏ', 'thon vàng', 'thân hình'.",
+      "options": [
+        "Chú chuồn chuồn có thân hình nhỏ và thon vàng.",
+        "Thân hình chú chuồn chuồn nhỏ và thon vàng.",
+        "Chú nhỏ thon vàng thân hình chuồn chuồn.",
+        "Thân hình nhỏ thon vàng chú chuồn chuồn."
+      ],
+      "answer": "Chú chuồn chuồn có thân hình nhỏ và thon vàng.",
+      "hint": "Tả chú chuồn chuồn nước xinh đẹp: 'Chú chuồn chuồn có thân hình nhỏ và thon vàng.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 814,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Sắp xếp câu sau: 'con chuồn chuồn', 'Bốn cái cánh', 'mỏng như giấy bóng', 'của'.",
+      "options": [
+        "Bốn cái cánh của con chuồn chuồn mỏng như giấy bóng.",
+        "Bốn cái cánh mỏng như giấy bóng của con chuồn chuồn.",
+        "Con chuồn chuồn có bốn cái cánh mỏng như giấy bóng.",
+        "Mỏng như giấy bóng bốn cái cánh của con chuồn chuồn."
+      ],
+      "answer": "Bốn cái cánh của con chuồn chuồn mỏng như giấy bóng.",
+      "hint": "Tả đặc điểm đôi cánh: 'Bốn cái cánh của con chuồn chuồn mỏng như giấy bóng.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 815,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Xếp câu dài: 'Mẹ bé', 'vắng', 'đi gặt', 'bé ở nhà', 'với em'.",
+      "options": [
+        "Mẹ bé đi gặt vắng, bé ở nhà với em.",
+        "Bé ở nhà với em khi mẹ bé đi gặt vắng.",
+        "Mẹ bé đi gặt vắng bé ở nhà với em.",
+        "Mẹ bé đi gặt vắng, bé ở nhà với em"
+      ],
+      "answer": "Mẹ bé đi gặt vắng, bé ở nhà với em.",
+      "hint": "Bám sát câu thơ đầu tiên của bài thơ Dỗ Bé, chú ý dấu phẩy.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 816,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Sắp xếp câu sau: 'mỗi sớm', 'gáy vang', 'Chú gà trống', 'tinh mơ'.",
+      "options": [
+        "Chú gà trống gáy vang mỗi sớm tinh mơ.",
+        "Mỗi sớm tinh mơ chú gà trống gáy vang.",
+        "Chú gà trống mỗi sớm tinh mơ gáy vang.",
+        "Gáy vang chú gà trống mỗi sớm tinh mơ."
+      ],
+      "answer": "Chú gà trống gáy vang mỗi sớm tinh mơ.",
+      "hint": "Tả chú gà trống chăm chỉ gọi người thức giấc.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 817,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Sắp xếp câu dài: 'quyển sách', 'Bé', 'thích', 'đọc', 'vào buổi tối'.",
+      "options": [
+        "Bé thích đọc quyển sách vào buổi tối.",
+        "Bu buổi tối bé thích đọc quyển sách.",
+        "Bé đọc quyển sách thích vào buổi tối.",
+        "Quyển sách bé thích đọc vào buổi tối."
+      ],
+      "answer": "Bé thích đọc quyển sách vào buổi tối.",
+      "hint": "Mô tả thói quen đọc sách bổ ích của bé.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 818,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Xếp câu dài: 'cô giáo', 'khen', 'Bé Lan', 'viết chữ', 'rất đẹp'.",
+      "options": [
+        "Bé Lan được cô giáo khen viết chữ rất đẹp.",
+        "Cô giáo khen bé Lan viết chữ rất đẹp.",
+        "Bé Lan viết chữ rất đẹp được cô giáo khen.",
+        "Cô giáo viết chữ rất đẹp khen bé Lan."
+      ],
+      "answer": "Cô giáo khen bé Lan viết chữ rất đẹp.",
+      "hint": "Mô tả câu chuyện cô giáo khen ngợi sự tiến bộ của bé.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 819,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Xếp câu dài: 'Mùa đông', 'tìm kiến', 've đói', 'để xin ăn'.",
+      "options": [
+        "Mùa đông đến, ve đói đành tìm kiến để xin ăn.",
+        "Ve đói tìm kiến xin ăn mùa đông đến.",
+        "Mùa đông đến ve đói tìm kiến để xin ăn.",
+        "Đến mùa đông ve đói đành tìm kiến xin ăn."
+      ],
+      "answer": "Mùa đông đến, ve đói đành tìm kiến để xin ăn.",
+      "hint": "Tóm tắt tình huống truyện ngụ ngôn Ve và Kiến.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 820,
+      "sub_topic": "Thách thức sắp xếp câu dài",
+      "week": 8,
+      "question_text": "Sắp xếp câu dài: 'Mèo Mướp', 'vẫn nằm lì', 'bên đống tro ấm', 'Bác', 'trong bếp'.",
+      "options": [
+        "Trong bếp, bác mèo mướp vẫn nằm lì bên đống tro ấm.",
+        "Bác mèo mướp vẫn nằm lì bên đống tro ấm trong bếp.",
+        "Trong bếp bác mèo mướp vẫn nằm lì bên đống tro ấm.",
+        "Bên đống tro ấm bác mèo mướp vẫn nằm lì trong bếp."
+      ],
+      "answer": "Trong bếp, bác mèo mướp vẫn nằm lì bên đống tro ấm.",
+      "hint": "Bám sát câu văn tả chú mèo lười biếng trong bếp.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 821,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Hãy tìm vế câu phù hợp nhất để nối với vế trái: 'Bé Thu...'?",
+      "options": [
+        "quét nhà giúp mẹ.",
+        "gáy ò ó o.",
+        "bay lượn trên bầu trời.",
+        "bò ngang trên cát."
+      ],
+      "answer": "quét nhà giúp mẹ.",
+      "hint": "Tiếng 'Bé Thu' là người nên phù hợp với hoạt động 'quét nhà giúp mẹ'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 822,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế trái 'Đàn cá chép...' với vế phải thích hợp:",
+      "options": [
+        "đang bơi lội dưới hồ nước.",
+        "bay lượn tít trên cao.",
+        "đang gặm cỏ trên đồi.",
+        "đứng canh gác đầu hè."
+      ],
+      "answer": "đang bơi lội dưới hồ nước.",
+      "hint": "Đàn cá chép là động vật sống dưới nước nên hoạt động của chúng là bơi lội.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 823,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế trái 'Chú gà trống...' với vế phải thích hợp:",
+      "options": [
+        "gáy vang ò ó o gọi người thức giấc.",
+        "nằm sưởi nắng bên cây cau.",
+        "kéo cày rất giỏi trên ruộng.",
+        "bơi lạch bạch xuống bờ ao."
+      ],
+      "answer": "gáy vang ò ó o gọi người thức giấc.",
+      "hint": "Hoạt động đặc trưng của chú gà trống là gáy vang gọi mọi người thức dậy.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 824,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế trái 'Quyển vở sạch...' với vế phải thích hợp:",
+      "options": [
+        "chứa những điểm mười đỏ chói.",
+        "bay vút lên bầu trời lộng gió.",
+        "chạy nhảy tung tăng đùa giỡn.",
+        "hót líu lo trên cành cây."
+      ],
+      "answer": "chứa những điểm mười đỏ chói.",
+      "hint": "Quyển vở sạch đẹp chứa những nét chữ nắn nót đạt điểm 10.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 825,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế trái 'Bác mèo mướp...' với vế phải:",
+      "options": [
+        "nằm lì bên đống tro ấm kêu rét.",
+        "chạy tót ra giữa sân tắm nắng.",
+        "chăm chỉ tha mồi xây tổ ấm.",
+        "kéo cày dũng mãnh ngoài ruộng."
+      ],
+      "answer": "nằm lì bên đống tro ấm kêu rét.",
+      "hint": "Mèo mướp lười biếng thích nằm lì bên bếp lò sưởi ấm kêu rét.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 826,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế trái 'Cánh diều...' với vế phải:",
+      "options": [
+        "bay vút lên cao đón gió hè mát rượi.",
+        "gặm cỏ trên đồng cỏ rộng lớn.",
+        "kêu gâu gâu đuổi người lạ mặt.",
+        "đứng nghiêm trang đón học sinh đến lớp."
+      ],
+      "answer": "bay vút lên cao đón gió hè mát rượi.",
+      "hint": "Cánh diều bay cao nhờ sức gió thổi mát rượi.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 827,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế 'Ông mặt trời...' với vế phải phù hợp:",
+      "options": [
+        "tỏa ánh nắng chói chang ấm áp.",
+        "nằm ngủ im lìm trong bếp lò.",
+        "bò nhanh nhẹn vào bụi cỏ.",
+        "hót vang đón gió mát lành."
+      ],
+      "answer": "tỏa ánh nắng chói chang ấm áp.",
+      "hint": "Ông mặt trời tỏa ánh nắng rực rỡ mang hơi ấm cho Trái Đất.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 828,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế 'Cô giáo em...' với vế phải:",
+      "options": [
+        "giảng bài bằng giọng nói ấm áp dịu dàng.",
+        "chạy nhảy bắt bướm bắt chim.",
+        "ăn cỏ non ngon lành trên đồi.",
+        "chui vào hang sâu tránh mưa lạnh."
+      ],
+      "answer": "giảng bài bằng giọng nói ấm áp dịu dàng.",
+      "hint": "Cô giáo giảng bài hiền từ ấm áp nâng bước chân bé.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 829,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế 'Chúng em...' với vế phải:",
+      "options": [
+        "chăm chỉ học tập ngoan ngoãn vâng lời.",
+        "gáy vang gọi cả làng thức giấc.",
+        "bò ngang rào rạo trên bãi cát.",
+        "bay lượn rợp trời tránh rét buốt."
+      ],
+      "answer": "chăm chỉ học tập ngoan ngoãn vâng lời.",
+      "hint": "Học sinh ngoan ngoãn chăm chỉ học tập nghe lời thầy cô.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 830,
+      "sub_topic": "Nối hai vế câu phù hợp",
+      "week": 8,
+      "question_text": "Nối vế 'Mưa tạnh, nắng lên...' với vế phải phù hợp:",
+      "options": [
+        "trời cao xanh bát ngát rộng lớn.",
+        "trời tối sầm bão bùng sấm sét.",
+        "ve khóc lóc đói lả người.",
+        "con chuột rúc im trong hang tối."
+      ],
+      "answer": "trời cao xanh bát ngát rộng lớn.",
+      "hint": "Bám sát câu đọc hiểu: 'Mưa tạnh, nắng lên, trời cao xanh bát ngát.'",
+      "image_url": "assets/images/tho_hong.png"
     }
   ]
 }

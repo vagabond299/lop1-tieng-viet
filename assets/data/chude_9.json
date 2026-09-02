@@ -1,36 +1,459 @@
 {
   "topic_id": 9,
   "topic_name": "ĐIỀN TỪ VÀO CÂU & TỤC NGỮ",
-  "description": "Rèn luyện đạo đức và khả năng sử dụng từ trong ngữ cảnh qua câu tục ngữ, thành ngữ dân gian.",
+  "description": "Thử thách chọn từ điền vào chỗ trống tả thực, hoàn thành các câu thành ngữ tục ngữ dân gian nâng cao và đoạn văn ngữ cảnh.",
+  "lecture_title": "BÀI GIẢNG: BÍ QUYẾT ĐIỀN TỪ CỦA THỎ HỒNG 📖",
+  "lecture_content": "Chào mừng bé yêu! Điền từ vào chỗ trống là một bài tập rất hay giúp bé hiểu sâu sắc ý nghĩa của từ ngữ và rèn luyện trí nhớ văn học. Để điền đúng từ, con hãy:\n1. Đọc thật kỹ toàn bộ câu văn, câu thơ để hiểu nghĩa.\n2. Quan sát tranh ảnh hoặc dựa vào kho tàng tục ngữ đã thuộc lòng: 'Lá lành đùm lá rách', 'Một con ngựa đau cả tàu bỏ cỏ'... nhé!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với bài học Điền từ vào câu và Tục ngữ. Chúng ta cùng ôn luyện vốn từ tục ngữ dân gian và các đoạn đọc hiểu ý nghĩa nhé!",
   "questions": [
     {
       "question_id": 901,
-      "sub_topic": "Chọn từ phù hợp điền vào câu văn",
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
       "week": 9,
-      "question_text": "Bé hãy chọn từ thích hợp điền vào chỗ trống: 'Chú gà trống gáy vang ... để gọi mọi người thức dậy.'?",
+      "question_text": "Điền từ thích hợp vào chỗ trống: 'Càng về sáng, tiết trời càng ... giá.'?",
       "options": [
-        "ầm ĩ",
-        "o o o",
-        "ò ó o o",
-        "lặng lẽ"
+        "lạnh",
+        "nóng",
+        "mát",
+        "ấm"
       ],
-      "answer": "ò ó o o",
-      "hint": "Tiếng gáy vang đặc trưng của chú gà trống đón bình minh mỗi sáng là 'ò ó o o'!",
-      "image_url": "assets/images/con_vit.png"
+      "answer": "lạnh",
+      "hint": "Bám sát câu đọc hiểu trong tài liệu: 'Càng về sáng, tiết trời càng lạnh giá.'",
+      "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 902,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ phù hợp: 'Bác mèo mướp vẫn nằm lì bên đống ... ấm.'?",
+      "options": [
+        "tro",
+        "củi",
+        "lửa",
+        "đá"
+      ],
+      "answer": "tro",
+      "hint": "Trong bếp lò luôn có đống tro ấm để chú mèo lười nằm sưởi ấm.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 903,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ phù hợp: 'Bé quét nhà ... mẹ.'?",
+      "options": [
+        "giúp",
+        "phá",
+        "chơi",
+        "hát"
+      ],
+      "answer": "giúp",
+      "hint": "Bé chăm chỉ quét nhà phụ giúp mẹ đỡ mệt mỏi.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 904,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ thích hợp: 'Bạn nhỏ trong bài thơ ngồi đọc sách bên cửa khép ...'?",
+      "options": [
+        "hờ",
+        "kín",
+        "mở",
+        "to"
+      ],
+      "answer": "hờ",
+      "hint": "Bám sát bài thơ Ai Gõ Cửa: 'Bên cửa khép hờ / Bé ngồi đọc sách'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 905,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ phù hợp tả cánh chuồn chuồn: 'Bốn cái cánh mỏng như ... bóng.'?",
+      "options": [
+        "giấy",
+        "vải",
+        "lá",
+        "nhựa"
+      ],
+      "answer": "giấy",
+      "hint": "Tài liệu ghi: 'Bốn cái cánh mỏng như giấy bóng'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 906,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ phù hợp tả mắt chuồn chuồn: 'Hai con mắt long lanh như ... tinh.'?",
+      "options": [
+        "thủy",
+        "pha",
+        "sắt",
+        "nhựa"
+      ],
+      "answer": "thủy",
+      "hint": "Cặp mắt của chuồn chuồn nước tròn xoe và 'long lanh như thủy tinh'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 907,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ: 'Mèo nằm vẫy đuôi / Tròn xoe đôi ...'?",
+      "options": [
+        "mắt",
+        "tai",
+        "chân",
+        "mũi"
+      ],
+      "answer": "mắt",
+      "hint": "Bám sát ý thơ bài Nặn Đồ Chơi: 'Mèo nằm vẫy đuôi / Tròn xoe đôi mắt.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 908,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ phù hợp: 'Bé nặn đồ chơi / Bên thềm ... mát.'?",
+      "options": [
+        "gió",
+        "nắng",
+        "mưa",
+        "trời"
+      ],
+      "answer": "gió",
+      "hint": "Bám sát bài thơ Nặn Đồ Chơi: 'Bên thềm gió mát / Bé nặn đồ chơi.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 909,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ: 'Mưa tạnh, ... lên, trời cao xanh bát ngát.'?",
+      "options": [
+        "nắng",
+        "gió",
+        "mây",
+        "trời"
+      ],
+      "answer": "nắng",
+      "hint": "Mưa ngừng rơi thì ánh nắng vàng ấm áp lại bừng sáng.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 910,
+      "sub_topic": "Chọn từ thích hợp điền vào chỗ trống",
+      "week": 9,
+      "question_text": "Điền từ: 'Các bạn lớp em học tập rất ... chỉ.'?",
+      "options": [
+        "chăm",
+        "lười",
+        "ngoan",
+        "nhanh"
+      ],
+      "answer": "chăm",
+      "hint": "Học sinh luôn cố gắng nỗ lực, 'chăm chỉ' học hành.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 911,
       "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
       "week": 9,
-      "question_text": "Điền từ thích hợp vào chỗ trống để hoàn thành câu tục ngữ khuyên bảo chúng ta phải biết yêu thương, đùm bọc nhau: 'Lá lành đùm lá ...'?",
+      "question_text": "Điền từ thích hợp vào chỗ trống để hoàn thành câu tục ngữ: 'Lá lành đùm lá ...'?",
       "options": [
         "rách",
-        "héo",
-        "xanh",
-        "vàng"
+        "đẹp",
+        "hỏng",
+        "rụng"
       ],
       "answer": "rách",
-      "hint": "Câu tục ngữ đầy nghĩa tình của ông cha ta là 'Lá lành đùm lá rách', khuyên bảo bé phải biết giúp đỡ người gặp hoàn cảnh khó khăn!",
+      "hint": "Tục ngữ dạy chúng ta phải biết yêu thương, giúp đỡ những người khó khăn: 'Lá lành đùm lá rách'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 912,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Bé điền chữ còn thiếu để hoàn thành tục ngữ: 'Một con ngựa đau, cả tàu bỏ ...'?",
+      "options": [
+        "cỏ",
+        "lúa",
+        "chạy",
+        "nước"
+      ],
+      "answer": "cỏ",
+      "hint": "Câu tục ngữ thể hiện tình đoàn kết, đồng lòng chia sẻ nỗi buồn: 'Một con ngựa đau, cả tàu bỏ cỏ'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 913,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ thích hợp vào câu: 'Nhà sạch thì mát, bát sạch ngon ...'?",
+      "options": [
+        "cơm",
+        "canh",
+        "rau",
+        "thịt"
+      ],
+      "answer": "cơm",
+      "hint": "Khuyên chúng ta phải giữ gìn nhà cửa, đồ dùng luôn sạch sẽ, gọn gàng.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 914,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ còn thiếu vào câu tục ngữ rèn luyện phẩm hạnh: 'Đói cho sạch, rách cho ...'?",
+      "options": [
+        "thơm",
+        "đẹp",
+        "ngoan",
+        "ấm"
+      ],
+      "answer": "thơm",
+      "hint": "Tục ngữ răn dạy con người dù nghèo khổ vẫn phải giữ gìn lòng tự trọng, sự trong sạch.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 915,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ: 'Thong thả dắt ... / Trong chiều nắng xế.'?",
+      "options": [
+        "trâu",
+        "bò",
+        "ngựa",
+        "dê"
+      ],
+      "answer": "trâu",
+      "hint": "Bám sát câu thơ lục bát quen thuộc ở nông thôn miền quê: 'Thong thả dắt trâu / Trong chiều nắng xế.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 916,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ thích hợp: 'Ăn quả nhớ kẻ trồng ...'?",
+      "options": [
+        "cây",
+        "hoa",
+        "vườn",
+        "rừng"
+      ],
+      "answer": "cây",
+      "hint": "Chúng ta phải luôn biết ơn những người đã giúp đỡ mình: 'Ăn quả nhớ kẻ trồng cây'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 917,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ: 'Công cha như núi ...'?",
+      "options": [
+        "Thái Sơn",
+        "Hoàng Liên",
+        "Ngũ Hành",
+        "Phú Sĩ"
+      ],
+      "answer": "Thái Sơn",
+      "hint": "Ca ngợi công lao to lớn vĩ đại như núi Thái Sơn của người cha.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 918,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ: 'Nghĩa mẹ như nước trong ... chảy ra.'?",
+      "options": [
+        "nguồn",
+        "sông",
+        "ao",
+        "hồ"
+      ],
+      "answer": "nguồn",
+      "hint": "Tình thương vô điều kiện, bao la của mẹ hiền dạt dào như dòng nước mát trong nguồn chảy mãi.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 919,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ: 'Một cây làm chẳng nên non / Ba cây chụm lại nên hòn núi ...'?",
+      "options": [
+        "cao",
+        "to",
+        "lớn",
+        "dài"
+      ],
+      "answer": "cao",
+      "hint": "Tôn vinh tinh thần đoàn kết, chung sức đồng lòng vượt qua mọi thử thách.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 920,
+      "sub_topic": "Hoàn thành Thành ngữ, Tục ngữ dân gian",
+      "week": 9,
+      "question_text": "Điền từ: 'Yêu nước ... nhà'?",
+      "options": [
+        "thương",
+        "ghét",
+        "quên",
+        "giúp"
+      ],
+      "answer": "thương",
+      "hint": "Câu tục ngữ thể hiện tình cảm thiêng liêng: 'Yêu nước thương nhà'.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 921,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Trong đoạn văn 'Mưa tạnh, nắng lên, trời cao xanh bát ngát. ... đua nhau bay lượn từng đàn', điền từ chỉ côn trùng bay nhảy?",
+      "options": [
+        "Ong bướm",
+        "Chim chóc",
+        "Chuồn chuồn",
+        "Cào cào"
+      ],
+      "answer": "Ong bướm",
+      "hint": "Bám sát câu đọc hiểu: 'Mưa tạnh, nắng lên, trời cao xanh bát ngát. Ong bướm đua nhau bay lượn từng đàn.'",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 922,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Đọc đoạn văn 'Kiến chăm chỉ làm việc suốt ngày... phòng khi mùa đông. Ve thì nhởn nhơ ... suốt cả mùa hè', ve làm hành động gì suốt mùa hè?",
+      "options": [
+        "ca hát",
+        "làm việc",
+        "kiếm ăn",
+        "ngủ nướng"
+      ],
+      "answer": "ca hát",
+      "hint": "Chú Ve lười biếng chỉ thích ca hát rong chơi vui đùa suốt cả mùa hè nóng nực.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 923,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Trong đoạn văn 'Mùa đông đến, ve đói tìm kiến xin ăn. Kiến cho ve ăn và khuyên ve phải chăm chỉ ...'. Kiến khuyên ve làm gì?",
+      "options": [
+        "lao động",
+        "rong chơi",
+        "ca hát",
+        "ngủ lì"
+      ],
+      "answer": "lao động",
+      "hint": "Kiến khuyên ve nên chăm chỉ lao động gặt hái, chuẩn bị cho tương lai.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 924,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Trong bếp, bác mèo mướp vẫn nằm lì bên đống tro ấm, lim dim đôi mắt kêu '...! ...!'. Mèo kêu gì vì thời tiết lạnh?",
+      "options": [
+        "Rét! Rét!",
+        "Mát! Mát!",
+        "Nóng! Nóng!",
+        "Meo! Meo!"
+      ],
+      "answer": "Rét! Rét!",
+      "hint": "Chú mèo lười sợ lạnh nằm lì bếp lò rên rỉ kêu rét.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 925,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Thế nhưng mới sớm tinh mơ, ... đã chạy tót ra giữa sân để gáy vang ò ó o?",
+      "options": [
+        "chú gà trống",
+        "bác mèo mướp",
+        "chị gà mái",
+        "chú cún xù"
+      ],
+      "answer": "chú gà trống",
+      "hint": "Chú gà trống dậy sớm chạy ra sân gáy vang đón mặt trời.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 926,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Trong câu chuyện 'Mèo Mướp đi học', mèo mướp lười biếng mải rong chơi bắt bướm hái hoa, khi các bạn tíu tít chuẩn bị ...?",
+      "options": [
+        "sách vở",
+        "đồ chơi",
+        "bánh kẹo",
+        "quần áo"
+      ],
+      "answer": "sách vở",
+      "hint": "Các bạn chuẩn bị sách vở bắt đầu năm học mới, mèo Mướp vẫn lơ đãng rong chơi.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 927,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Đoạn văn 'Bé tuy nghịch ngợm mà rất tình cảm. Mẹ đi làm về, bé ra ... đồ cho mẹ vì sợ mẹ xách nặng.'?",
+      "options": [
+        "xách giúp",
+        "giấu đi",
+        "phá hỏng",
+        "ném đi"
+      ],
+      "answer": "xách giúp",
+      "hint": "Hành động yêu mến hiếu thảo của bé ra xách đồ đỡ mệt cho mẹ.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 928,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Trong đoạn chuyện Giấy Kể: 'Khi làm bạn với bé Hiền, giấy kể rất hạnh phúc vì bé Hiền luôn ... giấy kể.'?",
+      "options": [
+        "nâng niu",
+        "vứt bỏ",
+        "xé rách",
+        "vẽ bậy"
+      ],
+      "answer": "nâng niu",
+      "hint": "Bé Hiền ngoan ngoãn giữ gìn nâng niu, tập viết những dòng chữ sạch đẹp lên trang giấy.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 929,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Trái ngược với Hiền, bạn Minh lại viết vài chữ rồi vứt luôn giấy vào ...?",
+      "options": [
+        "thùng rác",
+        "cặp sách",
+        "bàn học",
+        "ngăn kéo"
+      ],
+      "answer": "thùng rác",
+      "hint": "Bạn Minh chưa biết tiết kiệm, viết bậy rồi vứt giấy vào sọt rác.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 930,
+      "sub_topic": "Điền từ theo ngữ cảnh đoạn văn ngắn",
+      "week": 9,
+      "question_text": "Trang giấy thầm thì nhắc bạn Minh: 'Cậu phải viết cẩn thận và ... giấy chứ!'?",
+      "options": [
+        "tiết kiệm",
+        "lãng phí",
+        "vứt bỏ",
+        "tô màu"
+      ],
+      "answer": "tiết kiệm",
+      "hint": "Trang giấy khuyên răn các bạn học sinh phải biết viết nắn nót và tiết kiệm giấy vở sạch đẹp.",
       "image_url": "assets/images/tho_hong.png"
     }
   ]
