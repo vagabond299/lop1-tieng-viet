@@ -415,7 +415,22 @@
         </div>
 
         <!-- 3.5 MÀN HÌNH ĐẤU TRƯỜNG ĐỀ THI -->
-        <div id="screen-exam-hub" class="w-full hidden flex flex-col pastel-card p-6 md:p-8">
+        <!-- 3.2 MÀN HÌNH TIẾN TRÌNH TUẦN (12 TUẦN) -->
+    <div id="screen-roadmap" class="w-full hidden flex flex-col pastel-card p-6 md:p-8 max-w-2xl mx-auto">
+        <div class="flex justify-between items-center mb-4 pb-4 border-b border-pink-100">
+            <button onclick="goHome()" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold rounded-xl text-xs md:text-sm flex items-center space-x-2 pastel-btn">
+                <i class="fa-solid fa-house"></i><span>Trang Chủ</span>
+            </button>
+            <div class="font-extrabold text-indigo-600 text-sm md:text-base flex items-center space-x-2">
+                <span>📅</span><span>Tiến Trình 12 Tuần</span>
+            </div>
+            <div class="w-24"></div>
+        </div>
+        <p class="text-xs md:text-sm text-gray-500 text-center mb-4">Mỗi tuần đạt từ 7 điểm trở lên sẽ tự động mở khóa tuần tiếp theo nhé!</p>
+        <div id="roadmap-list" class="grid grid-cols-1 gap-2.5"></div>
+    </div>
+
+    <div id="screen-exam-hub" class="w-full hidden flex flex-col pastel-card p-6 md:p-8">
             <div class="flex justify-between items-center mb-6 pb-4 border-b border-pink-100">
                 <button onclick="goHome()" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold rounded-xl text-xs md:text-sm flex items-center space-x-2 pastel-btn">
                     <i class="fa-solid fa-house"></i><span>Trang Chủ</span>
@@ -503,12 +518,31 @@
         let starRedCount = 0;
         let activeTopicId = null;
         let activeExamContext = null;
+        let activeRoadmapContext = null; // { week, topicId, chuDe } khi đang học theo Tiến trình tuần
         let activeQuestionsList = [];
         let pendingTopicQuiz = null; // { topicNum, topicName, questions } chờ bấm "Bắt đầu luyện tập"
         let currentQIndex = 0;
         let score = 0;
         let quizWrongAnswers = []; // log câu sai để gửi lên Sheet (CauSaiJson)
+        let quizAnsweredLog = []; // log TẤT CẢ câu đã trả lời (đúng+sai), kèm skill_tag/diem nếu JSON có
         let quizStartTime = null;
+
+        // Lộ trình 12 tuần: tuần nào ứng với chủ đề nào (chủ đề 1 - Bảng chữ cái - không nằm trong
+        // lộ trình vì là kiến thức nền học trước, chỉ có ở Học Tự Do). Tuần 12 dẫn qua Đấu trường đề thi.
+        const ROADMAP_DATA = [
+            { week: 1, topicId: 2, title: "Tuần 1: Năm thanh điệu kì diệu" },
+            { week: 2, topicId: 3, title: "Tuần 2: Ghép âm - vần (phần dễ)" },
+            { week: 3, topicId: 3, title: "Tuần 3: Ghép âm - vần (vần khó)" },
+            { week: 4, topicId: 4, title: "Tuần 4: Điền chữ cái còn thiếu" },
+            { week: 5, topicId: 5, title: "Tuần 5: Bác sĩ bắt bệnh chính tả" },
+            { week: 6, topicId: 6, title: "Tuần 6: Từ vựng mở rộng" },
+            { week: 7, topicId: 7, title: "Tuần 7: Gia đình từ loại" },
+            { week: 8, topicId: 8, title: "Tuần 8: Nhà thông thái sắp câu" },
+            { week: 9, topicId: 9, title: "Tuần 9: Điền từ & Tục ngữ" },
+            { week: 10, topicId: 10, title: "Tuần 10: Đố vui bé ngoan (IQ)" },
+            { week: 11, topicId: 11, title: "Tuần 11: Đọc hiểu - trả lời" },
+            { week: 12, topicId: 12, title: "Tuần 12: Đấu trường thi thử tổng ôn" }
+        ];
 
         // === TAB CHUYỂN ĐỔI ĐĂNG NHẬP / ĐĂNG KÝ ===
         function switchAuthTab(tab) {
@@ -688,11 +722,13 @@
         }
 
         function goHome() {
+            stopSpeaking();
             document.getElementById('screen-quiz').classList.add('hidden');
             document.getElementById('screen-result').classList.add('hidden');
             document.getElementById('screen-exam-hub').classList.add('hidden');
             document.getElementById('screen-lecture').classList.add('hidden');
             document.getElementById('screen-subtopics').classList.add('hidden');
+            document.getElementById('screen-roadmap').classList.add('hidden');
             document.getElementById('screen-dashboard').classList.remove('hidden');
             
             document.getElementById('breadcrumb-path').innerHTML = ``;
@@ -704,15 +740,102 @@
                 return;
             }
             if(type === 'progress') {
-                alert(`Chào ${currentUser.name}, tính năng "Học tập theo tiến trình tuần" đang được xây dựng, sẽ sớm ra mắt!`);
+                openRoadmap();
             } else if(type === 'exam') {
                 openExamHub();
             }
         }
 
+        function openRoadmap() {
+            stopSpeaking();
+            document.getElementById('screen-dashboard').classList.add('hidden');
+            renderRoadmapList();
+            document.getElementById('screen-roadmap').classList.remove('hidden');
+        }
+
+        function renderRoadmapList() {
+            const tuanHienTai = Number(currentUser.tuanHienTai) || 1;
+            let html = '';
+            ROADMAP_DATA.forEach(item => {
+                const isDone = item.week < tuanHienTai;
+                const isCurrent = item.week === tuanHienTai;
+                const isLocked = item.week > tuanHienTai;
+
+                let stateBadge, stateClass, clickAttr;
+                if(isDone) {
+                    stateBadge = '<span class="text-xs font-extrabold text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full">✓ Đã qua</span>';
+                    stateClass = 'border-emerald-200 bg-emerald-50/40 hover:bg-emerald-50 cursor-pointer';
+                    clickAttr = `onclick="selectRoadmapWeek(${item.week})"`;
+                } else if(isCurrent) {
+                    stateBadge = '<span class="text-xs font-extrabold text-pink-600 bg-pink-100 px-2 py-1 rounded-full animate-pulse">⭐ Đang học</span>';
+                    stateClass = 'border-pink-400 bg-pink-50 hover:bg-pink-100 cursor-pointer shadow-md';
+                    clickAttr = `onclick="selectRoadmapWeek(${item.week})"`;
+                } else {
+                    stateBadge = '<span class="text-xs font-extrabold text-gray-400 bg-gray-100 px-2 py-1 rounded-full"><i class="fa-solid fa-lock"></i> Khóa</span>';
+                    stateClass = 'border-gray-200 bg-gray-50 opacity-60 cursor-not-allowed';
+                    clickAttr = '';
+                }
+
+                html += `
+                    <div ${clickAttr} class="w-full p-3.5 border-2 rounded-2xl font-bold text-gray-700 flex items-center justify-between transition-all ${stateClass}">
+                        <span class="text-sm">${escapeHtml(item.title)}</span>
+                        ${stateBadge}
+                    </div>
+                `;
+            });
+            document.getElementById('roadmap-list').innerHTML = html;
+        }
+
+        function selectRoadmapWeek(weekNum) {
+            const item = ROADMAP_DATA.find(r => r.week === weekNum);
+            if(!item) return;
+
+            // Tuần 12 không có chủ đề luyện tập riêng -> dẫn thẳng sang Đấu trường đề thi
+            if(item.topicId === 12) {
+                openExamHub();
+                return;
+            }
+
+            activeRoadmapContext = { week: weekNum, topicId: item.topicId, chuDe: item.title };
+            pendingTopicQuiz = null;
+            activeExamContext = null;
+
+            const loadAndFilter = (data) => {
+                const weekQuestions = data.questions.filter(q => Number(q.week) === weekNum);
+                if(!weekQuestions.length) {
+                    activeRoadmapContext = null;
+                    alert('Tuần này đang được chuẩn bị thêm câu hỏi, bé quay lại sau nhé!');
+                    return;
+                }
+                document.getElementById('screen-roadmap').classList.add('hidden');
+                startTopicQuiz(item.topicId, item.title, weekQuestions, null);
+            };
+
+            if(topicsCache[item.topicId]) {
+                loadAndFilter(topicsCache[item.topicId]);
+                return;
+            }
+
+            showLoadingOverlay(`Đang tải Tuần ${weekNum}...`);
+            fetch(`assets/data/chude_${item.topicId}.json`)
+                .then(res => { if(!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
+                .then(data => {
+                    topicsCache[item.topicId] = data;
+                    hideLoadingOverlay();
+                    loadAndFilter(data);
+                })
+                .catch(err => {
+                    hideLoadingOverlay();
+                    activeRoadmapContext = null;
+                    alert(`Không tải được dữ liệu Tuần ${weekNum}: ${err.message}`);
+                });
+        }
+
         function openTopic(topicNum, topicName) {
+            stopSpeaking();
             activeTopicId = topicNum;
             activeExamContext = null; // đang học chủ đề, không phải làm đề thi
+            activeRoadmapContext = null; // đang học tự do, không phải tiến trình tuần
 
             // Đã có trong cache -> dùng luôn, không fetch lại
             if(topicsCache[topicNum]) {
@@ -771,6 +894,7 @@
 
         // Gom nhóm câu hỏi theo sub_topic và vẽ ra các nút chủ đề con để bé chọn
         function showSubtopicSelection() {
+            stopSpeaking();
             if(!pendingTopicQuiz) return;
             const { topicName, questions } = pendingTopicQuiz;
 
@@ -812,6 +936,7 @@
 
         // groupIdx = null -> học trộn tất cả các mục nhỏ; ngược lại chỉ lấy đúng 1 nhánh
         function selectSubtopic(groupIdx) {
+            stopSpeaking();
             if(!pendingTopicQuiz) return;
             const { topicNum, topicName, questions, groups, groupMap } = pendingTopicQuiz;
 
@@ -831,13 +956,23 @@
         }
 
         function startTopicQuiz(topicNum, topicName, questions, subLabel) {
+            stopSpeaking();
             activeQuestionsList = questions;
             currentQIndex = 0;
             score = 0;
             quizWrongAnswers = [];
+            quizAnsweredLog = [];
             quizStartTime = Date.now();
 
-            document.getElementById('breadcrumb-path').innerHTML = subLabel ? `
+            if(activeRoadmapContext) {
+                document.getElementById('breadcrumb-path').innerHTML = `
+                    <span class="text-gray-300">/</span>
+                    <span class="text-indigo-600">Tiến trình tuần</span>
+                    <span class="text-gray-300">/</span>
+                    <span class="text-pink-600 font-bold">${escapeHtml(activeRoadmapContext.chuDe)}</span>
+                `;
+            } else {
+                document.getElementById('breadcrumb-path').innerHTML = subLabel ? `
                 <span class="text-gray-300">/</span>
                 <span class="text-purple-600">Chủ đề</span>
                 <span class="text-gray-300">/</span>
@@ -850,11 +985,13 @@
                 <span class="text-gray-300">/</span>
                 <span class="text-pink-600 font-bold">${escapeHtml(topicName)}</span>
             `;
+            }
 
             document.getElementById('screen-dashboard').classList.add('hidden');
             document.getElementById('screen-exam-hub').classList.add('hidden');
             document.getElementById('screen-lecture').classList.add('hidden');
             document.getElementById('screen-subtopics').classList.add('hidden');
+            document.getElementById('screen-roadmap').classList.add('hidden');
             document.getElementById('screen-quiz').classList.remove('hidden');
             document.getElementById('quiz-header-title').textContent = topicName;
             document.getElementById('total-q-idx').textContent = activeQuestionsList.length;
@@ -916,15 +1053,18 @@
         }
 
         function startExamQuiz(mapInfo, data, examIndex) {
+            stopSpeaking();
             const exam = data.exams[examIndex];
             if(!exam) { alert('Không tìm thấy đề thi này!'); return; }
 
             activeTopicId = null;
             pendingTopicQuiz = null; // đang làm đề thi, không phải học chủ đề -> ẩn nút "Đổi mục"
+            activeRoadmapContext = null; // vào Đấu trường đề thi thật thì không tính là tiến trình tuần nữa
             activeQuestionsList = exam.questions;
             currentQIndex = 0;
             score = 0;
             quizWrongAnswers = [];
+            quizAnsweredLog = [];
             quizStartTime = Date.now();
 
             document.getElementById('breadcrumb-path').innerHTML = `
@@ -935,6 +1075,7 @@
             `;
 
             document.getElementById('screen-subtopics').classList.add('hidden');
+            document.getElementById('screen-roadmap').classList.add('hidden');
             document.getElementById('screen-exam-hub').classList.add('hidden');
             document.getElementById('screen-quiz').classList.remove('hidden');
             document.getElementById('quiz-header-title').textContent = exam.exam_name;
@@ -968,6 +1109,7 @@
         }
 
         function loadQuestion() {
+            stopSpeaking();
             const q = activeQuestionsList[currentQIndex];
             document.getElementById('current-q-idx').textContent = currentQIndex + 1;
 
@@ -1068,6 +1210,18 @@
                 });
             }
 
+            // Ghi log đầy đủ (đúng lẫn sai) - dùng để gửi lên Sheet chấm điểm theo 6 năng lực
+            // khi câu hỏi có sẵn skill_tag/diem (đề thi soạn theo ma trận mới).
+            quizAnsweredLog.push({
+                question_id: q.question_id,
+                question_text: q.question_text,
+                skill_tag: q.skill_tag || null,
+                diem: q.diem != null ? q.diem : null,
+                isCorrect,
+                dap_an_chon: selectedOpt,
+                dap_an_dung: q.answer
+            });
+
             document.getElementById('btn-next-q').classList.remove('hidden');
         }
 
@@ -1088,6 +1242,7 @@
         }
 
         function showResultScreen() {
+            stopSpeaking();
             document.getElementById('screen-quiz').classList.add('hidden');
             document.getElementById('screen-result').classList.remove('hidden');
 
@@ -1102,28 +1257,43 @@
             });
             playAudio('win');
 
-            // Chỉ lưu lên Google Sheet khi đây là bài Đấu trường đề thi (không lưu bài Học Tự Do)
-            // và người dùng đã đăng nhập thật (không phải Khách).
-            if(activeExamContext && currentUser && !currentUser.isGuest) {
-                saveExamResultToSheet();
+            // Chỉ lưu lên Google Sheet với 2 ngữ cảnh CHÍNH THỨC (Đấu trường đề thi / Tiến trình tuần),
+            // không lưu bài Học Tự Do. Bắt buộc đã đăng nhập thật (không phải Khách).
+            if(currentUser && !currentUser.isGuest) {
+                if(activeExamContext) {
+                    saveExamResultToSheet();
+                } else if(activeRoadmapContext) {
+                    saveWeeklyProgressToSheet();
+                }
             }
         }
 
+        // Gửi payload thích ứng: nếu câu hỏi có sẵn skill_tag (đề thi soạn theo ma trận 6 năng lực)
+        // thì gửi answeredQuestions đầy đủ để server tính điểm 6 cột; nếu chưa có (đề thi cũ 3 câu)
+        // thì gửi kiểu cũ (tongCauHoi/soCauDung) để server tự chấm theo % như trước, không lỗi gì cả.
         async function saveExamResultToSheet() {
             const { categoryKey, examIndex } = activeExamContext;
             const thoiGianLamBai = quizStartTime ? formatDuration(Date.now() - quizStartTime) : '';
+            const hasSkillTags = activeQuestionsList.length > 0 && !!activeQuestionsList[0].skill_tag;
+
+            const payload = {
+                maHS: currentUser.maHS,
+                examCategory: categoryKey,
+                deSo: examIndex + 1,
+                thoiGianLamBai
+            };
+            if(hasSkillTags) {
+                payload.answeredQuestions = quizAnsweredLog;
+            } else {
+                payload.tongCauHoi = activeQuestionsList.length;
+                payload.soCauDung = score;
+                payload.wrongQuestions = quizWrongAnswers;
+            }
+
             try {
-                const result = await callAppsScript('saveExamResult', {
-                    maHS: currentUser.maHS,
-                    examCategory: categoryKey,
-                    deSo: examIndex + 1,
-                    tongCauHoi: activeQuestionsList.length,
-                    soCauDung: score,
-                    thoiGianLamBai,
-                    wrongQuestions: quizWrongAnswers
-                });
+                const result = await callAppsScript('saveExamResult', payload);
                 if(result.ok) {
-                    console.log('Đã lưu kết quả đề thi lên Sheet. Điểm:', result.diemSo);
+                    console.log('Đã lưu kết quả đề thi lên Sheet. Tổng điểm:', result.tongDiem, result.competencyScores || '');
                 } else {
                     console.warn('Lưu kết quả thất bại:', result.error);
                 }
@@ -1132,11 +1302,44 @@
             }
         }
 
+        async function saveWeeklyProgressToSheet() {
+            const { week, topicId, chuDe } = activeRoadmapContext;
+            const thoiGianLamBai = quizStartTime ? formatDuration(Date.now() - quizStartTime) : '';
+            try {
+                const result = await callAppsScript('saveWeeklyProgress', {
+                    maHS: currentUser.maHS,
+                    tuan: week,
+                    chuDe,
+                    topicId,
+                    tongCauHoi: activeQuestionsList.length,
+                    soCauDung: score,
+                    thoiGianLamBai,
+                    wrongQuestions: quizWrongAnswers
+                });
+                if(result.ok) {
+                    console.log('Đã lưu tiến trình tuần lên Sheet. Điểm:', result.diemSo, '- Mã năng lực:', result.maKyNang);
+                    if(result.unlockedNextWeek) {
+                        currentUser.tuanHienTai = result.tuanHienTai;
+                        setTimeout(() => {
+                            alert(`🎉 Chúc mừng bé đạt từ 7 điểm trở lên! Tuần ${result.tuanHienTai} đã được mở khóa!`);
+                        }, 600);
+                    }
+                } else {
+                    console.warn('Lưu tiến trình tuần thất bại:', result.error);
+                }
+            } catch(err) {
+                console.error('Lỗi khi lưu tiến trình tuần lên Sheet:', err);
+            }
+        }
+
         function retryQuiz() {
             document.getElementById('screen-result').classList.add('hidden');
             document.getElementById('screen-quiz').classList.remove('hidden');
             currentQIndex = 0;
             score = 0;
+            quizWrongAnswers = [];
+            quizAnsweredLog = [];
+            quizStartTime = Date.now();
             document.getElementById('total-q-idx').textContent = activeQuestionsList.length;
             loadQuestion();
         }
@@ -1151,12 +1354,20 @@
             const voices = window.speechSynthesis.getVoices();
             if(!voices.length) return null;
 
-            // Ưu tiên 1: đúng giọng Google + tiếng Việt (đây chính là "Chị Ban Mai")
-            let voice = voices.find(v => v.lang === 'vi-VN' && /google/i.test(v.name));
-            // Ưu tiên 2: Google + có chứa "vi" trong mã ngôn ngữ (phòng khi trình duyệt ghi lang hơi khác)
-            if(!voice) voice = voices.find(v => v.lang.toLowerCase().startsWith('vi') && /google/i.test(v.name));
-            // Dự phòng cuối: bất kỳ giọng tiếng Việt nào có sẵn (nếu máy không có giọng Google)
-            if(!voice) voice = voices.find(v => v.lang === 'vi-VN' || v.lang.toLowerCase().startsWith('vi'));
+            const viVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('vi'));
+            console.log('Danh sách giọng tiếng Việt tìm thấy:', viVoices.map(v => `${v.name} (${v.lang}, ${v.localService ? 'máy - dễ bị robot' : 'mạng Google - tự nhiên'})`));
+
+            // Mấu chốt phân biệt: giọng Google chạy qua MẠNG có localService = false (nghe tự nhiên).
+            // Giọng cài sẵn trong máy (Windows/macOS) có localService = true -> đây chính là giọng "robot" khó nghe.
+            // Vậy nên ưu tiên tuyệt đối localService === false, KHÔNG chỉ dò chữ "google" trong tên (vì tên hiển thị mỗi máy một khác).
+            let voice = viVoices.find(v => v.localService === false && /google/i.test(v.name));
+            if(!voice) voice = viVoices.find(v => v.localService === false);
+            if(!voice) voice = viVoices.find(v => /google/i.test(v.name));
+            if(!voice) voice = viVoices[0]; // dự phòng cuối cùng: bất kỳ giọng tiếng Việt nào có sẵn
+
+            if(voice) {
+                console.log('=> Đã chọn giọng:', voice.name, voice.localService ? '(giọng máy - nếu nghe robot, hãy kiểm tra lại mạng/trình duyệt)' : '(giọng mạng Google - Chị Ban Mai)');
+            }
 
             cachedViVoice = voice || null;
             return cachedViVoice;
@@ -1166,6 +1377,12 @@
             loadVietnameseVoice();
             // Chrome tải danh sách giọng đọc bất đồng bộ -> phải lắng nghe sự kiện này mới lấy được đủ danh sách
             window.speechSynthesis.onvoiceschanged = loadVietnameseVoice;
+        }
+
+        function stopSpeaking() {
+            if('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
         }
 
         function speakVietnamese(text, rate, pitch) {
