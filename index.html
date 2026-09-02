@@ -61,49 +61,83 @@
 </head>
 <body class="p-2 md:p-3 w-full flex justify-center items-center">
 
-    <!-- 1. MÀN HÌNH ĐĂNG NHẬP -->
-    <div id="screen-login" class="w-full max-w-md pastel-card p-6 md:p-10 flex flex-col items-center text-center">
-        <div class="relative mb-4">
-            <div class="w-24 h-24 bg-pink-100 rounded-full flex items-center justify-center text-5xl shadow-inner floating border-4 border-pink-300">
+    <!-- 1. MÀN HÌNH ĐĂNG NHẬP / ĐĂNG KÝ -->
+    <div id="screen-login" class="w-full max-w-md pastel-card p-6 md:p-8 flex flex-col items-center text-center">
+        <div class="relative mb-3">
+            <div class="w-20 h-20 bg-pink-100 rounded-full flex items-center justify-center text-4xl shadow-inner floating border-4 border-pink-300">
                 🐰
             </div>
             <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white text-[11px] px-3 py-0.5 rounded-full font-extrabold shadow-sm tracking-wide">Thỏ Hồng</span>
         </div>
 
-        <h1 class="text-3xl md:text-4xl font-extrabold text-pink-600 tracking-wide uppercase mb-1">
+        <h1 class="text-2xl md:text-3xl font-extrabold text-pink-600 tracking-wide uppercase mb-1">
             Tiếng Việt 1
         </h1>
-        <p class="text-sm md:text-base font-bold text-purple-600 mb-6 flex items-center justify-center space-x-2">
-            <span>🌸 Cô Giáo Thỏ Hồng 🌸</span>
-        </p>
-        
-        <div class="w-full space-y-4 mb-6">
-            <div class="relative">
-                <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-pink-400">
-                    <i class="fa-solid fa-user-graduate"></i>
-                </span>
-                <input type="text" id="input-userid" placeholder="Nhập ID đăng nhập (Ví dụ: HS01)" class="w-full pl-11 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm md:text-base">
-            </div>
+        <p class="text-sm font-bold text-purple-600 mb-5">🌸 Cô Giáo Thỏ Hồng 🌸</p>
 
-            <div class="relative">
-                <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-pink-400">
-                    <i class="fa-solid fa-lock"></i>
-                </span>
-                <input type="password" id="input-password" placeholder="Nhập mật khẩu" class="w-full pl-11 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm md:text-base">
-            </div>
+        <!-- TAB CHUYỂN ĐỔI ĐĂNG NHẬP / ĐĂNG KÝ -->
+        <div class="w-full grid grid-cols-2 bg-pink-50 rounded-2xl p-1 mb-5 border border-pink-200">
+            <button id="tab-btn-login" onclick="switchAuthTab('login')" class="py-2.5 rounded-xl font-extrabold text-xs md:text-sm pastel-btn bg-white text-pink-600 shadow-sm">ĐĂNG NHẬP</button>
+            <button id="tab-btn-register" onclick="switchAuthTab('register')" class="py-2.5 rounded-xl font-extrabold text-xs md:text-sm pastel-btn text-gray-400">ĐĂNG KÝ TÀI KHOẢN</button>
         </div>
 
-        <div class="w-full grid grid-cols-3 gap-3">
-            <button onclick="handleLogin()" class="py-3.5 bg-gradient-to-r from-pink-400 to-rose-400 text-white font-extrabold rounded-2xl text-xs md:text-sm pastel-btn flex items-center justify-center space-x-1 hover:from-pink-500 hover:to-rose-500">
-                <i class="fa-solid fa-right-to-bracket mr-1"></i> Đăng nhập
-            </button>
-            <button onclick="handleRegister()" class="py-3.5 bg-gradient-to-r from-purple-400 to-indigo-400 text-white font-extrabold rounded-2xl text-xs md:text-sm pastel-btn flex items-center justify-center space-x-1 hover:from-purple-500 hover:to-indigo-500">
-                <i class="fa-solid fa-user-plus mr-1"></i> Đăng ký
-            </button>
-            <button onclick="handleGuestMode()" class="py-3.5 bg-gradient-to-r from-pink-200 to-purple-200 text-purple-700 font-extrabold rounded-2xl text-xs md:text-sm pastel-btn flex items-center justify-center space-x-1 hover:from-pink-300 hover:to-purple-300 border border-purple-200">
-                <i class="fa-solid fa-compass mr-1"></i> Khách
+        <!-- FORM ĐĂNG NHẬP -->
+        <div id="form-login" class="w-full space-y-3">
+            <div class="relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-pink-400"><i class="fa-solid fa-id-card"></i></span>
+                <input type="text" id="login-mahs" placeholder="Mã ID thẻ học sinh (VD: 1A-09)" class="w-full pl-11 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm">
+            </div>
+            <div class="relative">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-pink-400"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" id="login-mapin" maxlength="4" inputmode="numeric" placeholder="Mã PIN (4 số)" class="w-full pl-11 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm">
+            </div>
+            <button onclick="doLogin()" id="btn-do-login" class="w-full py-3.5 bg-gradient-to-r from-pink-400 to-rose-400 text-white font-extrabold rounded-2xl text-sm pastel-btn shadow-md">
+                <i class="fa-solid fa-right-to-bracket mr-1"></i> Đăng Nhập
             </button>
         </div>
+
+        <!-- FORM ĐĂNG KÝ -->
+        <div id="form-register" class="w-full space-y-3 hidden text-left">
+            <div>
+                <label class="text-xs font-extrabold text-pink-600">HỌ VÀ TÊN HỌC SINH <span class="text-rose-400">*</span></label>
+                <input type="text" id="reg-hoten" placeholder="Ví dụ: Phùng Tường Vy" class="w-full mt-1 px-4 py-3 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm">
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+                <div>
+                    <label class="text-xs font-extrabold text-pink-600">NGÀY SINH <span class="text-rose-400">*</span></label>
+                    <input type="date" id="reg-ngaysinh" class="w-full mt-1 px-3 py-3 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 bg-pink-50/20 text-sm">
+                </div>
+                <div>
+                    <label class="text-xs font-extrabold text-pink-600">TÊN LỚP <span class="text-rose-400">*</span></label>
+                    <input type="text" id="reg-lop" placeholder="1A" oninput="updateMaHSPreview()" class="w-full mt-1 px-3 py-3 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm">
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+                <div>
+                    <label class="text-xs font-extrabold text-pink-600">SỐ THỨ TỰ <span class="text-rose-400">*</span></label>
+                    <input type="number" id="reg-stt" placeholder="09" min="1" max="99" oninput="updateMaHSPreview()" class="w-full mt-1 px-3 py-3 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm">
+                </div>
+                <div>
+                    <label class="text-xs font-extrabold text-pink-600">MÃ PIN (4 SỐ) <span class="text-rose-400">*</span></label>
+                    <input type="password" id="reg-mapin" maxlength="4" inputmode="numeric" placeholder="••••" class="w-full mt-1 px-3 py-3 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm">
+                </div>
+            </div>
+            <div class="flex items-center justify-between bg-pink-50 border border-pink-200 rounded-xl px-3 py-2.5">
+                <span class="text-xs font-bold text-gray-500">Mã ID thẻ học sinh của con:</span>
+                <span id="mahs-preview" class="text-sm font-extrabold text-pink-600 bg-white px-2.5 py-1 rounded-lg border border-pink-200">--</span>
+            </div>
+            <button onclick="doRegister()" id="btn-do-register" class="w-full py-3.5 bg-gradient-to-r from-purple-400 to-indigo-400 text-white font-extrabold rounded-2xl text-sm pastel-btn shadow-md">
+                <i class="fa-solid fa-user-plus mr-1"></i> Đăng Ký Ngay
+            </button>
+        </div>
+
+        <div class="w-full mt-4 pt-4 border-t border-pink-100">
+            <button onclick="handleGuestMode()" class="w-full py-3 bg-gradient-to-r from-pink-100 to-purple-100 text-purple-700 font-extrabold rounded-2xl text-xs md:text-sm pastel-btn hover:from-pink-200 hover:to-purple-200 border border-purple-200 flex items-center justify-center space-x-1.5">
+                <i class="fa-solid fa-compass"></i><span>Vào Học Thử - Không Cần Tài Khoản (Khách)</span>
+            </button>
+        </div>
+
+        <p id="auth-error-msg" class="text-xs font-bold text-rose-500 mt-3 hidden"></p>
     </div>
 
     <!-- 2. MÀN HÌNH CHÍNH (DASHBOARD) - TỐI ƯU GALAXY TAB S9 FE -->
@@ -453,6 +487,17 @@
         const topicsCache = {};   // { [topicNum]: { topic_id, topic_name, description, questions } }
         const examsCache = {};    // { [fileName]: { exam_category, exams: [...] } }
 
+        // === CẤU HÌNH GOOGLE SHEET (Database lưu tài khoản, tiến trình học, điểm số...) ===
+        // Sheet ID lấy từ link: https://docs.google.com/spreadsheets/d/13VygwJXXBCwzFXCRlSCd7M9npzQ-oTgrEdn6v73-L64/edit
+        // TODO: đang chờ anh mô tả cấu trúc từng sheet (tên sheet + tên cột) để nối hàm đọc/ghi cho đúng.
+        const GOOGLE_SHEET_ID = "13VygwJXXBCwzFXCRlSCd7M9npzQ-oTgrEdn6v73-L64";
+        // Dán link "Web app URL" sau khi Deploy Apps Script (Extensions > Apps Script > Deploy > New deployment > Web app) vào đây:
+        const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxgPIbG8HsEph5Etfu9sNQExNtb3K3mjAtyVXIfj_5IRwCfAqFIEBVrDaLlT2kql9qvUQ/exec";
+        // Gợi ý 2 cách phổ biến để web app đọc/ghi Google Sheet (sẽ chọn & triển khai sau khi có cấu trúc sheet):
+        //  1) Đọc CSV công khai (chỉ đọc, không ghi được): 
+        //     https://docs.google.com/spreadsheets/d/${GOOGLE_SHEET_ID}/gviz/tq?tqx=out:csv&sheet=TÊN_SHEET
+        //  2) Google Apps Script Web App (đọc + ghi được, cần deploy 1 script riêng gắn với Sheet này)
+
         let currentUser = null;
         let starGreenCount = 0;
         let starRedCount = 0;
@@ -462,25 +507,143 @@
         let pendingTopicQuiz = null; // { topicNum, topicName, questions } chờ bấm "Bắt đầu luyện tập"
         let currentQIndex = 0;
         let score = 0;
+        let quizWrongAnswers = []; // log câu sai để gửi lên Sheet (CauSaiJson)
+        let quizStartTime = null;
 
-        function handleLogin() {
-            const userId = document.getElementById('input-userid').value.trim();
-            const pass = document.getElementById('input-password').value.trim();
-            if(!userId || !pass) {
-                alert('Bé hoặc phụ huynh vui lòng nhập đầy đủ ID đăng nhập và mật khẩu nhé!');
-                return;
-            }
-            currentUser = {
-                id: userId,
-                name: "Phùng Tường Vy",
-                className: "Lớp 1A",
-                isGuest: false
-            };
-            enterDashboard();
+        // === TAB CHUYỂN ĐỔI ĐĂNG NHẬP / ĐĂNG KÝ ===
+        function switchAuthTab(tab) {
+            const isLogin = tab === 'login';
+            document.getElementById('form-login').classList.toggle('hidden', !isLogin);
+            document.getElementById('form-register').classList.toggle('hidden', isLogin);
+            document.getElementById('tab-btn-login').classList.toggle('bg-white', isLogin);
+            document.getElementById('tab-btn-login').classList.toggle('text-pink-600', isLogin);
+            document.getElementById('tab-btn-login').classList.toggle('shadow-sm', isLogin);
+            document.getElementById('tab-btn-login').classList.toggle('text-gray-400', !isLogin);
+            document.getElementById('tab-btn-register').classList.toggle('bg-white', !isLogin);
+            document.getElementById('tab-btn-register').classList.toggle('text-pink-600', !isLogin);
+            document.getElementById('tab-btn-register').classList.toggle('shadow-sm', !isLogin);
+            document.getElementById('tab-btn-register').classList.toggle('text-gray-400', isLogin);
+            hideAuthError();
         }
 
-        function handleRegister() {
-            alert('Chức năng Đăng ký tài khoản kết nối Google Sheets.');
+        function updateMaHSPreview() {
+            const lop = document.getElementById('reg-lop').value.trim().toUpperCase();
+            const stt = document.getElementById('reg-stt').value.trim();
+            const el = document.getElementById('mahs-preview');
+            if(lop && stt) {
+                el.textContent = `${lop}-${stt.padStart(2, '0')}`;
+            } else {
+                el.textContent = '--';
+            }
+        }
+
+        function showAuthError(msg) {
+            const el = document.getElementById('auth-error-msg');
+            el.textContent = msg;
+            el.classList.remove('hidden');
+        }
+        function hideAuthError() {
+            document.getElementById('auth-error-msg').classList.add('hidden');
+        }
+
+        // Gọi Apps Script Web App. Dùng Content-Type text/plain để tránh CORS preflight bị Apps Script chặn.
+        async function callAppsScript(action, payload) {
+            if(!APPS_SCRIPT_URL || APPS_SCRIPT_URL.includes('DÁN_LINK')) {
+                throw new Error('Chưa cấu hình APPS_SCRIPT_URL trong code! Anh deploy Apps Script rồi dán link vào biến APPS_SCRIPT_URL nhé.');
+            }
+            const res = await fetch(APPS_SCRIPT_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                body: JSON.stringify({ action, payload })
+            });
+            if(!res.ok) throw new Error(`Server trả về lỗi HTTP ${res.status}`);
+            return res.json();
+        }
+
+        async function doLogin() {
+            hideAuthError();
+            const maHS = document.getElementById('login-mahs').value.trim();
+            const maPin = document.getElementById('login-mapin').value.trim();
+            if(!maHS || !maPin) { showAuthError('Bé nhập đủ Mã ID và Mã PIN nhé!'); return; }
+
+            const btn = document.getElementById('btn-do-login');
+            btn.disabled = true; btn.textContent = 'Đang đăng nhập...';
+            try {
+                const result = await callAppsScript('login', { maHS, maPin });
+                if(!result.ok) { showAuthError(result.error); return; }
+                currentUser = { ...result.student, isGuest: false };
+                localStorage.setItem('tv1_mahs', maHS);
+                localStorage.setItem('tv1_mapin', maPin);
+                enterDashboard();
+            } catch(err) {
+                console.error(err);
+                showAuthError('Lỗi kết nối: ' + err.message);
+            } finally {
+                btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-right-to-bracket mr-1"></i> Đăng Nhập';
+            }
+        }
+
+        // Chuyển yyyy-mm-dd (input type=date) -> dd-mm-yy để lưu lên Sheet
+        function formatDateDDMMYY(isoDate) {
+            if(!isoDate) return '';
+            const [y, m, d] = isoDate.split('-');
+            return `${d}-${m}-${y.slice(2)}`;
+        }
+
+        async function doRegister() {
+            hideAuthError();
+            const hoTen = document.getElementById('reg-hoten').value.trim();
+            const ngaySinhRaw = document.getElementById('reg-ngaysinh').value;
+            const lop = document.getElementById('reg-lop').value.trim();
+            const soThuTu = document.getElementById('reg-stt').value.trim();
+            const maPin = document.getElementById('reg-mapin').value.trim();
+
+            if(!hoTen || !ngaySinhRaw || !lop || !soThuTu || !maPin) {
+                showAuthError('Bé điền đầy đủ tất cả các ô có dấu * nhé!'); return;
+            }
+            if(!/^\d{4}$/.test(maPin)) {
+                showAuthError('Mã PIN phải gồm đúng 4 chữ số!'); return;
+            }
+
+            const ngaySinh = formatDateDDMMYY(ngaySinhRaw);
+            const btn = document.getElementById('btn-do-register');
+            btn.disabled = true; btn.textContent = 'Đang đăng ký...';
+            try {
+                const result = await callAppsScript('register', { hoTen, ngaySinh, lop, soThuTu, maPin });
+                if(!result.ok) { showAuthError(result.error); return; }
+                alert(`Đăng ký thành công! Mã ID của bé là: ${result.student.maHS}\n\nTài khoản đang chờ cô giáo duyệt (trạng thái Pending). Khi được duyệt xong, bé quay lại bấm ĐĂNG NHẬP với đúng Mã ID và Mã PIN này nhé!`);
+                document.getElementById('login-mahs').value = result.student.maHS;
+                switchAuthTab('login');
+            } catch(err) {
+                console.error(err);
+                showAuthError('Lỗi kết nối: ' + err.message);
+            } finally {
+                btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-user-plus mr-1"></i> Đăng Ký Ngay';
+            }
+        }
+
+        // Tự động đăng nhập lại nếu trình duyệt đã nhớ phiên trước đó
+        async function tryAutoLogin() {
+            const maHS = localStorage.getItem('tv1_mahs');
+            const maPin = localStorage.getItem('tv1_mapin');
+            if(!maHS || !maPin) return;
+            try {
+                const result = await callAppsScript('login', { maHS, maPin });
+                if(result.ok) {
+                    currentUser = { ...result.student, isGuest: false };
+                    enterDashboard();
+                }
+            } catch(err) {
+                console.warn('Không thể tự đăng nhập:', err.message);
+            }
+        }
+
+        function logout() {
+            currentUser = null;
+            localStorage.removeItem('tv1_mahs');
+            localStorage.removeItem('tv1_mapin');
+            document.getElementById('screen-dashboard').classList.add('hidden');
+            document.getElementById('screen-login').classList.remove('hidden');
         }
 
         function handleGuestMode() {
@@ -501,7 +664,17 @@
         function updateUserInfoBox() {
             const box = document.getElementById('user-info-box');
             if(currentUser && !currentUser.isGuest) {
-                box.innerHTML = `<span class="text-pink-600 font-extrabold">${currentUser.name}</span><br><span class="text-gray-500 font-semibold">ID: ${currentUser.id} | ${currentUser.className}</span>`;
+                box.innerHTML = `
+                    <div class="flex items-center space-x-2">
+                        <div class="text-right">
+                            <div class="text-pink-600 font-extrabold text-sm md:text-base leading-tight">${escapeHtml(currentUser.hoTen)}</div>
+                            <div class="text-gray-500 font-semibold text-xs">ID: ${escapeHtml(currentUser.maHS)} | Lớp ${escapeHtml(currentUser.lop)}</div>
+                        </div>
+                        <button onclick="logout()" title="Đăng xuất" class="w-9 h-9 md:w-10 md:h-10 flex items-center justify-center bg-rose-100 hover:bg-rose-200 text-rose-500 hover:text-rose-700 rounded-xl border border-rose-200 pastel-btn text-base">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                        </button>
+                    </div>
+                `;
             } else {
                 box.innerHTML = `<span class="text-amber-600 font-extrabold">Khách (Guest)</span><br><span class="text-gray-400 font-semibold">Chưa đăng nhập</span>`;
             }
@@ -586,13 +759,8 @@
         }
 
         function speakLecture() {
-            window.speechSynthesis.cancel();
             const text = document.getElementById('screen-lecture').dataset.audioText || '';
-            if(!text) return;
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = 'vi-VN';
-            utterance.rate = 0.85;
-            window.speechSynthesis.speak(utterance);
+            speakVietnamese(text, 0.85, 1.0);
         }
 
         function startPendingTopicQuiz() {
@@ -666,6 +834,8 @@
             activeQuestionsList = questions;
             currentQIndex = 0;
             score = 0;
+            quizWrongAnswers = [];
+            quizStartTime = Date.now();
 
             document.getElementById('breadcrumb-path').innerHTML = subLabel ? `
                 <span class="text-gray-300">/</span>
@@ -754,6 +924,8 @@
             activeQuestionsList = exam.questions;
             currentQIndex = 0;
             score = 0;
+            quizWrongAnswers = [];
+            quizStartTime = Date.now();
 
             document.getElementById('breadcrumb-path').innerHTML = `
                 <span class="text-gray-300">/</span>
@@ -888,6 +1060,12 @@
                 starRedCount++;
                 document.getElementById('star-red-count').textContent = starRedCount;
                 playAudio('wrong');
+                quizWrongAnswers.push({
+                    question_id: q.question_id,
+                    question_text: q.question_text,
+                    dap_an_chon: selectedOpt,
+                    dap_an_dung: q.answer
+                });
             }
 
             document.getElementById('btn-next-q').classList.remove('hidden');
@@ -900,6 +1078,13 @@
             } else {
                 showResultScreen();
             }
+        }
+
+        function formatDuration(ms) {
+            const totalSec = Math.round(ms / 1000);
+            const min = Math.floor(totalSec / 60);
+            const sec = totalSec % 60;
+            return min > 0 ? `${min} phút ${sec} giây` : `${sec} giây`;
         }
 
         function showResultScreen() {
@@ -916,6 +1101,35 @@
                 origin: { y: 0.6 }
             });
             playAudio('win');
+
+            // Chỉ lưu lên Google Sheet khi đây là bài Đấu trường đề thi (không lưu bài Học Tự Do)
+            // và người dùng đã đăng nhập thật (không phải Khách).
+            if(activeExamContext && currentUser && !currentUser.isGuest) {
+                saveExamResultToSheet();
+            }
+        }
+
+        async function saveExamResultToSheet() {
+            const { categoryKey, examIndex } = activeExamContext;
+            const thoiGianLamBai = quizStartTime ? formatDuration(Date.now() - quizStartTime) : '';
+            try {
+                const result = await callAppsScript('saveExamResult', {
+                    maHS: currentUser.maHS,
+                    examCategory: categoryKey,
+                    deSo: examIndex + 1,
+                    tongCauHoi: activeQuestionsList.length,
+                    soCauDung: score,
+                    thoiGianLamBai,
+                    wrongQuestions: quizWrongAnswers
+                });
+                if(result.ok) {
+                    console.log('Đã lưu kết quả đề thi lên Sheet. Điểm:', result.diemSo);
+                } else {
+                    console.warn('Lưu kết quả thất bại:', result.error);
+                }
+            } catch(err) {
+                console.error('Lỗi khi lưu kết quả lên Sheet:', err);
+            }
         }
 
         function retryQuiz() {
@@ -928,24 +1142,57 @@
         }
 
         // --- WEB SPEECH API & AUDIO ---
-        function speakCurrentQuestion() {
-            if('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
-                const q = activeQuestionsList[currentQIndex];
-                const textToSpeak = q.audio_text || q.reading_passage || q.passage_text || q.question_text;
-                const utterance = new SpeechSynthesisUtterance(textToSpeak);
-                utterance.lang = 'vi-VN';
-                utterance.rate = 0.95;
-                utterance.pitch = 1.1;
+        // Ép toàn bộ giọng đọc trong app dùng đúng giọng "Google Tiếng Việt" (Chrome hay gọi thân mật là "Chị Ban Mai")
+        // Giọng này do Google TTS cung cấp qua mạng - cần Chrome + có kết nối mạng thì mới thấy trong danh sách.
+        let cachedViVoice = null;
 
-                const voices = window.speechSynthesis.getVoices();
-                const viVoice = voices.find(v => v.lang.includes('vi') || v.lang.includes('VN'));
-                if(viVoice) utterance.voice = viVoice;
+        function loadVietnameseVoice() {
+            if(!('speechSynthesis' in window)) return null;
+            const voices = window.speechSynthesis.getVoices();
+            if(!voices.length) return null;
 
-                window.speechSynthesis.speak(utterance);
-            } else {
+            // Ưu tiên 1: đúng giọng Google + tiếng Việt (đây chính là "Chị Ban Mai")
+            let voice = voices.find(v => v.lang === 'vi-VN' && /google/i.test(v.name));
+            // Ưu tiên 2: Google + có chứa "vi" trong mã ngôn ngữ (phòng khi trình duyệt ghi lang hơi khác)
+            if(!voice) voice = voices.find(v => v.lang.toLowerCase().startsWith('vi') && /google/i.test(v.name));
+            // Dự phòng cuối: bất kỳ giọng tiếng Việt nào có sẵn (nếu máy không có giọng Google)
+            if(!voice) voice = voices.find(v => v.lang === 'vi-VN' || v.lang.toLowerCase().startsWith('vi'));
+
+            cachedViVoice = voice || null;
+            return cachedViVoice;
+        }
+
+        if('speechSynthesis' in window) {
+            loadVietnameseVoice();
+            // Chrome tải danh sách giọng đọc bất đồng bộ -> phải lắng nghe sự kiện này mới lấy được đủ danh sách
+            window.speechSynthesis.onvoiceschanged = loadVietnameseVoice;
+        }
+
+        function speakVietnamese(text, rate, pitch) {
+            if(!text) return;
+            if(!('speechSynthesis' in window)) {
                 alert('Trình duyệt không hỗ trợ phát âm thanh Web Speech API!');
+                return;
             }
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'vi-VN';
+            utterance.rate = rate || 0.9;
+            utterance.pitch = pitch || 1.05;
+
+            const voice = cachedViVoice || loadVietnameseVoice();
+            if(voice) {
+                utterance.voice = voice;
+            } else {
+                console.warn('Không tìm thấy giọng Google Tiếng Việt (Chị Ban Mai) trên trình duyệt này - đang dùng giọng mặc định. Hãy dùng Chrome + có mạng để có đúng giọng này.');
+            }
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function speakCurrentQuestion() {
+            const q = activeQuestionsList[currentQIndex];
+            const textToSpeak = q.audio_text || q.reading_passage || q.passage_text || q.question_text;
+            speakVietnamese(textToSpeak, 0.95, 1.1);
         }
 
         function playAudio(type) {
@@ -992,6 +1239,12 @@
                 console.log("AudioContext blocked or unsupported", e);
             }
         }
+
+        // === KHỞI TẠO LÚC TẢI TRANG ===
+        // LƯU Ý: script này nằm ở cuối <body>, nên lúc chạy tới đây DOM đã load xong rồi -
+        // đăng ký listener 'DOMContentLoaded' lúc này sẽ KHÔNG BAO GIỜ được gọi (sự kiện đã trôi qua).
+        // Gọi thẳng hàm luôn thay vì chờ sự kiện.
+        tryAutoLogin();
     </script>
 </body>
 </html>
