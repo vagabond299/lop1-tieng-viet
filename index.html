@@ -4,745 +4,294 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIẾNG VIỆT 1 - Cô Giáo Thỏ Hồng</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts: Quicksand & Nunito -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
-    <!-- Canvas Confetti -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <style>
-        body {
-            font-family: 'Quicksand', 'Nunito', sans-serif;
-            background: linear-gradient(135deg, #fdf2f8 0%, #fae8ff 50%, #f3e8ff 100%);
-            color: #4a4a4a;
-            user-select: none;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .pastel-card {
-            background: #ffffff;
-            border-radius: 32px;
-            box-shadow: 0 14px 35px rgba(236, 72, 153, 0.15);
-            border: 4px solid #fbcfe8;
-        }
-        .pastel-btn {
-            transition: all 0.2s ease;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-        }
-        .pastel-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-        }
-        .pastel-btn:active {
-            transform: translateY(1px);
-        }
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-8px); }
-        }
-        .floating {
-            animation: float 3s ease-in-out infinite;
-        }
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #fff0f5;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #f472b6;
-            border-radius: 10px;
-        }
+        body { font-family: 'Quicksand', 'Nunito', sans-serif; background: linear-gradient(135deg, #fdf2f8 0%, #fae8ff 50%, #f3e8ff 100%); color: #4a4a4a; user-select: none; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+        .pastel-card { background: #ffffff; border-radius: 32px; box-shadow: 0 14px 35px rgba(236, 72, 153, 0.15); border: 4px solid #fbcfe8; }
+        .pastel-btn { transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+        .pastel-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.1); }
+        @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
+        .floating { animation: float 3s ease-in-out infinite; }
     </style>
 </head>
 <body class="p-2 md:p-3 w-full flex justify-center items-center">
 
-    <!-- 1. MÀN HÌNH ĐĂNG NHẬP -->
+    <!-- 1. ĐĂNG NHẬP -->
     <div id="screen-login" class="w-full max-w-md pastel-card p-6 md:p-10 flex flex-col items-center text-center">
         <div class="relative mb-4">
-            <div class="w-24 h-24 bg-pink-100 rounded-full flex items-center justify-center text-5xl shadow-inner floating border-4 border-pink-300">
-                🐰
-            </div>
-            <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white text-[11px] px-3 py-0.5 rounded-full font-extrabold shadow-sm tracking-wide">Thỏ Hồng</span>
+            <div class="w-24 h-24 bg-pink-100 rounded-full flex items-center justify-center text-5xl shadow-inner floating border-4 border-pink-300">🐰</div>
+            <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white text-[11px] px-3 py-0.5 rounded-full font-extrabold shadow-sm">Thỏ Hồng</span>
         </div>
-
-        <h1 class="text-3xl md:text-4xl font-extrabold text-pink-600 tracking-wide uppercase mb-1">
-            Tiếng Việt 1
-        </h1>
-        <p class="text-sm md:text-base font-bold text-purple-600 mb-6 flex items-center justify-center space-x-2">
-            <span>🌸 Cô Giáo Thỏ Hồng 🌸</span>
-        </p>
-        
+        <h1 class="text-3xl md:text-4xl font-extrabold text-pink-600 uppercase mb-1">Tiếng Việt 1</h1>
+        <p class="text-sm font-bold text-purple-600 mb-6">🌸 Cô Giáo Thỏ Hồng 🌸</p>
         <div class="w-full space-y-4 mb-6">
-            <div class="relative">
-                <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-pink-400">
-                    <i class="fa-solid fa-user-graduate"></i>
-                </span>
-                <input type="text" id="input-userid" placeholder="Nhập ID đăng nhập (Ví dụ: HS01)" class="w-full pl-11 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm md:text-base">
-            </div>
-
-            <div class="relative">
-                <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-pink-400">
-                    <i class="fa-solid fa-lock"></i>
-                </span>
-                <input type="password" id="input-password" placeholder="Nhập mật khẩu" class="w-full pl-11 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold text-gray-700 placeholder-gray-300 bg-pink-50/20 text-sm md:text-base">
-            </div>
+            <input type="text" id="input-userid" placeholder="Nhập ID (Ví dụ: HS01)" class="w-full pl-4 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold bg-pink-50/20 text-sm">
+            <input type="password" id="input-password" placeholder="Nhập mật khẩu" class="w-full pl-4 pr-4 py-3.5 rounded-2xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none font-bold bg-pink-50/20 text-sm">
         </div>
-
         <div class="w-full grid grid-cols-3 gap-3">
-            <button onclick="handleLogin()" class="py-3.5 bg-gradient-to-r from-pink-400 to-rose-400 text-white font-extrabold rounded-2xl text-xs md:text-sm pastel-btn flex items-center justify-center space-x-1 hover:from-pink-500 hover:to-rose-500">
-                <i class="fa-solid fa-right-to-bracket mr-1"></i> Đăng nhập
-            </button>
-            <button onclick="handleRegister()" class="py-3.5 bg-gradient-to-r from-purple-400 to-indigo-400 text-white font-extrabold rounded-2xl text-xs md:text-sm pastel-btn flex items-center justify-center space-x-1 hover:from-purple-500 hover:to-indigo-500">
-                <i class="fa-solid fa-user-plus mr-1"></i> Đăng ký
-            </button>
-            <button onclick="handleGuestMode()" class="py-3.5 bg-gradient-to-r from-pink-200 to-purple-200 text-purple-700 font-extrabold rounded-2xl text-xs md:text-sm pastel-btn flex items-center justify-center space-x-1 hover:from-pink-300 hover:to-purple-300 border border-purple-200">
-                <i class="fa-solid fa-compass mr-1"></i> Khách
-            </button>
+            <button onclick="handleLogin()" class="py-3.5 bg-gradient-to-r from-pink-400 to-rose-400 text-white font-extrabold rounded-2xl text-xs pastel-btn">Đăng nhập</button>
+            <button onclick="handleRegister()" class="py-3.5 bg-gradient-to-r from-purple-400 to-indigo-400 text-white font-extrabold rounded-2xl text-xs pastel-btn">Đăng ký</button>
+            <button onclick="handleGuestMode()" class="py-3.5 bg-gradient-to-r from-pink-200 to-purple-200 text-purple-700 font-extrabold rounded-2xl text-xs pastel-btn border border-purple-200">Khách</button>
         </div>
     </div>
 
-    <!-- 2. MÀN HÌNH CHÍNH (DASHBOARD) -->
+    <!-- 2. DASHBOARD -->
     <div id="screen-dashboard" class="w-full max-w-6xl hidden flex flex-col space-y-3 p-2 md:p-3">
-        
-        <!-- HEADER -->
-        <header class="w-full bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-3xl shadow-sm border-2 border-pink-200 flex flex-col md:flex-row justify-between items-center gap-3">
-            
-            <div class="flex items-center space-x-3 w-full md:w-auto justify-between md:justify-start">
-                <div class="flex flex-col text-center bg-pink-50/80 px-3 py-1.5 rounded-2xl border border-pink-200 shadow-sm shrink-0">
-                    <span class="text-xs font-extrabold text-pink-600 uppercase tracking-wide">Tiếng Việt 1</span>
-                    <span class="text-[11px] font-bold text-purple-600">Cô giáo Thỏ Hồng</span>
-                </div>
-                <button onclick="goHome()" class="px-3.5 py-2 bg-pink-100 hover:bg-pink-200 text-pink-600 font-extrabold rounded-2xl text-sm flex items-center space-x-1.5 pastel-btn border border-pink-300">
-                    <i class="fa-solid fa-house"></i>
-                    <span>Trang chủ</span>
-                </button>
-                <div id="breadcrumb-path" class="text-xs md:text-sm font-bold text-pink-600 hidden md:flex items-center space-x-1"></div>
+        <header class="w-full bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-3xl shadow-sm border-2 border-pink-200 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <button onclick="goHome()" class="px-3.5 py-2 bg-pink-100 text-pink-600 font-extrabold rounded-2xl text-sm pastel-btn"><i class="fa-solid fa-house"></i> Trang chủ</button>
+                <div id="breadcrumb-path" class="text-xs font-bold text-pink-600"></div>
             </div>
-
-            <div class="flex items-center space-x-3 bg-pink-50/90 px-4 py-1.5 rounded-2xl border border-pink-200 shadow-inner ml-auto md:ml-12">
-                <div class="flex items-center space-x-1 font-extrabold text-xs">
-                    <span class="px-2 py-0.5 bg-emerald-500 text-white rounded-lg shadow-sm"><i class="fa-solid fa-star mr-0.5"></i> Đúng</span>
-                    <span class="text-emerald-600 font-extrabold text-sm" id="star-green-count">0</span>
-                </div>
-                <div class="h-4 w-px bg-pink-300"></div>
-                <div class="flex items-center space-x-1 font-extrabold text-xs">
-                    <span class="px-2 py-0.5 bg-rose-500 text-white rounded-lg shadow-sm"><i class="fa-solid fa-star mr-0.5"></i> Sai</span>
-                    <span class="text-rose-600 font-extrabold text-sm" id="star-red-count">0</span>
-                </div>
+            <div class="flex items-center space-x-3 bg-pink-50 px-4 py-1.5 rounded-2xl border border-pink-200">
+                <span class="text-xs font-extrabold text-emerald-600">Đúng: <span id="star-green-count">0</span></span>
+                <span class="text-xs font-extrabold text-rose-600">Sai: <span id="star-red-count">0</span></span>
             </div>
-
-            <div class="flex items-center space-x-3 w-full md:w-auto justify-between md:justify-end">
-                <div id="user-info-box" class="text-xs font-bold text-gray-600 text-right"></div>
-                <button onclick="clickProgressOrExam('progress')" class="px-4 py-2.5 bg-gradient-to-r from-purple-500 to-indigo-500 text-white font-extrabold rounded-2xl text-xs md:text-sm pastel-btn shadow-md hover:from-purple-600 hover:to-indigo-600 flex items-center space-x-1.5">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <span>Tiến trình tuần</span>
-                </button>
-            </div>
+            <div id="user-info-box" class="text-xs font-bold text-gray-600 text-right"></div>
         </header>
 
-        <!-- MAIN CONTAINER (12 CHUYÊN ĐỀ TẢI ĐỘNG TỪ ASSETS/DATA) -->
-        <div id="main-content-area" class="w-full flex flex-col space-y-2">
-            
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
-                
-                <!-- 1. Bảng chữ cái ngộ nghĩnh -->
-                <div onclick="loadTopicData(1, '1. BẢNG CHỮ CÁI NGỘ NGHĨNH')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-pink-100 rounded-xl flex items-center justify-center text-base font-extrabold text-pink-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🅰️</div>
-                        <h3 class="font-extrabold text-pink-700 text-base md:text-lg leading-tight">1. Bảng chữ cái ngộ nghĩnh</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_1.json</span>
-                        <span class="bg-pink-50 text-pink-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 2. Năm thanh điệu kì diệu -->
-                <div onclick="loadTopicData(2, '2. NĂM THANH ĐIỆU KÌ DIỆU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-purple-100 rounded-xl flex items-center justify-center text-base font-extrabold text-purple-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🎵</div>
-                        <h3 class="font-extrabold text-purple-700 text-base md:text-lg leading-tight">2. Năm thanh điệu kì diệu</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_2.json</span>
-                        <span class="bg-purple-50 text-purple-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 3. Ghép âm - vần -->
-                <div onclick="loadTopicData(3, '3. GHÉP ÂM - VẦN')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-blue-100 rounded-xl flex items-center justify-center text-base font-extrabold text-blue-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🧩</div>
-                        <h3 class="font-extrabold text-blue-700 text-base md:text-lg leading-tight">3. Ghép âm - vần</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_3.json</span>
-                        <span class="bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 4. Điền chữ cái còn thiếu -->
-                <div onclick="loadTopicData(4, '4. ĐIỀN CHỮ CÁI CÒN THIẾU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-amber-100 rounded-xl flex items-center justify-center text-base font-extrabold text-amber-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">✍️</div>
-                        <h3 class="font-extrabold text-amber-700 text-base md:text-lg leading-tight">4. Điền chữ cái còn thiếu</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_4.json</span>
-                        <span class="bg-amber-50 text-amber-700 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 5. Bác sĩ bắt bệnh chính tả -->
-                <div onclick="loadTopicData(5, '5. BÁC SĨ BẮT BỆNH CHÍNH TẢ')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-rose-100 rounded-xl flex items-center justify-center text-base font-extrabold text-rose-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🩺</div>
-                        <h3 class="font-extrabold text-rose-700 text-base md:text-lg leading-tight">5. Bác sĩ bắt bệnh chính tả</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_5.json</span>
-                        <span class="bg-rose-50 text-rose-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 6. Từ vựng mở rộng -->
-                <div onclick="loadTopicData(6, '6. TỪ VỰNG')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-emerald-100 rounded-xl flex items-center justify-center text-base font-extrabold text-emerald-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🌿</div>
-                        <h3 class="font-extrabold text-emerald-700 text-base md:text-lg leading-tight">6. Từ vựng mở rộng</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_6.json</span>
-                        <span class="bg-emerald-50 text-emerald-600 px-2.5 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 7. Gia đình từ loại -->
-                <div onclick="loadTopicData(7, '7. GIA ĐÌNH TỪ LOẠI')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-teal-100 rounded-xl flex items-center justify-center text-base font-extrabold text-teal-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🧸</div>
-                        <h3 class="font-extrabold text-teal-700 text-base md:text-lg leading-tight">7. Gia đình từ loại</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_7.json</span>
-                        <span class="bg-teal-50 text-teal-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 8. Nhà thông thái sắp câu -->
-                <div onclick="loadTopicData(8, '8. NHÀ THÔNG THÁI SẮP CÂU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-indigo-100 rounded-xl flex items-center justify-center text-base font-extrabold text-indigo-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🧠</div>
-                        <h3 class="font-extrabold text-indigo-700 text-base md:text-lg leading-tight">8. Nhà thông thái sắp câu</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_8.json</span>
-                        <span class="bg-indigo-50 text-indigo-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 9. Điền từ vào câu & Tục ngữ -->
-                <div onclick="loadTopicData(9, '9. ĐIỀN TỪ VÀO CÂU & TỤC NGỮ')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-cyan-100 rounded-xl flex items-center justify-center text-base font-extrabold text-cyan-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">📜</div>
-                        <h3 class="font-extrabold text-cyan-700 text-base md:text-lg leading-tight">9. Điền từ vào câu & Tục ngữ</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_9.json</span>
-                        <span class="bg-cyan-50 text-cyan-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 10. Đố vui bé ngoan (IQ) -->
-                <div onclick="loadTopicData(10, '10. ĐỐ VUI BÉ NGOAN')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-yellow-100 rounded-xl flex items-center justify-center text-base font-extrabold text-yellow-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🎯</div>
-                        <h3 class="font-extrabold text-yellow-700 text-base md:text-lg leading-tight">10. Đố vui bé ngoan (IQ)</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_10.json</span>
-                        <span class="bg-yellow-50 text-yellow-700 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 11. Đọc hiểu - trả lời -->
-                <div onclick="loadTopicData(11, '11. BÉ TẬP ĐỌC HIỂU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all group min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-pink-100 rounded-xl flex items-center justify-center text-base font-extrabold text-pink-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">📖</div>
-                        <h3 class="font-extrabold text-pink-700 text-base md:text-lg leading-tight">11. Bé tập đọc hiểu</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-pink-100 text-xs font-bold text-gray-500">
-                        <span>assets/data/chude_11.json</span>
-                        <span class="bg-pink-50 text-pink-600 px-2 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
-                <!-- 12. Đấu trường đề thi -->
-                <div onclick="openExamHub()" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-amber-400 transition-all group bg-gradient-to-br from-white to-amber-50/50 min-h-[105px]">
-                    <div class="flex items-center space-x-2.5">
-                        <div class="w-9 h-9 bg-amber-100 rounded-xl flex items-center justify-center text-base font-extrabold text-amber-600 shadow-inner group-hover:scale-110 transition-transform shrink-0">🏆</div>
-                        <h3 class="font-extrabold text-amber-700 text-base md:text-lg leading-tight">12. Đấu trường đề thi</h3>
-                    </div>
-                    <div class="flex justify-between items-center mt-2 pt-1.5 border-t border-amber-100 text-xs font-bold text-amber-600">
-                        <span>assets/data/de_thi_...json</span>
-                        <span class="bg-amber-100 text-amber-700 px-2.5 py-0.5 rounded-full">JSON</span>
-                    </div>
-                </div>
-
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
+            <!-- 12 Chủ đề -->
+            <div onclick="loadTopicData(1, '1. BẢNG CHỮ CÁI NGỘ NGHĨNH')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-pink-700 text-base">1. Bảng chữ cái ngộ nghĩnh</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_1.json</span>
+            </div>
+            <div onclick="loadTopicData(2, '2. NĂM THANH ĐIỆU KÌ DIỆU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-purple-700 text-base">2. Năm thanh điệu kì diệu</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_2.json</span>
+            </div>
+            <div onclick="loadTopicData(3, '3. GHÉP ÂM - VẦN')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-blue-700 text-base">3. Ghép âm - vần</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_3.json</span>
+            </div>
+            <div onclick="loadTopicData(4, '4. ĐIỀN CHỮ CÁI CÒN THIẾU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-amber-700 text-base">4. Điền chữ cái còn thiếu</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_4.json</span>
+            </div>
+            <div onclick="loadTopicData(5, '5. BÁC SĨ BẮT BỆNH CHÍNH TẢ')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-rose-700 text-base">5. Bác sĩ bắt bệnh chính tả</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_5.json</span>
+            </div>
+            <div onclick="loadTopicData(6, '6. TỪ VỰNG')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-emerald-700 text-base">6. Từ vựng mở rộng</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_6.json</span>
+            </div>
+            <div onclick="loadTopicData(7, '7. GIA ĐÌNH TỪ LOẠI')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-teal-700 text-base">7. Gia đình từ loại</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_7.json</span>
+            </div>
+            <div onclick="loadTopicData(8, '8. NHÀ THÔNG THÁI SẮP CÂU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-indigo-700 text-base">8. Nhà thông thái sắp câu</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_8.json</span>
+            </div>
+            <div onclick="loadTopicData(9, '9. ĐIỀN TỪ VÀO CÂU & TỤC NGỮ')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-cyan-700 text-base">9. Điền từ & Tục ngữ</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_9.json</span>
+            </div>
+            <div onclick="loadTopicData(10, '10. ĐỐ VUI BÉ NGOAN')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-yellow-700 text-base">10. Đố vui bé ngoan</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_10.json</span>
+            </div>
+            <div onclick="loadTopicData(11, '11. BÉ TẬP ĐỌC HIỂU')" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-pink-400 transition-all min-h-[100px]">
+                <h3 class="font-extrabold text-pink-700 text-base">11. Bé tập đọc hiểu</h3>
+                <span class="text-xs font-bold text-gray-400">assets/data/chude_11.json</span>
+            </div>
+            <div onclick="openExamHub()" class="pastel-card p-3 flex flex-col justify-between cursor-pointer hover:border-amber-400 transition-all min-h-[100px] bg-amber-50">
+                <h3 class="font-extrabold text-amber-700 text-base">12. Đấu trường đề thi</h3>
+                <span class="text-xs font-bold text-amber-600">HK1, HK2, HSG</span>
             </div>
         </div>
-
-        <!-- 3. MÀN HÌNH LÀM BÀI TRẮC NGHIỆM -->
-        <div id="screen-quiz" class="w-full hidden flex flex-col pastel-card p-6 md:p-8">
-            <div class="flex justify-between items-center mb-6 pb-4 border-b border-pink-100">
-                <button onclick="goHome()" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold rounded-xl text-xs md:text-sm flex items-center space-x-2 pastel-btn">
-                    <i class="fa-solid fa-house"></i>
-                    <span>Trang Chủ</span>
-                </button>
-                <div id="quiz-header-title" class="font-extrabold text-pink-600 text-sm md:text-lg text-center truncate max-w-xs">Chủ đề học</div>
-                <div class="flex items-center space-x-2 bg-pink-50 px-3 py-1.5 rounded-xl border border-pink-200 text-xs md:text-sm font-bold text-pink-700">
-                    <span>Câu:</span>
-                    <span id="current-q-idx">1</span>/<span id="total-q-idx">5</span>
-                </div>
-            </div>
-
-            <div id="question-box" class="flex-1 flex flex-col items-center justify-center my-4"></div>
-
-            <div class="flex justify-between items-center pt-4 border-t border-pink-100 mt-4">
-                <button onclick="speakCurrentQuestion()" class="px-4 py-2 bg-blue-50 hover:bg-blue-100 text-blue-600 font-bold rounded-xl text-xs md:text-sm flex items-center space-x-2 pastel-btn">
-                    <i class="fa-solid fa-volume-high"></i>
-                    <span>Đọc Mẫu (vi-VN)</span>
-                </button>
-                <button id="btn-next-q" onclick="nextQuestion()" class="px-6 py-2.5 bg-gradient-to-r from-pink-400 to-rose-400 text-white font-extrabold rounded-xl text-xs md:text-sm pastel-btn hidden shadow-md">
-                    Câu Tiếp Theo ➔
-                </button>
-            </div>
-        </div>
-
-        <!-- MÀN HÌNH CHỌN ĐỀ THI (PHÒNG THI MỤC 12) -->
-        <div id="screen-exam-hub" class="w-full hidden flex flex-col pastel-card p-6 md:p-8">
-            <div class="flex justify-between items-center mb-6 pb-4 border-b border-pink-100">
-                <button onclick="goHome()" class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold rounded-xl text-xs md:text-sm flex items-center space-x-2 pastel-btn">
-                    <i class="fa-solid fa-house"></i>
-                    <span>Trang Chủ</span>
-                </button>
-                <div class="font-extrabold text-amber-600 text-base md:text-xl text-center">🏆 Đấu Trường Đề Thi Thử</div>
-                <div class="w-16"></div>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-4">
-                <!-- HK1 -->
-                <div class="bg-pink-50/70 p-5 rounded-2xl border-2 border-pink-200 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-extrabold text-pink-600 text-lg mb-2"><i class="fa-solid fa-graduation-cap mr-2"></i>Học Kỳ 1</h3>
-                        <p class="text-xs text-gray-600 mb-4">File: <code>de_thi_hocky1.json</code></p>
-                    </div>
-                    <div class="space-y-2">
-                        <button onclick="loadExamData('de_thi_hocky1.json', 0)" class="w-full py-2 bg-pink-400 hover:bg-pink-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 1 (40 phút)</button>
-                        <button onclick="loadExamData('de_thi_hocky1.json', 1)" class="w-full py-2 bg-pink-400 hover:bg-pink-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 2 (40 phút)</button>
-                        <button onclick="loadExamData('de_thi_hocky1.json', 2)" class="w-full py-2 bg-pink-400 hover:bg-pink-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 3 (40 phút)</button>
-                    </div>
-                </div>
-                <!-- HK2 -->
-                <div class="bg-purple-50/70 p-5 rounded-2xl border-2 border-purple-200 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-extrabold text-purple-600 text-lg mb-2"><i class="fa-solid fa-award mr-2"></i>Học Kỳ 2</h3>
-                        <p class="text-xs text-gray-600 mb-4">File: <code>de_thi_hocky2.json</code></p>
-                    </div>
-                    <div class="space-y-2">
-                        <button onclick="loadExamData('de_thi_hocky2.json', 0)" class="w-full py-2 bg-purple-400 hover:bg-purple-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 1 (40 phút)</button>
-                        <button onclick="loadExamData('de_thi_hocky2.json', 1)" class="w-full py-2 bg-purple-400 hover:bg-purple-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 2 (40 phút)</button>
-                        <button onclick="loadExamData('de_thi_hocky2.json', 2)" class="w-full py-2 bg-purple-400 hover:bg-purple-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 3 (40 phút)</button>
-                    </div>
-                </div>
-                <!-- HSG -->
-                <div class="bg-amber-50/70 p-5 rounded-2xl border-2 border-amber-200 flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-extrabold text-amber-600 text-lg mb-2"><i class="fa-solid fa-crown mr-2"></i>Học Sinh Giỏi</h3>
-                        <p class="text-xs text-gray-600 mb-4">File: <code>de_thi_hsg.json</code></p>
-                    </div>
-                    <div class="space-y-2">
-                        <button onclick="loadExamData('de_thi_hsg.json', 0)" class="w-full py-2 bg-amber-400 hover:bg-amber-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 1 (40 phút)</button>
-                        <button onclick="loadExamData('de_thi_hsg.json', 1)" class="w-full py-2 bg-amber-400 hover:bg-amber-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 2 (40 phút)</button>
-                        <button onclick="loadExamData('de_thi_hsg.json', 3 || 2)" class="w-full py-2 bg-amber-400 hover:bg-amber-500 text-white font-extrabold rounded-xl text-xs pastel-btn">Đề Số 3 (40 phút)</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- 4. MÀN HÌNH KẾT QUẢ & KHEN THƯỞNG -->
-        <div id="screen-result" class="w-full max-w-md mx-auto hidden pastel-card p-8 flex flex-col items-center text-center">
-            <div class="w-24 h-24 bg-yellow-100 rounded-full flex items-center justify-center text-5xl mb-4 shadow-inner floating">🏆</div>
-            <h2 class="text-2xl font-extrabold text-pink-600 mb-1">Hoàn Thành Xuất Sắc!</h2>
-            <p id="result-praise-msg" class="text-xs text-gray-500 mb-6">Cô giáo Thỏ Hồng khen bé đã hoàn thành rất tốt bài học hôm nay.</p>
-            
-            <div class="bg-pink-50/60 w-full p-4 rounded-2xl border border-pink-200 mb-6 flex justify-around items-center">
-                <div>
-                    <p class="text-xs text-gray-500 font-semibold">Số câu đúng</p>
-                    <p id="res-correct-txt" class="text-2xl font-extrabold text-pink-600 mt-1">5/5</p>
-                </div>
-                <div class="h-8 w-px bg-pink-200"></div>
-                <div>
-                    <p class="text-xs text-gray-500 font-semibold">Sao nhận được</p>
-                    <p id="res-star-txt" class="text-2xl font-extrabold text-yellow-600 mt-1">+5 ⭐</p>
-                </div>
-            </div>
-
-            <div class="flex space-x-3 w-full">
-                <button onclick="goHome()" class="flex-1 py-3 bg-gray-100 hover:bg-gray-200 text-gray-600 font-extrabold rounded-xl text-sm pastel-btn">
-                    Về Trang Chủ
-                </button>
-                <button onclick="retryQuiz()" class="flex-1 py-3 bg-gradient-to-r from-pink-400 to-rose-400 text-white font-extrabold rounded-xl text-sm pastel-btn shadow-md">
-                    Làm Lại 🔄
-                </button>
-            </div>
-        </div>
-
     </div>
 
-    <!-- JAVASCRIPT GỌI FETCH ĐỘNG TỪ THƯ MỤC ASSETS/DATA/ -->
+    <!-- 3. MÀN HÌNH QUIZ -->
+    <div id="screen-quiz" class="w-full hidden flex flex-col pastel-card p-6">
+        <div class="flex justify-between items-center mb-6 pb-4 border-b border-pink-100">
+            <button onclick="goHome()" class="px-4 py-2 bg-gray-100 text-gray-600 font-bold rounded-xl text-sm pastel-btn">Trang Chủ</button>
+            <div id="quiz-header-title" class="font-extrabold text-pink-600 text-lg"></div>
+            <div class="font-bold text-pink-700">Câu: <span id="current-q-idx">1</span>/<span id="total-q-idx">5</span></div>
+        </div>
+        <div id="question-box" class="flex-1 flex flex-col items-center justify-center my-4"></div>
+        <div class="flex justify-between items-center pt-4 border-t border-pink-100">
+            <button onclick="speakCurrentQuestion()" class="px-4 py-2 bg-blue-50 text-blue-600 font-bold rounded-xl text-sm pastel-btn"><i class="fa-solid fa-volume-high"></i> Đọc Mẫu</button>
+            <button id="btn-next-q" onclick="nextQuestion()" class="px-6 py-2.5 bg-pink-400 text-white font-extrabold rounded-xl text-sm pastel-btn hidden">Tiếp Theo ➔</button>
+        </div>
+    </div>
+
+    <!-- 4. MÀN HÌNH ĐỀ THI -->
+    <div id="screen-exam-hub" class="w-full hidden flex flex-col pastel-card p-6">
+        <div class="flex justify-between items-center mb-6 pb-4 border-b border-pink-100">
+            <button onclick="goHome()" class="px-4 py-2 bg-gray-100 text-gray-600 font-bold rounded-xl text-sm pastel-btn">Trang Chủ</button>
+            <div class="font-extrabold text-amber-600 text-xl">🏆 Đấu Trường Đề Thi Thử</div>
+            <div></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-pink-50 p-5 rounded-2xl border-2 border-pink-200 space-y-2">
+                <h3 class="font-extrabold text-pink-600 text-lg">Học Kỳ 1</h3>
+                <button onclick="loadExamData('de_thi_hocky1.json', 0)" class="w-full py-2 bg-pink-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 1</button>
+                <button onclick="loadExamData('de_thi_hocky1.json', 1)" class="w-full py-2 bg-pink-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 2</button>
+                <button onclick="loadExamData('de_thi_hocky1.json', 2)" class="w-full py-2 bg-pink-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 3</button>
+            </div>
+            <div class="bg-purple-50 p-5 rounded-2xl border-2 border-purple-200 space-y-2">
+                <h3 class="font-extrabold text-purple-600 text-lg">Học Kỳ 2</h3>
+                <button onclick="loadExamData('de_thi_hocky2.json', 0)" class="w-full py-2 bg-purple-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 1</button>
+                <button onclick="loadExamData('de_thi_hocky2.json', 1)" class="w-full py-2 bg-purple-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 2</button>
+                <button onclick="loadExamData('de_thi_hocky2.json', 2)" class="w-full py-2 bg-purple-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 3</button>
+            </div>
+            <div class="bg-amber-50 p-5 rounded-2xl border-2 border-amber-200 space-y-2">
+                <h3 class="font-extrabold text-amber-600 text-lg">Học Sinh Giỏi</h3>
+                <button onclick="loadExamData('de_thi_hsg.json', 0)" class="w-full py-2 bg-amber-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 1</button>
+                <button onclick="loadExamData('de_thi_hsg.json', 1)" class="w-full py-2 bg-amber-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 2</button>
+                <button onclick="loadExamData('de_thi_hsg.json', 2)" class="w-full py-2 bg-amber-400 text-white font-bold rounded-xl text-xs pastel-btn">Đề Số 3</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. KẾT QUẢ -->
+    <div id="screen-result" class="w-full max-w-md hidden pastel-card p-8 flex flex-col items-center text-center">
+        <div class="text-6xl mb-4 floating">🏆</div>
+        <h2 class="text-2xl font-extrabold text-pink-600 mb-2">Hoàn Thành Xuất Sắc!</h2>
+        <p class="text-sm text-gray-500 mb-6">Bé đã hoàn thành rất tốt bài học.</p>
+        <div class="flex space-x-3 w-full">
+            <button onclick="goHome()" class="flex-1 py-3 bg-gray-100 text-gray-600 font-bold rounded-xl text-sm pastel-btn">Về Trang Chủ</button>
+        </div>
+    </div>
+
     <script>
         let currentUser = null;
-        let starGreenCount = 0;
-        let starRedCount = 0;
-        let activeTopicId = null;
         let activeQuestionsList = [];
         let currentQIndex = 0;
         let score = 0;
-        let lastLoadedJsonUrl = null;
 
         window.addEventListener('DOMContentLoaded', () => {
-            const savedUser = localStorage.getItem('tv1_current_user');
-            if (savedUser) {
-                currentUser = JSON.parse(savedUser);
-                enterDashboard();
-            }
+            const saved = localStorage.getItem('tv1_user');
+            if(saved) { currentUser = JSON.parse(saved); enterDashboard(); }
         });
 
         function handleLogin() {
-            const userId = document.getElementById('input-userid').value.trim();
+            const id = document.getElementById('input-userid').value.trim();
             const pass = document.getElementById('input-password').value.trim();
-            if(!userId || !pass) {
-                alert('Bé hoặc phụ huynh vui lòng nhập đầy đủ ID đăng nhập và mật khẩu nhé!');
-                return;
-            }
-            currentUser = {
-                id: userId,
-                name: "Phùng Tường Vy",
-                className: "Lớp 1A",
-                isGuest: false
-            };
-            localStorage.setItem('tv1_current_user', JSON.stringify(currentUser));
+            if(!id || !pass) { alert('Vui lòng nhập ID và mật khẩu!'); return; }
+            currentUser = { id, name: "Phùng Tường Vy", isGuest: false };
+            localStorage.setItem('tv1_user', JSON.stringify(currentUser));
             enterDashboard();
         }
 
-        function handleRegister() {
-            alert('Chức năng Đăng ký tài khoản kết nối Google Sheets.');
-        }
-
+        function handleRegister() { alert('Chức năng đang phát triển.'); }
         function handleGuestMode() {
-            currentUser = {
-                name: "Khách (Guest)",
-                isGuest: true
-            };
-            localStorage.setItem('tv1_current_user', JSON.stringify(currentUser));
+            currentUser = { name: "Khách", isGuest: true };
+            localStorage.setItem('tv1_user', JSON.stringify(currentUser));
             enterDashboard();
         }
 
         function enterDashboard() {
             document.getElementById('screen-login').classList.add('hidden');
             document.getElementById('screen-dashboard').classList.remove('hidden');
-            updateUserInfoBox();
-            resetStars();
-        }
-
-        function updateUserInfoBox() {
-            const box = document.getElementById('user-info-box');
-            if(currentUser && !currentUser.isGuest) {
-                box.innerHTML = `<span class="text-pink-600 font-extrabold">${currentUser.name}</span><br><span class="text-gray-500 font-semibold">ID: ${currentUser.id} | ${currentUser.className}</span>`;
-            } else {
-                box.innerHTML = `<span class="text-amber-600 font-extrabold">Khách (Guest)</span><br><span class="text-gray-400 font-semibold">Chưa đăng nhập</span>`;
-            }
-        }
-
-        function resetStars() {
-            starGreenCount = 0;
-            starRedCount = 0;
-            document.getElementById('star-green-count').textContent = starGreenCount;
-            document.getElementById('star-red-count').textContent = starRedCount;
+            document.getElementById('user-info-box').innerHTML = `<span class="text-pink-600 font-extrabold">${currentUser.name}</span>`;
         }
 
         function goHome() {
-            document.getElementById('screen-quiz').classList.add('hidden');
-            document.getElementById('screen-exam-hub').classList.add('hidden');
-            document.getElementById('screen-result').classList.add('hidden');
+            ['screen-quiz', 'screen-exam-hub', 'screen-result'].forEach(s => document.getElementById(s).classList.add('hidden'));
             document.getElementById('screen-dashboard').classList.remove('hidden');
-            document.getElementById('breadcrumb-path').innerHTML = ``;
-        }
-
-        function clickProgressOrExam(type) {
-            if(!currentUser || currentUser.isGuest) {
-                alert('Bé vui lòng đăng nhập để sử dụng tính năng Học tập theo tiến trình và Phòng thi nhé!');
-                return;
-            }
-            if(type === 'progress') {
-                alert(`Chào ${currentUser.name}, đang mở giao diện Học tập theo tiến trình tuần!`);
-            } else if(type === 'exam') {
-                openExamHub();
-            }
         }
 
         function openExamHub() {
-            if(!currentUser || currentUser.isGuest) {
-                alert('Bé vui lòng đăng nhập để truy cập Đấu trường đề thi nhé!');
-                return;
-            }
+            if(!currentUser || currentUser.isGuest) { alert('Vui lòng đăng nhập!'); return; }
             document.getElementById('screen-dashboard').classList.add('hidden');
-            document.getElementById('screen-quiz').classList.add('hidden');
             document.getElementById('screen-exam-hub').classList.remove('hidden');
         }
 
-        // HÀM FETCH ĐỘNG FILE CHỦ ĐỀ TỪ ASSETS/DATA/
+        // HÀM FETCH ĐỘNG FILE JSON TỪ THƯ MỤC assets/data/
         function loadTopicData(topicNum, topicName) {
-            const jsonPath = `assets/data/chude_${topicNum}.json`;
-            lastLoadedJsonUrl = { type: 'topic', topicNum, topicName, jsonPath };
-
-            fetch(jsonPath)
-                .then(response => {
-                    if (!response.ok) throw new Error(`Không thể mở file ${jsonPath}`);
-                    return response.json();
+            const path = `./assets/data/chude_${topicNum}.json`;
+            fetch(path)
+                .then(res => {
+                    if(!res.ok) throw new Error("Không tìm thấy file JSON");
+                    return res.json();
                 })
                 .then(data => {
-                    activeTopicId = topicNum;
-                    // Hỗ trợ linh hoạt cấu trúc file JSON: lấy mảng questions trực tiếp hoặc qua thuộc tính
-                    activeQuestionsList = Array.isArray(data) ? data : (data.questions || data[topicNum]?.questions || []);
-                    
-                    if (activeQuestionsList.length === 0) {
-                        alert('File JSON chưa có dữ liệu câu hỏi!');
-                        return;
-                    }
-
-                    currentQIndex = 0;
-                    score = 0;
-
-                    document.getElementById('breadcrumb-path').innerHTML = `
-                        <span class="text-gray-300">/</span>
-                        <span class="text-purple-600">Chủ đề</span>
-                        <span class="text-gray-300">/</span>
-                        <span class="text-pink-600 font-bold">${data.topic_name || topicName}</span>
-                    `;
-
-                    document.getElementById('screen-dashboard').classList.add('hidden');
-                    document.getElementById('screen-exam-hub').classList.add('hidden');
-                    document.getElementById('screen-quiz').classList.remove('hidden');
-                    document.getElementById('quiz-header-title').textContent = data.topic_name || topicName;
-                    document.getElementById('total-q-idx').textContent = activeQuestionsList.length;
-                    loadQuestion();
+                    activeQuestionsList = data.questions || data;
+                    startQuizProcess(topicName, activeQuestionsList);
                 })
-                .catch(error => {
-                    console.error("Lỗi khi tải file JSON chủ đề:", error);
-                    alert(`Không thể nạp dữ liệu từ đường dẫn: ${jsonPath}\nAnh hãy chắc chắn đang chạy qua Live Server trên VS Code nhé!`);
+                .catch(err => {
+                    console.error(err);
+                    alert(`Không thể đọc file từ thư mục ${path}. Hãy kiểm tra lại cấu trúc GitHub/Netlify!`);
                 });
         }
 
-        // HÀM FETCH ĐỘNG ĐỀ THI TỪ ASSETS/DATA/
         function loadExamData(fileName, examIndex) {
-            const jsonPath = `assets/data/${fileName}`;
-            lastLoadedJsonUrl = { type: 'exam', fileName, examIndex, jsonPath };
-
-            fetch(jsonPath)
-                .then(response => {
-                    if (!response.ok) throw new Error(`Không thể mở file ${jsonPath}`);
-                    return response.json();
+            const path = `./assets/data/${fileName}`;
+            fetch(path)
+                .then(res => {
+                    if(!res.ok) throw new Error("Không tìm thấy file JSON đề thi");
+                    return res.json();
                 })
                 .then(data => {
-                    const examsList = data.exams || data;
-                    const examObj = examsList[examIndex];
-                    activeTopicId = 'exam_' + fileName + '_' + examIndex;
-                    activeQuestionsList = examObj.questions;
-                    currentQIndex = 0;
-                    score = 0;
-
-                    document.getElementById('breadcrumb-path').innerHTML = `
-                        <span class="text-gray-300">/</span>
-                        <span class="text-purple-600">Đấu trường</span>
-                        <span class="text-gray-300">/</span>
-                        <span class="text-amber-600 font-bold">${examObj.exam_name}</span>
-                    `;
-
-                    document.getElementById('screen-exam-hub').classList.add('hidden');
-                    document.getElementById('screen-quiz').classList.remove('hidden');
-                    document.getElementById('quiz-header-title').textContent = examObj.exam_name;
-                    document.getElementById('total-q-idx').textContent = activeQuestionsList.length;
-                    loadQuestion();
+                    const exam = (data.exams || data)[examIndex];
+                    activeQuestionsList = exam.questions;
+                    startQuizProcess(exam.exam_name, activeQuestionsList);
                 })
-                .catch(error => {
-                    console.error("Lỗi khi tải file JSON đề thi:", error);
-                    alert(`Không thể nạp dữ liệu đề thi từ: ${jsonPath}\nVui lòng kiểm tra lại Live Server hoặc tên file trong assets/data/!`);
+                .catch(err => {
+                    console.error(err);
+                    alert(`Không thể đọc file đề thi từ ${path}!`);
                 });
+        }
+
+        function startQuizProcess(title, questions) {
+            currentQIndex = 0;
+            score = 0;
+            document.getElementById('screen-dashboard').classList.add('hidden');
+            document.getElementById('screen-exam-hub').classList.add('hidden');
+            document.getElementById('screen-quiz').classList.remove('hidden');
+            document.getElementById('quiz-header-title').textContent = title;
+            document.getElementById('total-q-idx').textContent = questions.length;
+            loadQuestion();
         }
 
         function loadQuestion() {
             const q = activeQuestionsList[currentQIndex];
             document.getElementById('current-q-idx').textContent = currentQIndex + 1;
-
-            let html = `
-                <div class="text-6xl mb-3 floating">🌸</div>
-                <div class="text-xs font-bold text-purple-500 uppercase tracking-wider mb-1">${q.sub_topic || ''}</div>
-                ${q.passage_title ? `<div class="font-extrabold text-pink-600 text-sm mb-1">${q.passage_title}</div>` : ''}
-                ${q.passage_text ? `<div class="bg-pink-50/70 p-3 rounded-xl text-xs text-gray-700 mb-3 whitespace-pre-line max-w-lg">${q.passage_text}</div>` : ''}
-                <h3 class="text-base md:text-xl font-extrabold text-gray-700 text-center mb-6 max-w-xl">${q.question_text}</h3>
-                <div class="w-full max-w-md grid grid-cols-1 gap-3">
-            `;
-
+            let html = `<h3 class="text-lg font-extrabold text-gray-700 text-center mb-6">${q.question_text}</h3><div class="w-full max-w-md grid grid-cols-1 gap-3">`;
             q.options.forEach((opt, idx) => {
-                html += `
-                    <button onclick="checkAnswer('${opt.replace(/'/g, "\\'")}')" class="option-btn w-full p-4 bg-pink-50/50 hover:bg-pink-100 border-2 border-pink-200 rounded-2xl font-bold text-gray-700 text-left transition-all flex items-center justify-between">
-                        <span><strong class="text-pink-500 mr-2">${String.fromCharCode(65 + idx)}.</strong> ${opt}</span>
-                        <span class="option-icon text-pink-400"></span>
-                    </button>
-                `;
+                html += `<button onclick="checkAnswer('${opt.replace(/'/g, "\\'")}')" class="option-btn w-full p-4 bg-pink-50 hover:bg-pink-100 border-2 border-pink-200 rounded-2xl font-bold text-gray-700 text-left transition-all"><strong>${String.fromCharCode(65 + idx)}.</strong> ${opt}</button>`;
             });
-
             html += `</div>`;
             document.getElementById('question-box').innerHTML = html;
             document.getElementById('btn-next-q').classList.add('hidden');
         }
 
-        function checkAnswer(selectedOpt) {
+        function checkAnswer(opt) {
             const q = activeQuestionsList[currentQIndex];
-            const buttons = document.querySelectorAll('.option-btn');
-
-            buttons.forEach(b => b.disabled = true);
-
-            buttons.forEach(b => {
-                if(b.textContent.includes(selectedOpt)) {
-                    if(selectedOpt === q.answer) {
-                        b.classList.remove('bg-pink-50/50', 'border-pink-200');
-                        b.classList.add('bg-green-100', 'border-green-400', 'text-green-800');
-                        score++;
-                        starGreenCount++;
-                        document.getElementById('star-green-count').textContent = starGreenCount;
-                        playAudio('correct');
-                    } else {
-                        b.classList.remove('bg-pink-50/50', 'border-pink-200');
-                        b.classList.add('bg-red-100', 'border-red-400', 'text-red-800');
-                        starRedCount++;
-                        document.getElementById('star-red-count').textContent = starRedCount;
-                        playAudio('wrong');
-                    }
+            document.querySelectorAll('.option-btn').forEach(b => {
+                b.disabled = true;
+                if(b.textContent.includes(opt)) {
+                    b.classList.add(opt === q.answer ? 'bg-green-100' : 'bg-red-100');
                 }
                 if(b.textContent.includes(q.answer)) {
-                    b.classList.remove('bg-pink-50/50', 'border-pink-200');
-                    b.classList.add('bg-green-100', 'border-green-400', 'text-green-800');
+                    b.classList.add('bg-green-100');
                 }
             });
-
+            if(opt === q.answer) score++;
             document.getElementById('btn-next-q').classList.remove('hidden');
         }
 
         function nextQuestion() {
             currentQIndex++;
-            if(currentQIndex < activeQuestionsList.length) {
-                loadQuestion();
-            } else {
-                showResultScreen();
+            if(currentQIndex < activeQuestionsList.length) loadQuestion();
+            else {
+                document.getElementById('screen-quiz').classList.add('hidden');
+                document.getElementById('screen-result').classList.remove('hidden');
+                confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
             }
         }
 
-        function showResultScreen() {
-            document.getElementById('screen-quiz').classList.add('hidden');
-            document.getElementById('screen-result').classList.remove('hidden');
-
-            const earnedStars = score * 2;
-            document.getElementById('res-correct-txt').textContent = `${score}/${activeQuestionsList.length}`;
-            document.getElementById('res-star-txt').textContent = `+${earnedStars} ⭐`;
-
-            confetti({
-                particleCount: 120,
-                spread: 80,
-                origin: { y: 0.6 }
-            });
-            playAudio('win');
-        }
-
-        function retryQuiz() {
-            document.getElementById('screen-result').classList.add('hidden');
-            if(lastLoadedJsonUrl) {
-                if(lastLoadedJsonUrl.type === 'topic') {
-                    loadTopicData(lastLoadedJsonUrl.topicNum, lastLoadedJsonUrl.topicName);
-                } else if(lastLoadedJsonUrl.type === 'exam') {
-                    loadExamData(lastLoadedJsonUrl.fileName, lastLoadedJsonUrl.examIndex);
-                }
-            }
-        }
-
-        // --- WEB SPEECH API & AUDIO ---
         function speakCurrentQuestion() {
             if('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
                 const q = activeQuestionsList[currentQIndex];
-                const utterance = new SpeechSynthesisUtterance(q.audio_text || q.question_text);
-                utterance.lang = 'vi-VN';
-                utterance.rate = 0.95;
-                utterance.pitch = 1.1;
-
-                const voices = window.speechSynthesis.getVoices();
-                const viVoice = voices.find(v => v.lang.includes('vi') || v.lang.includes('VN'));
-                if(viVoice) utterance.voice = viVoice;
-
-                window.speechSynthesis.speak(utterance);
-            } else {
-                alert('Trình duyệt không hỗ trợ phát âm thanh Web Speech API!');
-            }
-        }
-
-        function playAudio(type) {
-            try {
-                const ctx = new (window.AudioContext || window.webkitAudioContext)();
-                const osc = ctx.createOscillator();
-                const gain = ctx.createGain();
-                osc.connect(gain);
-                gain.connect(ctx.destination);
-
-                if(type === 'correct') {
-                    osc.type = 'sine';
-                    osc.frequency.setValueAtTime(587.33, ctx.currentTime);
-                    osc.frequency.exponentialRampToValueAtTime(880, ctx.currentTime + 0.2);
-                    gain.gain.setValueAtTime(0.2, ctx.currentTime);
-                    gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.3);
-                    osc.start();
-                    osc.stop(ctx.currentTime + 0.3);
-                } else if(type === 'wrong') {
-                    osc.type = 'triangle';
-                    osc.frequency.setValueAtTime(200, ctx.currentTime);
-                    osc.frequency.linearRampToValueAtTime(130, ctx.currentTime + 0.2);
-                    gain.gain.setValueAtTime(0.2, ctx.currentTime);
-                    gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.25);
-                    osc.start();
-                    osc.stop(ctx.currentTime + 0.25);
-                } else if(type === 'win') {
-                    const notes = [523.25, 659.25, 783.99, 1046.50];
-                    notes.forEach((freq, i) => {
-                        setTimeout(() => {
-                            const o = ctx.createOscillator();
-                            const g = ctx.createGain();
-                            o.connect(g);
-                            g.connect(ctx.destination);
-                            o.frequency.value = freq;
-                            g.gain.setValueAtTime(0.2, ctx.currentTime);
-                            g.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.3);
-                            o.start();
-                            o.stop(ctx.currentTime + 0.3);
-                        }, i * 150);
-                    });
-                }
-            } catch(e) {
-                console.log("AudioContext blocked or unsupported", e);
+                const utter = new SpeechSynthesisUtterance(q.audio_text || q.question_text);
+                utter.lang = 'vi-VN';
+                window.speechSynthesis.speak(utter);
             }
         }
     </script>
