@@ -1,459 +1,149 @@
 {
   "topic_id": 5,
   "topic_name": "BÁC SĨ BẮT BỆNH CHÍNH TẢ",
-  "description": "Rèn luyện đôi mắt tinh anh phát hiện các lỗi sai chính tả phụ âm, vần và bẫy quên viết hoa tên riêng.",
-  "lecture_title": "BÀI GIẢNG: BÁC SĨ BẮT BỆNH CHÍNH TẢ 🩺",
-  "lecture_content": "Chào mừng các bác sĩ nhí đến với phòng khám chính tả! Nhiệm vụ của các con là bắt bệnh và chữa trị cho các từ, các câu văn đang bị ốm vì viết sai chính tả đấy. Hãy chú ý đặc biệt các lỗi viết hoa: đầu câu luôn viết hoa, tên riêng của người (như Nga, Nam, Sơn...) và tên địa danh (như Hà Nội, Sông Hồng...) bắt buộc phải viết hoa chữ cái đầu tiên nhé!",
-  "lecture_audio_text": "Chào mừng các bác sĩ nhí đến với bài học Bác sĩ bắt bệnh chính tả. Chúng ta cùng rèn luyện khả năng phát hiện lỗi viết sai và viết hoa tên riêng nhé!",
+  "description": "Bé đóng vai bác sĩ nhí, đi khám và bắt mạch tìm ra các từ viết sai chính tả, sửa quy tắc viết hoa.",
+  "lecture_title": "Bài Giảng: Khám Phá Và Sửa Lỗi Chính Tả",
+  "lecture_content": "Chào mừng bác sĩ nhí thông thái đến với phòng khám chính tả của Thỏ Hồng! Hôm nay bé sẽ đảm nhận một nhiệm vụ cực kì cao cả: tìm kiếm và chữa trị cho những từ ngữ bị viết 'bệnh' (sai chính tả). Chúng mình cần chú ý 2 loại bệnh chính: (1) Bệnh viết sai chữ cái, âm đầu hoặc dấu thanh (như 'bút trị' là viết sai, phải sửa thành 'bút chì'), và (2) Bệnh viết thường tùy tiện, quên viết hoa tên riêng danh lam thắng cảnh (như 'hồ gươm' phải viết hoa thành 'Hồ Gươm'). Bé hãy thật tinh mắt nhé!",
+  "lecture_audio_text": "Chào mừng bác sĩ nhí đến với bài học Bác sĩ bắt bệnh chính tả. Hãy cùng Cô Giáo Thỏ Hồng khám và điều trị dứt điểm cho các từ viết sai chính tả nhé!",
   "questions": [
     {
       "question_id": 501,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'ngón tai' viết sai chính tả bộ phận nào của bé? Bé hãy sửa lại cho đúng?",
+      "sub_topic": "Sửa lỗi từ viết sai",
+      "question_text": "Trong câu 'Bé dùng bút trị viết bài', tiếng nào đã bị viết SAI chính tả?",
       "options": [
-        "ngón tay",
-        "ngón tai",
-        "ngón tei",
-        "ngón tăy"
+        "bé",
+        "dùng",
+        "bút trị",
+        "viết bài"
       ],
-      "answer": "ngón tay",
-      "hint": "Bộ phận trên cơ thể bé là 'ngón tay' (vần ay) chứ không phải 'ngón tai'.",
+      "answer": "bút trị",
+      "hint": "Từ viết đúng phải là 'bút chì' (chứ không viết là 'bút trị' nha bác sĩ ơi!).",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 502,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'ngĩa vụ' viết sai chữ nào? Bé hãy sửa lại?",
+      "sub_topic": "Quy tắc viết hoa danh từ",
+      "question_text": "Bác sĩ hãy tìm cách sửa đúng nhất cho tên danh lam thắng cảnh viết sai sau: 'hồ gươm'?",
       "options": [
-        "nghĩa vụ",
-        "ngĩa vụ",
-        "ngía vụ",
-        "nghỉa vụ"
+        "hồ Gươm",
+        "Hồ gươm",
+        "Hồ Gươm",
+        "hồ gươm"
       ],
-      "answer": "nghĩa vụ",
-      "hint": "Đứng trước chữ 'i' của từ 'nghĩa vụ' bắt buộc âm 'ngờ' phải viết là 'ngh' kép.",
+      "answer": "Hồ Gươm",
+      "hint": "Vì đây là tên riêng của địa danh lịch sử nổi tiếng ở Hà Nội, ta bắt buộc phải viết hoa cả hai chữ cái đầu: 'Hồ Gươm' nhé!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 503,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'suy nghĩ' viết bằng chữ 'ng' đơn hay 'ngh' kép?",
+      "sub_topic": "Quy tắc viết hoa danh từ",
+      "question_text": "Bé sinh sống và học tập ở thủ đô 'hà nội'. Bác sĩ hãy tìm cách viết hoa đúng nhất cho tên thủ đô của chúng mình?",
       "options": [
-        "suy nghĩ",
-        "suy ngĩ",
-        "suy nghí",
-        "suy ngí"
+        "Hà nội",
+        "hà Nội",
+        "Hà Nội",
+        "hà nội"
       ],
-      "answer": "suy nghĩ",
-      "hint": "Đúng chuẩn chính tả là 'suy nghĩ' viết bằng 'ngh' kép.",
+      "answer": "Hà Nội",
+      "hint": "Chúng mình bắt buộc phải viết hoa chữ cái đầu của cả hai tiếng tạo thành địa danh: 'Hà Nội' xinh tươi!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 504,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'Trung Cuốc' viết sai ở tiếng nào? Bé sửa lại cho đúng?",
+      "sub_topic": "Sửa lỗi từ viết sai",
+      "question_text": "Chú trâu đen đang gặm cỏ trên sườn đồi. Từ nào dưới đây đã bị viết SAI chính tả?",
       "options": [
-        "Trung Quốc",
-        "Trung Cuốc",
-        "Trung Quuốc",
-        "Chung Quốc"
+        "con trâu",
+        "con châu",
+        "con nghé",
+        "con bò"
       ],
-      "answer": "Trung Quốc",
-      "hint": "Tên đất nước viết đúng là 'Trung Quốc' với phụ âm 'Q' đi kèm âm đệm 'u'.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "con châu",
+      "hint": "Từ viết sai là 'con châu' (tiếng trâu bắt đầu bằng âm 'tr' cuộn lưỡi chứ không viết là 'ch' nha bé!).",
+      "image_url": "assets/images/con_trau.png"
     },
     {
       "question_id": 505,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'khuyên' viết bằng vần 'uyên' hay 'uyên' có dấu? Có từ viết sai là 'nghuyen' hay 'khuyên'?",
+      "sub_topic": "Sửa lỗi từ viết sai",
+      "question_text": "Trong các phương án dưới đây, từ nào đã bị viết SAI chính tả về nguyên âm đôi?",
       "options": [
-        "khuyên",
-        "nghuyên",
-        "thuyền",
-        "thuiết"
+        "mùa xuân",
+        "sản xuất",
+        "sản sất",
+        "kỷ luật"
       ],
-      "answer": "khuyên",
-      "hint": "Từ 'khuyên' viết đúng, còn 'nghuyên' là viết sai (phải viết là nguyên).",
+      "answer": "sản sất",
+      "hint": "Từ viết đúng phải là 'sản xuất' (vần 'uât'), viết là 'sản sất' là bị bệnh sai chính tả mất rồi!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 506,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'thuiết' viết sai vần gì? Bé hãy sửa lại cho đúng?",
+      "sub_topic": "Quy tắc viết hoa danh từ",
+      "question_text": "Tên của bạn công chúa nhỏ đáng yêu nhà mình là 'bé vy'. Từ nào viết thường bị SAI quy tắc viết tên riêng?",
       "options": [
-        "thuyết",
-        "thuiết",
-        "thuyêt",
-        "thuyet"
+        "bé",
+        "vy",
+        "cả hai từ",
+        "không có từ nào"
       ],
-      "answer": "thuyết",
-      "hint": "Từ viết đúng là 'thuyết' (như thuyết trình, thuyết minh) với vần 'uyêt'.",
+      "answer": "vy",
+      "hint": "Tên riêng của con người bắt buộc phải viết hoa chữ cái đầu: 'Vy' (Bé Vy) đấy bác sĩ nhí ơi!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 507,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Bé hãy tìm từ viết SAI chính tả trong các từ dưới đây?",
+      "sub_topic": "Sửa lỗi từ viết sai",
+      "question_text": "Bà ngồi bên thềm nhà kể chuyện ngày xưa cho bé nghe. Từ nào dưới đây viết SAI chính tả?",
       "options": [
-        "loành quanh",
-        "loanh quanh",
-        "luẩn quẩn",
-        "lẩn quẩn"
+        "kể chuyện",
+        "kể truyện",
+        "câu chuyện",
+        "quyển truyện"
       ],
-      "answer": "loành quanh",
-      "hint": "Từ viết sai là 'loành quanh' (phải viết là loanh quanh).",
+      "answer": "kể truyện",
+      "hint": "Khi có hoạt động phát ra hành động nói 'kể', ta viết là 'kể chuyện' (âm ch). Còn cuốn sách đọc ta mới viết là 'quyển truyện' (âm tr) nhé!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 508,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'bác sỹ' viết sai chuẩn của bộ giáo dục. Bé hãy sửa lại?",
+      "sub_topic": "Sửa lỗi từ viết sai",
+      "question_text": "Bác sĩ hãy bắt bệnh xem từ nào viết SAI chính tả trong các từ chỉ loại quả dưới đây?",
       "options": [
-        "bác sĩ",
-        "bác sỹ",
-        "bác sỉ",
-        "bác hĩ"
+        "quả chanh",
+        "quả tranh",
+        "quả khế",
+        "quả mít"
       ],
-      "answer": "bác sĩ",
-      "hint": "Sách giáo khoa tiểu học hiện hành quy định viết 'bác sĩ' bằng 'i' ngắn.",
+      "answer": "quả tranh",
+      "hint": "Từ viết sai là 'quả tranh' (viết đúng phải là 'quả chanh' có vị chua chua mát mát nha!).",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 509,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'hươu sao' viết sai là 'hêu sao' hay 'hiêu sao'? Từ nào viết đúng?",
+      "sub_topic": "Sửa lỗi từ viết sai",
+      "question_text": "Bạn Huy quyết tâm học tập thật giỏi. Từ nào viết SAI chính tả về phụ âm đứng trước nguyên âm đôi 'uyê'?",
       "options": [
-        "hươu sao",
-        "hêu sao",
-        "hiêu sao",
-        "hưu sao"
+        "quyết tâm",
+        "cuyết tâm",
+        "quyết chí",
+        "kiên quyết"
       ],
-      "answer": "hươu sao",
-      "hint": "Loài động vật có đốm xinh xắn trên lưng là 'hươu sao' (vần ươu).",
+      "answer": "cuyết tâm",
+      "hint": "Âm đầu đứng trước vần có âm đệm viết bằng u phải là âm 'q', tạo thành chữ 'qu', viết 'cuyết' là sai luật chính tả.",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 510,
-      "sub_topic": "Sửa lỗi sai phụ âm và vần",
-      "week": 5,
-      "question_text": "Từ 'bệnh viện' viết sai thành 'bệnh ziện' là sai chữ nào?",
+      "sub_topic": "Sửa lỗi từ viết sai",
+      "question_text": "Chúng mình cùng yêu quê hương đất nước Việt Nam. Từ nào viết SAI chính tả về âm cuối?",
       "options": [
-        "bệnh viện",
-        "bệnh ziện",
-        "bệnh diện",
-        "bệnh dện"
+        "đất nước",
+        "đấc nước",
+        "nước nhà",
+        "đất đai"
       ],
-      "answer": "bệnh viện",
-      "hint": "Từ đúng là 'bệnh viện' bắt đầu bằng âm 'v'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 511,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Câu 'bé nga sang nhà bà chơi.' viết sai luật viết hoa nào?",
-      "options": [
-        "Bé Nga sang nhà bà chơi.",
-        "bé nga sang nhà bà chơi.",
-        "Bé nga sang nhà bà chơi.",
-        "bé Nga sang nhà bà chơi."
-      ],
-      "answer": "Bé Nga sang nhà bà chơi.",
-      "hint": "Bắt buộc viết hoa đầu câu 'Bé' và tên riêng của em bé là 'Nga'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 512,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Câu 'bố em đi công tác ở thủ đô hà nội.' viết lại thế nào cho đúng?",
-      "options": [
-        "Bố em đi công tác ở thủ đô Hà Nội.",
-        "bố em đi công tác ở thủ đô Hà Nội.",
-        "Bố em đi công tác ở thủ đô hà nội.",
-        "Bố em đi công tác ở Thủ Đô Hà Nội."
-      ],
-      "answer": "Bố em đi công tác ở thủ đô Hà Nội.",
-      "hint": "Viết hoa chữ cái đầu câu 'Bố' và danh từ riêng chỉ địa danh 'Hà Nội'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 513,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Tên riêng của trường tiểu học viết thế nào cho đúng?",
-      "options": [
-        "trường tiểu học thanh mai",
-        "Trường Tiểu học Thanh Mai",
-        "Trường tiểu học thanh mai",
-        "trường Tiểu học Thanh Mai"
-      ],
-      "answer": "Trường Tiểu học Thanh Mai",
-      "hint": "Bản gốc đề thi HSG ghi: 'Trường Tiểu học Thanh Mai' phải viết hoa tên riêng Thanh Mai và chữ đầu.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 514,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Bé hãy viết hoa tên riêng của vị hiệu trưởng trường:",
-      "options": [
-        "thầy nguyễn nam sơn",
-        "Thầy Nguyễn Nam Sơn",
-        "thầy Nguyễn Nam Sơn",
-        "Thầy nguyễn nam sơn"
-      ],
-      "answer": "Thầy Nguyễn Nam Sơn",
-      "hint": "Tên người 'Nguyễn Nam Sơn' bắt buộc phải viết hoa tất cả chữ cái đầu của từng tiếng.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 515,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Bé hãy chọn câu viết đúng luật viết hoa tên sông danh tiếng ở Hà Nội?",
-      "options": [
-        "sông hồng cuộn đỏ phù sa.",
-        "Sông Hồng cuộn đỏ phù sa.",
-        "sông Hồng cuộn đỏ phù sa.",
-        "Sông hồng cuộn đỏ phù sa."
-      ],
-      "answer": "Sông Hồng cuộn đỏ phù sa.",
-      "hint": "Viết hoa đầu câu và danh từ riêng chỉ tên sông 'Sông Hồng'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 516,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Câu nào viết đúng tên một thành phố biển miền Trung?",
-      "options": [
-        "Em được đi du lịch ở Nha Trang.",
-        "Em được đi du lịch ở nha trang.",
-        "em được đi du lịch ở Nha Trang.",
-        "Em được đi du lịch ở Nha trang."
-      ],
-      "answer": "Em được đi du lịch ở Nha Trang.",
-      "hint": "Tên địa danh riêng 'Nha Trang' phải viết hoa cả hai chữ cái đầu.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 517,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Bé hãy chỉ ra câu viết SAI quy tắc viết hoa danh từ riêng?",
-      "options": [
-        "Bé hoa ngoan ngoãn giúp mẹ.",
-        "Bé Hoa ngoan ngoãn giúp mẹ.",
-        "Hôm nay, bạn Nam đi học sớm.",
-        "Nhà bé ở thành phố Đà Nẵng."
-      ],
-      "answer": "Bé hoa ngoan ngoãn giúp mẹ.",
-      "hint": "Câu viết sai là 'Bé hoa ngoan ngoãn giúp mẹ' vì tên riêng 'Hoa' viết bằng chữ thường 'hoa'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 518,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Tên đất nước của chúng ta viết hoa thế nào?",
-      "options": [
-        "Việt Nam",
-        "việt nam",
-        "Việt nam",
-        "việt Nam"
-      ],
-      "answer": "Việt Nam",
-      "hint": "Tên quốc gia Việt Nam yêu dấu phải viết hoa cả hai chữ cái đầu bé nhé!",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 519,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Câu nào viết đúng quy tắc viết hoa tên của bé?",
-      "options": [
-        "Tên em là Lê Minh Anh.",
-        "Tên em là lê minh anh.",
-        "tên em là Lê Minh Anh.",
-        "Tên em là Lê minh anh."
-      ],
-      "answer": "Tên em là Lê Minh Anh.",
-      "hint": "Viết hoa chữ đầu câu 'Tên' và tên riêng 'Lê Minh Anh'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 520,
-      "sub_topic": "Sửa lỗi viết hoa danh từ riêng",
-      "week": 5,
-      "question_text": "Câu nào dưới đây viết đúng quy tắc đầu câu viết hoa và cuối câu có dấu chấm?",
-      "options": [
-        "Bé thích đọc sách.",
-        "bé thích đọc sách",
-        "Bé thích đọc sách",
-        "bé thích đọc sách."
-      ],
-      "answer": "Bé thích đọc sách.",
-      "hint": "Câu đúng phải viết hoa chữ đầu câu 'Bé' và có dấu chấm kết thúc câu.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 521,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Trong câu thơ 'Bên thềm gió mát / Bé nặn đồ chơi / Mèo nằm vẫy đuôi / Tròn xoe đôi mắt', nếu viết 'Bên thềm gió mát' thành 'Bên thềm gió mác' thì tiếng nào viết sai?",
-      "options": [
-        "mác",
-        "thềm",
-        "gió",
-        "bên"
-      ],
-      "answer": "mác",
-      "hint": "Từ đúng là 'mát' (gió mát - vần at) chứ không phải 'mác' (vần ac).",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 522,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Trong câu thơ 'Đây là quả thị / Đây là quả na', tiếng 'quả' viết thành 'của' có đúng không?",
-      "options": [
-        "Không đúng, phải viết là 'quả'",
-        "Đúng rồi",
-        "Viết thế nào cũng được",
-        "Cả hai đều sai"
-      ],
-      "answer": "Không đúng, phải viết là 'quả'",
-      "hint": "Tiếng đúng phải là 'quả thị', 'quả na' viết bằng chữ 'q' đứng đầu.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 523,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Trong câu 'Con trâu có hai sừng', nếu viết sai thành 'Con trâu có hai xừng' thì lỗi sai nằm ở đâu?",
-      "options": [
-        "xừng",
-        "trâu",
-        "hai",
-        "con"
-      ],
-      "answer": "xừng",
-      "hint": "Tiếng 'sừng' (sừng trâu) bắt buộc phải viết bằng âm 's'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 524,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Trong câu 'Con cua bò ngang', viết thành 'Con chua bò ngang' thì tiếng nào sai?",
-      "options": [
-        "chua",
-        "con",
-        "bò",
-        "ngang"
-      ],
-      "answer": "chua",
-      "hint": "Từ đúng chỉ loài vật bò ngang là 'con cua' viết bằng chữ 'c'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 525,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Câu 'Bé tăm chỉ học bài' viết sai từ chỉ đức tính gì?",
-      "options": [
-        "tăm chỉ",
-        "học bài",
-        "bé",
-        "học"
-      ],
-      "answer": "tăm chỉ",
-      "hint": "Từ đúng chỉ tính cách siêng năng của bé là 'chăm chỉ'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 526,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Tìm lỗi viết sai vần trong câu 'Bông hoa hồng nở đỏ rực' viết thành 'Bông hoa hồng nở đỏ rựt'?",
-      "options": [
-        "rựt",
-        "đỏ",
-        "hồng",
-        "nở"
-      ],
-      "answer": "rựt",
-      "hint": "Từ đúng là 'đỏ rực' (vần ực) chứ không phải 'đỏ rựt'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 527,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Câu thơ 'Quả này phần mẹ / Quả này tặng cha', nếu viết sai thành 'Quả này phần mẻ / Quả này tặng cha' thì tiếng nào sai?",
-      "options": [
-        "mẻ",
-        "này",
-        "quả",
-        "tặng"
-      ],
-      "answer": "mẻ",
-      "hint": "Từ đúng là 'phần mẹ' (thanh nặng) chứ không phải 'phần mẻ' (thanh hỏi).",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 528,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Từ 'trống choai' viết thành 'trống xoai' là sai chữ nào?",
-      "options": [
-        "xoai",
-        "trống",
-        "choai",
-        "trống choai"
-      ],
-      "answer": "xoai",
-      "hint": "Từ đúng là 'trống choai' (gà trống choai) có vần 'oai' đi với âm 'ch'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 529,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Câu 'Chú chuồn chuồn nước có bốn cái cánh mỏng manh', nếu viết 'mỏng manh' thành 'mỏng măng' thì lỗi sai nằm ở đâu?",
-      "options": [
-        "măng",
-        "mỏng",
-        "cánh",
-        "chuồn"
-      ],
-      "answer": "măng",
-      "hint": "Từ đúng là 'mỏng manh' (vần anh) tả cánh chuồn chuồn siêu mỏng.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 530,
-      "sub_topic": "Thử thách sửa lỗi trong câu thơ/câu văn ngắn",
-      "week": 5,
-      "question_text": "Từ 'lượm lúa' viết sai thành 'lượm lứa' là sai thanh điệu nào?",
-      "options": [
-        "lứa",
-        "lượm",
-        "lúa",
-        "lượm lứa"
-      ],
-      "answer": "lứa",
-      "hint": "Từ đúng là 'lượm lúa' (tiếng lúa mang thanh sắc), tiếng lứa viết sai ý nghĩa.",
+      "answer": "đấc nước",
+      "hint": "Tiếng 'đất' có âm cuối là 't' (đờ - â - tờ - đât - sắc - đất), viết là 'đấc' (âm cuối c) là sai hoàn toàn.",
       "image_url": "assets/images/tho_hong.png"
     }
   ]

@@ -1,0 +1,1676 @@
+{
+  "topics": [
+    {
+      "topic_id": 1,
+      "topic_name": "BẢNG CHỮ CÁI NGỘ NGHĨNH",
+      "description": "Bé nhận diện mặt chữ cái, nguyên âm, phụ âm và tham gia trò chơi nghe đoán âm chuẩn xác.",
+      "lecture_title": "Bài Giảng: Chữ Cái Và Nguyên Âm, Phụ Âm",
+      "lecture_content": "Chào mừng bé yêu đến với thế giới Tiếng Việt kì diệu! Hôm nay Cô Giáo Thỏ Hồng sẽ dạy bé làm quen với Bảng chữ cái tiếng Việt nhé. Chúng mình có 12 nguyên âm đơn tròn xoe như quả trứng gà (a, ă, â, o, ô, ơ, e, ê, i, u, ư, y). Bên cạnh đó, chúng mình còn có các phụ âm đơn cứng cáp đứng đầu như (b, c, d, đ, g, h...) và các phụ âm ghép đôi đáng yêu (ch, tr, kh, nh, th...). Bé hãy lắng nghe thật kỹ cách phát âm và cùng Thỏ Hồng chinh phục các trò chơi lôi cuốn nhé!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài học Bảng chữ cái ngộ nghĩnh. Chúng mình cùng làm quen với các chữ cái tiếng Việt và học nguyên âm, phụ âm cùng Cô giáo Thỏ Hồng nhé!",
+      "questions": [
+        {
+          "question_id": 101,
+          "sub_topic": "Làm quen 12 Nguyên âm đơn",
+          "question_text": "Bé hãy tìm chữ cái tương ứng với hình quả táo (quả táo bắt đầu bằng âm 'a')?",
+          "options": [
+            "ă",
+            "â",
+            "a",
+            "o"
+          ],
+          "answer": "a",
+          "hint": "Quả táo có chữ 'a' đứng đầu đấy bé ơi! Chữ 'a' có nét cong tròn và nét móc thẳng bên phải nhé.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 102,
+          "sub_topic": "Khám phá 17 Phụ âm đơn",
+          "question_text": "Bé hãy tìm chữ cái d (dờ) trong các phương án dưới đây. Bé chú ý nhìn kỹ chiều của cái bụng nhé!",
+          "options": [
+            "b",
+            "d",
+            "đ",
+            "q"
+          ],
+          "answer": "d",
+          "hint": "Chữ 'd' (dờ) có cái bụng quay sang bên trái, còn chữ 'b' (bờ) bụng quay sang bên phải nha bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 103,
+          "sub_topic": "Chinh phục 11 Phụ âm ghép",
+          "question_text": "Từ 'con chó' bắt đầu bằng âm ghép nào dưới đây nhỉ?",
+          "options": [
+            "tr",
+            "kh",
+            "nh",
+            "ch"
+          ],
+          "answer": "ch",
+          "hint": "Âm 'ch' (chờ) được ghép từ hai chữ cái là chữ 'c' đứng trước và chữ 'h' đứng sau. Bé đừng nhầm với 'tr' nha!",
+          "image_url": "assets/images/con_cho.png"
+        },
+        {
+          "question_id": 104,
+          "sub_topic": "🎧 Trò chơi nghe và đoán chữ cái",
+          "question_text": "Bé hãy lắng nghe âm thanh và chọn đúng chữ cái vừa được phát âm (Âm phát ra: 'bờ')!",
+          "options": [
+            "d",
+            "đ",
+            "b",
+            "p"
+          ],
+          "answer": "b",
+          "hint": "Âm 'bờ' tương ứng với chữ cái 'b' bụng tròn quay sang bên phải đấy bé ơi!",
+          "audio_text": "bờ",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 105,
+          "sub_topic": "🎧 Trò chơi nghe và đoán chữ cái",
+          "question_text": "Bé hãy lắng nghe âm thanh và chọn đúng chữ cái ghép vừa được phát âm (Âm phát ra: 'ngờ')!",
+          "options": [
+            "ng",
+            "ngh",
+            "nh",
+            "g"
+          ],
+          "answer": "ng",
+          "hint": "Âm 'ngờ' đơn tương ứng với chữ 'ng' (gồm chữ n và g ghép lại). Chữ 'ngh' là âm ngờ kép bé nhé!",
+          "audio_text": "ngờ",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 106,
+          "sub_topic": "Làm quen 12 Nguyên âm đơn",
+          "question_text": "Trong tiếng 'đi học', chữ cái nào đứng đầu tiên ở tiếng 'đi'?",
+          "options": [
+            "d",
+            "đ",
+            "h",
+            "c"
+          ],
+          "answer": "đ",
+          "hint": "Tiếng 'đi' bắt đầu bằng phụ âm 'đ' (đờ) có nét gạch ngang ở trên đầu nét thẳng bé nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 107,
+          "sub_topic": "Làm quen 12 Nguyên âm đơn",
+          "question_text": "Bé hãy tìm chữ cái tròn xoe như quả trứng gà, xuất hiện trong từ 'quả bóng'?",
+          "options": [
+            "o",
+            "ô",
+            "ơ",
+            "u"
+          ],
+          "answer": "o",
+          "hint": "Chữ 'o' tròn xoe như quả trứng gà, thêm mũ thành chữ 'ô', thêm râu thành chữ 'ơ' đấy bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 108,
+          "sub_topic": "Chinh phục 11 Phụ âm ghép",
+          "question_text": "Từ 'khăn ấm' bắt đầu bằng âm ghép nào dưới đây?",
+          "options": [
+            "kh",
+            "th",
+            "ph",
+            "nh"
+          ],
+          "answer": "kh",
+          "hint": "Tiếng 'khăn' bắt đầu bằng phụ âm ghép 'kh' (khờ), gồm chữ 'k' đứng trước và 'h' đứng sau.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 109,
+          "sub_topic": "Khám phá 17 Phụ âm đơn",
+          "question_text": "Luật chính tả quy định âm 'gờ kép' viết là 'gh' khi đứng trước những chữ cái nào?",
+          "options": [
+            "e, ê, i",
+            "a, o, u",
+            "ơ, ư, â",
+            "ă, â, y"
+          ],
+          "answer": "e, ê, i",
+          "hint": "Chữ 'gh' (gờ kép) chỉ chơi với các nguyên âm 'e', 'ê', 'i' thôi nha bé yêu!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 110,
+          "sub_topic": "Làm quen 12 Nguyên âm đơn",
+          "question_text": "Bé hãy tìm nguyên âm đứng cuối cùng trong tiếng 'chim ri'?",
+          "options": [
+            "i",
+            "e",
+            "u",
+            "a"
+          ],
+          "answer": "i",
+          "hint": "Tiếng 'ri' có phụ âm đầu là 'r' và nguyên âm đứng sau là 'i' ngắn bé nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "NĂM THANH ĐIỆU KÌ DIỆU",
+      "description": "Bé tập nhận diện năm dấu thanh: sắc, huyền, hỏi, ngã, nặng để đánh vần đúng âm điệu tiếng Việt.",
+      "lecture_title": "Bài Giảng: Năm Thanh Điệu Kì Diệu",
+      "lecture_content": "Bé yêu ơi! Tiếng Việt của chúng mình hay như một bản nhạc nhờ có 5 dấu thanh đấy! Bé hãy ghi nhớ bài thơ này cùng Thỏ Hồng nhé: 'Thanh ngang không dấu đi chơi / Dấu sắc lên dốc, dấu huyền xuôi xuôi / Dấu hỏi cúi gập xuống rồi / Dấu ngã gợn sóng, dấu nặng rơi rụng'. Khi thêm dấu thanh vào một chữ cái, ta sẽ được các tiếng mang ý nghĩa hoàn toàn khác nhau. Chúng mình cùng tập nhận diện các dấu thanh để phát âm thật chuẩn nha!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài giảng Năm thanh điệu kì diệu. Cùng Cô Giáo Thỏ Hồng học cách nhận diện các dấu thanh: sắc, huyền, hỏi, ngã, nặng để đánh vần thật hay nhé!",
+      "questions": [
+        {
+          "question_id": 201,
+          "sub_topic": "Nhận diện Thanh sắc và Thanh huyền",
+          "question_text": "Khi thêm dấu thanh vào chữ 'ca' để được tiếng chỉ con vật biết bay, có chân dài lội ruộng kiếm ăn, bé chọn dấu nào?",
+          "options": [
+            "dấu sắc",
+            "dấu huyền",
+            "dấu hỏi",
+            "dấu nặng"
+          ],
+          "answer": "dấu huyền",
+          "hint": "Chữ 'ca' thêm dấu huyền thành tiếng 'cà', thêm dấu sắc thành 'cá', thêm thanh nặng thành 'cạ', và nếu thêm dấu huyền ta được tiếng 'cò' (con cò) đó bé!",
+          "image_url": "assets/images/con_vit.png"
+        },
+        {
+          "question_id": 202,
+          "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+          "question_text": "Mẹ mua cho bé một cốc 'sữa' ấm. Từ 'sữa' có chứa thanh điệu nào dưới đây?",
+          "options": [
+            "thanh sắc",
+            "thanh hỏi",
+            "thanh ngã",
+            "thanh nặng"
+          ],
+          "answer": "thanh ngã",
+          "hint": "Từ 'sữa' (trong sữa mẹ, sữa bò) được viết bằng thanh ngã (~). Nếu dùng thanh hỏi ta được từ 'sửa' (trong sửa xe) là sai nghĩa đấy bé!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 203,
+          "sub_topic": "Ôn tập phản xạ nhanh dấu thanh",
+          "question_text": "Từ 'mẹ' có chứa thanh điệu nào nằm dưới chữ 'e'?",
+          "options": [
+            "thanh huyền",
+            "thanh hỏi",
+            "thanh ngã",
+            "thanh nặng"
+          ],
+          "answer": "thanh nặng",
+          "hint": "Thanh nặng (.) nằm ở phía dưới chữ cái nguyên âm 'e' tạo thành tiếng 'mẹ' kính yêu!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 204,
+          "sub_topic": "Nhận diện Thanh sắc và Thanh huyền",
+          "question_text": "Trong tiếng 'cá chép', cả hai tiếng 'cá' và 'chép' đều có chung dấu thanh nào?",
+          "options": [
+            "dấu sắc",
+            "dấu huyền",
+            "dấu hỏi",
+            "dấu nặng"
+          ],
+          "answer": "dấu sắc",
+          "hint": "Tiếng 'cá' có dấu sắc trên chữ a, tiếng 'chép' có dấu sắc trên chữ e. Cả hai đều dùng dấu sắc (/) nhé bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 205,
+          "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+          "question_text": "Tiếng 'hổ' (trong từ hổ vằn - chúa sơn lâm) có chứa dấu thanh nào dưới đây?",
+          "options": [
+            "dấu hỏi",
+            "dấu ngã",
+            "dấu sắc",
+            "dấu huyền"
+          ],
+          "answer": "dấu hỏi",
+          "hint": "Tiếng 'hổ' có dấu hỏi (?) đặt trên đầu nguyên âm 'ô' đấy bé yêu ơi!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 206,
+          "sub_topic": "Ôn tập phản xạ nhanh dấu thanh",
+          "question_text": "Từ nào dưới đây KHÔNG có chứa dấu thanh (gọi là thanh ngang)?",
+          "options": [
+            "mẹ",
+            "ba",
+            "bố",
+            "bà"
+          ],
+          "answer": "ba",
+          "hint": "Từ 'ba' (trong từ ba mẹ) không viết kèm bất kỳ dấu thanh nào, ta phát âm bình thản, nhẹ nhàng.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 207,
+          "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+          "question_text": "Chú thỏ trắng có đôi tai dài rất ngoan. Tiếng 'thỏ' có dấu thanh nào?",
+          "options": [
+            "dấu hỏi",
+            "dấu ngã",
+            "dấu huyền",
+            "dấu nặng"
+          ],
+          "answer": "dấu hỏi",
+          "hint": "Tiếng 'thỏ' được viết bằng phụ âm 'th', nguyên âm 'o' và thêm dấu hỏi (?) nằm trên đầu chữ o nhé.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 208,
+          "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+          "question_text": "Bé đi học đội chiếc 'mũ' tròn để che nắng. Tiếng 'mũ' chứa dấu thanh gì?",
+          "options": [
+            "dấu ngã",
+            "dấu hỏi",
+            "dấu sắc",
+            "dấu nặng"
+          ],
+          "answer": "dấu ngã",
+          "hint": "Tiếng 'mũ' có nguyên âm 'u' và dấu ngã (~) nằm ở trên chữ u bé nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 209,
+          "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+          "question_text": "Chú 'ngựa' phi nhanh như bay trên đồng cỏ. Tiếng 'ngựa' có dấu thanh nào?",
+          "options": [
+            "dấu nặng",
+            "dấu huyền",
+            "dấu hỏi",
+            "dấu ngã"
+          ],
+          "answer": "dấu nặng",
+          "hint": "Tiếng 'ngựa' có nguyên âm 'ư' đi với âm cuối 'a' tạo thành vần 'ưa', thêm dấu nặng (.) nằm dưới chữ ư.",
+          "image_url": "assets/images/con_trau.png"
+        },
+        {
+          "question_id": 210,
+          "sub_topic": "Nhận diện Thanh sắc và Thanh huyền",
+          "question_text": "Mỗi chiều đi học về, bé thích nhất được trở về ngôi 'nhà' của mình. Tiếng 'nhà' có dấu thanh gì?",
+          "options": [
+            "dấu huyền",
+            "dấu hỏi",
+            "dấu sắc",
+            "dấu ngã"
+          ],
+          "answer": "dấu huyền",
+          "hint": "Tiếng 'nhà' có phụ âm ghép 'nh', nguyên âm 'a' và dấu huyền (\\) nằm trên chữ a.",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "GHÉP ÂM - VẦN",
+      "description": "Bé luyện tập ghép các âm đầu với nguyên âm và vần để tạo tiếng mới, làm quen vần khó kì 2.",
+      "lecture_title": "Bài Giảng: Cách Ghép Âm Và Đánh Vần",
+      "lecture_content": "Bé yêu ơi, ghép âm vần giống như một trò chơi ghép hình thú vị vậy! Chúng mình lấy một Phụ âm đầu ghép với một Vần đứng sau, rồi thêm Dấu thanh là được một tiếng hoàn chỉnh rồi. Ví dụ: phụ âm 'b' ghép với vần 'an' thành tiếng 'ban', thêm dấu thanh huyền thành 'bàn'. Ở học kỳ 2 này, bé sẽ chinh phục nhiều vần ghép phức tạp hơn như (ai, ay, ây, uôi, iêu, ươm, uông...). Thỏ Hồng sẽ hướng dẫn bé đánh vần từng bước thật dễ nhớ nhé!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài giảng Ghép âm vần. Cùng Thỏ Hồng học cách ghép phụ âm đầu với các vần xuôi và vần phức tạp kỳ 2 nhé!",
+      "questions": [
+        {
+          "question_id": 301,
+          "sub_topic": "Nhận diện vần đơn",
+          "question_text": "Bé hãy lắng nghe và tìm vần thích hợp có trong tiếng 'tai' (trong từ đôi tai của bé)?",
+          "options": [
+            "ai",
+            "ay",
+            "ây",
+            "ao"
+          ],
+          "answer": "ai",
+          "hint": "Tiếng 'tai' gồm âm đầu 't' và vần 'ai' đứng sau (đánh vần là: t - ai - tai) đấy bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 302,
+          "sub_topic": "Nhận diện vần đơn",
+          "question_text": "Bé hãy tìm từ viết đúng chính tả cho hình ảnh 'rau cải bắp'?",
+          "options": [
+            "cải bắp",
+            "cải bíp",
+            "cải ngọt",
+            "bắp cải"
+          ],
+          "answer": "cải bắp",
+          "hint": "Đáp án đúng là 'cải bắp' (vần 'ăp' trong tiếng bắp đấy bé!).",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 303,
+          "sub_topic": "Nhận diện vần đơn",
+          "question_text": "Bé hãy tìm từ chỉ đồ vật bé đi dưới chân hàng ngày viết đúng chính tả?",
+          "options": [
+            "đôi dép",
+            "đôi dẹp",
+            "đôi đép",
+            "đôi xép"
+          ],
+          "answer": "đôi dép",
+          "hint": "Tiếng 'dép' có vần 'ep' và thanh sắc, bắt đầu bằng âm 'd' nha bé!",
+          "image_url": "assets/images/con_vit.png"
+        },
+        {
+          "question_id": 304,
+          "sub_topic": "Nhận diện vần đơn",
+          "question_text": "Bé hãy tìm vần thích hợp có trong tiếng 'tay' (trong từ bàn tay xinh xắn của bé)?",
+          "options": [
+            "ay",
+            "ai",
+            "ây",
+            "oe"
+          ],
+          "answer": "ay",
+          "hint": "Tiếng 'tay' gồm phụ âm đầu 't' và vần 'ay' (a - y dài), đánh vần là: t - ay - tay nha bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 305,
+          "sub_topic": "Nhận diện vần đơn",
+          "question_text": "Đồ chơi yêu thích của bé có chứa tiếng 'chơi'. Trong tiếng 'chơi', vần nào đứng sau phụ âm 'ch'?",
+          "options": [
+            "ơi",
+            "ôi",
+            "oi",
+            "ai"
+          ],
+          "answer": "ơi",
+          "hint": "Tiếng 'chơi' có âm đầu 'ch', vần 'ơi' (ơ - i ngắn) đứng sau, đánh vần là: ch - ơi - chơi.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 306,
+          "sub_topic": "Nhận diện vần đơn",
+          "question_text": "Mẹ đi chợ mua chiếc 'túi' xách xinh xinh. Tiếng 'túi' có chứa vần gì?",
+          "options": [
+            "ui",
+            "uy",
+            "uôi",
+            "iêu"
+          ],
+          "answer": "ui",
+          "hint": "Tiếng 'túi' có vần 'ui' (u - i ngắn) và thanh sắc đặt trên âm u bé nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 307,
+          "sub_topic": "Vần khó kì 2",
+          "question_text": "Hình ảnh nải 'chuối' chín vàng rất ngon. Trong tiếng 'chuối' có chứa vần đôi nào?",
+          "options": [
+            "uôi",
+            "uông",
+            "ươi",
+            "iêu"
+          ],
+          "answer": "uôi",
+          "hint": "Tiếng 'chuối' có âm đầu 'ch', vần đôi 'uôi' (u - ô - i ngắn) đứng sau và thanh sắc trên đầu chữ ô.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 308,
+          "sub_topic": "Vần khó kì 2",
+          "question_text": "Bé đi học vào 'buổi chiều'. Trong tiếng 'chiều' có chứa vần đôi nào dưới đây?",
+          "options": [
+            "iêu",
+            "yêu",
+            "iên",
+            "iêng"
+          ],
+          "answer": "iêu",
+          "hint": "Tiếng 'chiều' có âm đầu 'ch', vần đôi 'iêu' (i - ê - u) đứng sau và thêm thanh huyền đặt trên đầu âm chính ê.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 309,
+          "sub_topic": "Vần khó kì 2",
+          "question_text": "Nhà bà có một 'vườn cây' trái ngát xanh. Tiếng 'vườn' có chứa vần đôi nào dưới đây?",
+          "options": [
+            "ươn",
+            "ương",
+            "ươm",
+            "uôn"
+          ],
+          "answer": "ươn",
+          "hint": "Tiếng 'vườn' có phụ âm đầu 'v', vần đôi 'ươn' (ư - ơ - n) đứng sau và thanh huyền trên đầu chữ ơ.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 310,
+          "sub_topic": "Vần khó kì 2",
+          "question_text": "Trong tiếng 'khế' (quả khế ngọt), âm chính của vần là chữ nào?",
+          "options": [
+            "ê",
+            "e",
+            "ơ",
+            "i"
+          ],
+          "answer": "ê",
+          "hint": "Trong tiếng 'khế', âm đầu là 'kh', âm chính là nguyên âm 'ê' đấy bé!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "ĐIỀN CHỮ CÁI CÒN THIẾU",
+      "description": "Bé học cách phân biệt các cặp phụ âm dễ nhầm lẫn theo luật chính tả: c/k, g/gh, ng/ngh, s/x.",
+      "lecture_title": "Bài Giảng: Luật Chính Tả Tiếng Việt",
+      "lecture_content": "Bé yêu ơi! Hôm nay chúng mình học một bí mật cực kỳ quan trọng trong chính tả tiếng Việt nhé! Các âm như (c, g, ng) và (k, gh, ngh) phát âm giống hệt nhau, nhưng luật chính tả quy định: **các chữ (k, gh, ngh) bắt buộc chỉ được đứng trước các nguyên âm e, ê, i (và y)**. Còn các nguyên âm khác như a, o, ô, ơ, u, ư thì ta viết là (c, g, ng). Ngoài ra bé cũng cần phân biệt s/x thông qua luyện đọc hàng ngày. Ghi nhớ luật này là bé sẽ không bao giờ sợ viết sai đâu!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài giảng Điền chữ cái còn thiếu. Hãy cùng Cô Giáo Thỏ Hồng tìm hiểu các luật chính tả c g ng và k gh ngh để điền chữ thật đúng nhé!",
+      "questions": [
+        {
+          "question_id": 401,
+          "sub_topic": "Bí mật luật c/k",
+          "question_text": "Bé hãy điền chữ c hay k vào chỗ trống sau: '...éo co'?",
+          "options": [
+            "c",
+            "k",
+            "q",
+            "g"
+          ],
+          "answer": "k",
+          "hint": "Vì đứng trước nguyên âm 'é', luật chính tả bắt buộc chúng mình phải viết chữ 'k' (k kéo co) nha bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 402,
+          "sub_topic": "Chinh phục luật g/gh và ng/ngh",
+          "question_text": "Bé hãy điền chữ g hay gh vào chỗ trống sau: 'cái ...hế'?",
+          "options": [
+            "g",
+            "gh",
+            "ng",
+            "ngh"
+          ],
+          "answer": "gh",
+          "hint": "Vì đứng trước nguyên âm 'ê', ta phải điền phụ âm ghép 'gh' (gờ kép) tạo thành tiếng 'ghế' nhé bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 403,
+          "sub_topic": "Chinh phục luật g/gh và ng/ngh",
+          "question_text": "Bé lắng nghe cô đọc và điền âm ng hay ngh vào chỗ trống sau: '...he nhạc'?",
+          "options": [
+            "ng",
+            "ngh",
+            "nh",
+            "g"
+          ],
+          "answer": "ngh",
+          "hint": "Đứng trước nguyên âm 'e', luật chính tả quy định bắt buộc phải dùng âm 'ngh' (ngờ kép) bé yêu nha!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 404,
+          "sub_topic": "Thử thách phân biệt s/x",
+          "question_text": "Bé hãy chọn chữ s hay x điền vào từ dưới đây: '...e đạp'?",
+          "options": [
+            "s",
+            "x",
+            "ch",
+            "tr"
+          ],
+          "answer": "x",
+          "hint": "Từ viết đúng là 'xe đạp' (điền chữ x nhẹ) nhé bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 405,
+          "sub_topic": "Thử thách phân biệt s/x",
+          "question_text": "Mỗi ngày bé đều thức dậy sớm vào 'buổi ...áng'. Bé điền s hay x vào chỗ trống?",
+          "options": [
+            "s",
+            "x",
+            "tr",
+            "ch"
+          ],
+          "answer": "s",
+          "hint": "Đáp án đúng là chữ 's' (sờ mạnh) tạo thành từ 'buổi sáng' tươi vui!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 406,
+          "sub_topic": "Bí mật luật c/k",
+          "question_text": "Bác thợ mộc dùng chiếc cưa để '...ưa gỗ'. Bé hãy điền chữ c hay k vào chỗ trống?",
+          "options": [
+            "c",
+            "k",
+            "q",
+            "ch"
+          ],
+          "answer": "c",
+          "hint": "Vì đứng trước nguyên âm 'ư', ta điền chữ 'c' bình thường, tạo thành từ 'cưa gỗ' nhé bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 407,
+          "sub_topic": "Chinh phục luật g/gh và ng/ngh",
+          "question_text": "Chú '...à trống' gáy vang gọi bé dậy đi học. Bé điền g hay gh vào chỗ trống?",
+          "options": [
+            "g",
+            "gh",
+            "ng",
+            "ngh"
+          ],
+          "answer": "g",
+          "hint": "Vì nguyên âm đứng sau là âm 'à', ta dùng chữ 'g' đơn thường, tạo thành tiếng 'gà' dễ mến!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 408,
+          "sub_topic": "Chinh phục luật g/gh và ng/ngh",
+          "question_text": "Chú bê con cứ '...ơ ngác' nhìn mẹ bên bãi cỏ. Bé điền ng hay ngh vào chỗ trống đầu tiên?",
+          "options": [
+            "ng",
+            "ngh",
+            "nh",
+            "g"
+          ],
+          "answer": "ng",
+          "hint": "Đứng trước nguyên âm 'ơ', ta viết chữ 'ng' đơn bình thường, tạo thành từ 'ngơ ngác'.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 409,
+          "sub_topic": "Thử thách phân biệt s/x",
+          "question_text": "Mỗi tối, bé ngắm nhìn 'bầu ...ời' có trăng và ngàn sao lấp lánh. Bé điền ch hay tr vào chỗ trống?",
+          "options": [
+            "tr",
+            "ch",
+            "s",
+            "x"
+          ],
+          "answer": "tr",
+          "hint": "Đáp án đúng là chữ 'tr' (gồm t và r ghép lại) tạo thành tiếng 'trời' rộng lớn!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 410,
+          "sub_topic": "Thử thách phân biệt s/x",
+          "question_text": "Bé đi học rửa tay chân sạch sẽ, 'bàn ...ân' bé bé hồng hồng. Bé điền ch hay tr vào chỗ trống?",
+          "options": [
+            "ch",
+            "tr",
+            "s",
+            "x"
+          ],
+          "answer": "ch",
+          "hint": "Đáp án đúng là chữ 'ch' (gồm c và h ghép lại) tạo thành tiếng 'chân' thon thả!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "BÁC SĨ BẮT BỆNH CHÍNH TẢ",
+      "description": "Bé đóng vai bác sĩ nhí, đi khám và bắt mạch tìm ra các từ viết sai chính tả, sửa quy tắc viết hoa.",
+      "lecture_title": "Bài Giảng: Khám Phá Và Sửa Lỗi Chính Tả",
+      "lecture_content": "Chào mừng bác sĩ nhí thông thái đến với phòng khám chính tả của Thỏ Hồng! Hôm nay bé sẽ đảm nhận một nhiệm vụ cực kì cao cả: tìm kiếm và chữa trị cho những từ ngữ bị viết 'bệnh' (sai chính tả). Chúng mình cần chú ý 2 loại bệnh chính: (1) Bệnh viết sai chữ cái, âm đầu hoặc dấu thanh (như 'bút trị' là viết sai, phải sửa thành 'bút chì'), và (2) Bệnh viết thường tùy tiện, quên viết hoa tên riêng danh lam thắng cảnh (như 'hồ gươm' phải viết hoa thành 'Hồ Gươm'). Bé hãy thật tinh mắt nhé!",
+      "lecture_audio_text": "Chào mừng bác sĩ nhí đến với bài học Bác sĩ bắt bệnh chính tả. Hãy cùng Cô Giáo Thỏ Hồng khám và điều trị dứt điểm cho các từ viết sai chính tả nhé!",
+      "questions": [
+        {
+          "question_id": 501,
+          "sub_topic": "Sửa lỗi từ viết sai",
+          "question_text": "Trong câu 'Bé dùng bút trị viết bài', tiếng nào đã bị viết SAI chính tả?",
+          "options": [
+            "bé",
+            "dùng",
+            "bút trị",
+            "viết bài"
+          ],
+          "answer": "bút trị",
+          "hint": "Từ viết đúng phải là 'bút chì' (chứ không viết là 'bút trị' nha bác sĩ ơi!).",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 502,
+          "sub_topic": "Quy tắc viết hoa danh từ",
+          "question_text": "Bác sĩ hãy tìm cách sửa đúng nhất cho tên danh lam thắng cảnh viết sai sau: 'hồ gươm'?",
+          "options": [
+            "hồ Gươm",
+            "Hồ gươm",
+            "Hồ Gươm",
+            "hồ gươm"
+          ],
+          "answer": "Hồ Gươm",
+          "hint": "Vì đây là tên riêng của địa danh lịch sử nổi tiếng ở Hà Nội, ta bắt buộc phải viết hoa cả hai chữ cái đầu: 'Hồ Gươm' nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 503,
+          "sub_topic": "Quy tắc viết hoa danh từ",
+          "question_text": "Bé sinh sống và học tập ở thủ đô 'hà nội'. Bác sĩ hãy tìm cách viết hoa đúng nhất cho tên thủ đô của chúng mình?",
+          "options": [
+            "Hà nội",
+            "hà Nội",
+            "Hà Nội",
+            "hà nội"
+          ],
+          "answer": "Hà Nội",
+          "hint": "Chúng mình bắt buộc phải viết hoa chữ cái đầu của cả hai tiếng tạo thành địa danh: 'Hà Nội' xinh tươi!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 504,
+          "sub_topic": "Sửa lỗi từ viết sai",
+          "question_text": "Chú trâu đen đang gặm cỏ trên sườn đồi. Từ nào dưới đây đã bị viết SAI chính tả?",
+          "options": [
+            "con trâu",
+            "con châu",
+            "con nghé",
+            "con bò"
+          ],
+          "answer": "con châu",
+          "hint": "Từ viết sai là 'con châu' (tiếng trâu bắt đầu bằng âm 'tr' cuộn lưỡi chứ không viết là 'ch' nha bé!).",
+          "image_url": "assets/images/con_trau.png"
+        },
+        {
+          "question_id": 505,
+          "sub_topic": "Sửa lỗi từ viết sai",
+          "question_text": "Trong các phương án dưới đây, từ nào đã bị viết SAI chính tả về nguyên âm đôi?",
+          "options": [
+            "mùa xuân",
+            "sản xuất",
+            "sản sất",
+            "kỷ luật"
+          ],
+          "answer": "sản sất",
+          "hint": "Từ viết đúng phải là 'sản xuất' (vần 'uât'), viết là 'sản sất' là bị bệnh sai chính tả mất rồi!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 506,
+          "sub_topic": "Quy tắc viết hoa danh từ",
+          "question_text": "Tên của bạn công chúa nhỏ đáng yêu nhà mình là 'bé vy'. Từ nào viết thường bị SAI quy tắc viết tên riêng?",
+          "options": [
+            "bé",
+            "vy",
+            "cả hai từ",
+            "không có từ nào"
+          ],
+          "answer": "vy",
+          "hint": "Tên riêng của con người bắt buộc phải viết hoa chữ cái đầu: 'Vy' (Bé Vy) đấy bác sĩ nhí ơi!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 507,
+          "sub_topic": "Sửa lỗi từ viết sai",
+          "question_text": "Bà ngồi bên thềm nhà kể chuyện ngày xưa cho bé nghe. Từ nào dưới đây viết SAI chính tả?",
+          "options": [
+            "kể chuyện",
+            "kể truyện",
+            "câu chuyện",
+            "quyển truyện"
+          ],
+          "answer": "kể truyện",
+          "hint": "Khi có hoạt động phát ra hành động nói 'kể', ta viết là 'kể chuyện' (âm ch). Còn cuốn sách đọc ta mới viết là 'quyển truyện' (âm tr) nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 508,
+          "sub_topic": "Sửa lỗi từ viết sai",
+          "question_text": "Bác sĩ hãy bắt bệnh xem từ nào viết SAI chính tả trong các từ chỉ loại quả dưới đây?",
+          "options": [
+            "quả chanh",
+            "quả tranh",
+            "quả khế",
+            "quả mít"
+          ],
+          "answer": "quả tranh",
+          "hint": "Từ viết sai là 'quả tranh' (viết đúng phải là 'quả chanh' có vị chua chua mát mát nha!).",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 509,
+          "sub_topic": "Sửa lỗi từ viết sai",
+          "question_text": "Bạn Huy quyết tâm học tập thật giỏi. Từ nào viết SAI chính tả về phụ âm đứng trước nguyên âm đôi 'uyê'?",
+          "options": [
+            "quyết tâm",
+            "cuyết tâm",
+            "quyết chí",
+            "kiên quyết"
+          ],
+          "answer": "cuyết tâm",
+          "hint": "Âm đầu đứng trước vần có âm đệm viết bằng u phải là âm 'q', tạo thành chữ 'qu', viết 'cuyết' là sai luật chính tả.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 510,
+          "sub_topic": "Sửa lỗi từ viết sai",
+          "question_text": "Chúng mình cùng yêu quê hương đất nước Việt Nam. Từ nào viết SAI chính tả về âm cuối?",
+          "options": [
+            "đất nước",
+            "đấc nước",
+            "nước nhà",
+            "đất đai"
+          ],
+          "answer": "đấc nước",
+          "hint": "Tiếng 'đất' có âm cuối là 't' (đờ - â - tờ - đât - sắc - đất), viết là 'đấc' (âm cuối c) là sai hoàn toàn.",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 6,
+      "topic_name": "TỪ VỰNG MỞ RỘNG",
+      "description": "Mở rộng vốn từ của bé qua hình ảnh trực quan, mùi vị, xúc giác thực tế và ghép cặp trái nghĩa.",
+      "lecture_title": "Bài Giảng: Khám Phá Thế Giới Từ Vựng Đa Giác Quan",
+      "lecture_content": "Bé yêu ơi! Thế giới xung quanh chúng mình muôn màu muôn vẻ và từ vựng chính là chiếc cọ vẽ giúp chúng mình miêu tả thế giới đó! Hôm nay Thỏ Hồng sẽ dạy bé các từ ngữ đa giác quan cực kỳ thú vị: ăn quả ớt thì thấy 'cay xè', sờ viên đá lạnh thì thấy 'lạnh buốt', ăn quả chanh thấy 'chua loét', ăn mật ong thấy 'ngọt lịm'... Chúng mình cũng sẽ học cách ghép các cặp từ trái nghĩa (ngược nhau như: to lớn - nhỏ bé, cao - thấp) để mở rộng vốn từ thật phong phú nhé!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài học Từ vựng mở rộng. Cùng Thỏ Hồng khám phá các từ ngữ chỉ cảm giác, mùi vị và các cặp từ trái nghĩa thật hay nhé!",
+      "questions": [
+        {
+          "question_id": 601,
+          "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+          "question_text": "Khi bé ăn quả ớt đỏ tươi, bé sẽ cảm thấy đầu lưỡi có vị gì nhỉ?",
+          "options": [
+            "ngọt ngọt",
+            "cay xè",
+            "đắng ngắt",
+            "chua loét"
+          ],
+          "answer": "cay xè",
+          "hint": "Quả ớt đỏ chứa chất cay xè, nếu bé ăn phải sẽ rất cay và nóng tai đấy, hãy cẩn thận nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 602,
+          "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+          "question_text": "Mùa hè nóng nực, bé chạm tay vào viên nước đá lạnh thì thấy có cảm giác thế nào?",
+          "options": [
+            "ấm áp",
+            "nóng rát",
+            "lạnh buốt",
+            "mềm mại"
+          ],
+          "answer": "lạnh buốt",
+          "hint": "Viên đá lạnh làm từ nước đóng băng nên khi sờ vào sẽ thấy lạnh buốt đầu ngón tay tê tê!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 603,
+          "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa",
+          "question_text": "Từ nào dưới đây có nghĩa ngược lại (trái nghĩa) với từ 'to lớn'?",
+          "options": [
+            "khổng lồ",
+            "nhỏ bé",
+            "cao vút",
+            "dài ngoẵng"
+          ],
+          "answer": "nhỏ bé",
+          "hint": "Ngược lại hoàn toàn với một chú voi 'to lớn' là một chú kiến rất 'nhỏ bé' xinh xinh!",
+          "image_url": "assets/images/con_vit.png"
+        },
+        {
+          "question_id": 604,
+          "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+          "question_text": "Khi mẹ vắt quả chanh vào canh, bé nếm thử nước chanh thấy có vị gì?",
+          "options": [
+            "chua loét",
+            "ngọt lịm",
+            "mặn chát",
+            "cay xè"
+          ],
+          "answer": "chua loét",
+          "hint": "Quả chanh có nhiều axit chua nên khi ăn trực tiếp sẽ thấy chua loét nhe cả răng đấy bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 605,
+          "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+          "question_text": "Bé được mẹ cho ăn kẹo ngọt hoặc thìa mật ong vàng óng. Vị của mật ong là gì?",
+          "options": [
+            "ngọt lịm",
+            "đắng ngắt",
+            "chua loét",
+            "cay xè"
+          ],
+          "answer": "ngọt lịm",
+          "hint": "Mật ong tự nhiên và kẹo đều có vị ngọt lịm, rất được các bạn nhỏ và chú gấu yêu thích!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 606,
+          "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+          "question_text": "Mẹ cắm bông hoa hồng trong phòng khách, tỏa ra hương thơm như thế nào?",
+          "options": [
+            "thơm ngát",
+            "hôi rình",
+            "nhạt nhẽo",
+            "khét lẹt"
+          ],
+          "answer": "thơm ngát",
+          "hint": "Bông hoa tươi khoe sắc luôn tỏa ra mùi hương thơm ngát dễ chịu khắp căn phòng.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 607,
+          "sub_topic": "Trải nghiệm đa giác quan (Hương vị, xúc giác)",
+          "question_text": "Khi bé vuốt ve bộ lông của chú mèo mướp ngoan ngoãn, bé thấy lông chú thế nào?",
+          "options": [
+            "gồ ghề",
+            "thô ráp",
+            "mềm mại",
+            "cứng đơ"
+          ],
+          "answer": "mềm mại",
+          "hint": "Bộ lông mèo mướp rất mượt và mềm mại, bé vuốt ve sẽ thấy rất êm tay!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 608,
+          "sub_topic": "Từ chỉ đặc điểm",
+          "question_text": "Vào mùa hè, những bông hoa phượng vĩ nở rộ rực rỡ khắp sân trường. Hoa phượng có màu gì?",
+          "options": [
+            "đỏ rực",
+            "xanh biếc",
+            "vàng tươi",
+            "tím sẫm"
+          ],
+          "answer": "đỏ rực",
+          "hint": "Hoa phượng vĩ báo hiệu mùa hè có màu đỏ rực như những đốm lửa bừng sáng trên cành cây.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 609,
+          "sub_topic": "Từ chỉ đặc điểm",
+          "question_text": "Cơn mưa rào mùa hè vừa tạnh, những lá cây trong vườn trông sạch sẽ và có màu thế nào?",
+          "options": [
+            "xanh mướt",
+            "úa vàng",
+            "héo hon",
+            "nâu sẫm"
+          ],
+          "answer": "xanh mướt",
+          "hint": "Được tắm nước mưa mát lành, các lá cây uống đủ nước nên trông xanh mướt tràn đầy sức sống!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 610,
+          "sub_topic": "Ghép cặp từ trái nghĩa - đồng nghĩa",
+          "question_text": "Từ nào dưới đây có nghĩa ngược lại (trái nghĩa) với từ 'thấp bé'?",
+          "options": [
+            "cao vút",
+            "lùn tịt",
+            "bé tí",
+            "ngắn ngủn"
+          ],
+          "answer": "cao vút",
+          "hint": "Ngược lại hoàn toàn với chú lùn thấp bé là ngọn núi hoặc tòa nhà cao vút chọc trời!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "GIA ĐÌNH TỪ LOẠI",
+      "description": "Bé học cách phân loại các từ ngữ quen thuộc thành 3 nhóm từ loại lớn: từ chỉ sự vật, hoạt động, đặc điểm.",
+      "lecture_title": "Bài Giảng: Gia Đình Ba Nhóm Từ Loại",
+      "lecture_content": "Bé yêu ơi! Trong tiếng Việt, các từ ngữ được chia thành 3 gia đình lớn cực kỳ thân thiết: (1) Từ chỉ Sự vật: gồm những từ gọi tên con người, con vật, cây cối, đồ vật xung quanh bé (như con chó, cái bàn, quả táo). (2) Từ chỉ Hoạt động: gồm những từ tả cử động của tay chân, hành động của cơ thể (như chạy, nhảy, bơi, viết). (3) Từ chỉ Đặc điểm: gồm những từ tả màu sắc, hình dáng, tính nết của con người và đồ vật (như đỏ, ngoan, xinh, tròn). Chúng mình cùng tập phân loại các thành viên này nhé!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài giảng Gia đình từ loại. Cùng Cô Giáo Thỏ Hồng học cách nhận diện và phân biệt 3 nhóm từ: chỉ sự vật, chỉ hoạt động và chỉ đặc điểm nhé!",
+      "questions": [
+        {
+          "question_id": 701,
+          "sub_topic": "Từ chỉ Sự vật quanh bé",
+          "question_text": "Từ nào dưới đây thuộc nhóm từ chỉ Sự vật (chỉ đồ vật bé dùng để viết bài hàng ngày)?",
+          "options": [
+            "chạy bộ",
+            "bút chì",
+            "xinh đẹp",
+            "đọc sách"
+          ],
+          "answer": "bút chì",
+          "hint": "Bút chì là một đồ vật học tập vô cùng quen thuộc của học sinh, nên nó thuộc nhóm từ chỉ Sự vật nha bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 702,
+          "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+          "question_text": "Trong giờ thể dục, các bạn nhỏ đang nô đùa vui vẻ. Từ nào dưới đây chỉ Hoạt động?",
+          "options": [
+            "con chó",
+            "chạy nhảy",
+            "quả táo",
+            "hiền lành"
+          ],
+          "answer": "chạy nhảy",
+          "hint": "Từ tả cử động di chuyển của chân như 'chạy nhảy' chính là từ chỉ Hoạt động đấy bé yêu!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 703,
+          "sub_topic": "Từ chỉ Đặc điểm, Tính chất",
+          "question_text": "Bé Vy luôn đi học đúng giờ, lễ phép chào hỏi mọi người nên ai cũng khen bé rất ngoan. Từ nào chỉ Đặc điểm tính nết của bé?",
+          "options": [
+            "ngoan ngoãn",
+            "đi học",
+            "bàn học",
+            "chào hỏi"
+          ],
+          "answer": "ngoan ngoãn",
+          "hint": "Từ tả tính nết, phẩm chất ngoan hiền của con người như 'ngoan ngoãn' là từ chỉ Đặc điểm nhé bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 704,
+          "sub_topic": "Từ chỉ Sự vật quanh bé",
+          "question_text": "Trong câu 'Bác mèo mướp vẫn nằm lì bên đống tro ấm.', từ nào là từ chỉ Sự vật con vật?",
+          "options": [
+            "mèo mướp",
+            "nằm lì",
+            "ấm áp",
+            "kêu gừ gừ"
+          ],
+          "answer": "mèo mướp",
+          "hint": "Từ gọi tên con vật 'mèo mướp' thuộc nhóm từ chỉ Sự vật bé nhé!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 705,
+          "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+          "question_text": "Trong câu 'Mới sớm tinh mơ, chú gà trống đã chạy tót ra giữa sân gáy vang.', từ nào chỉ Hoạt động cử động?",
+          "options": [
+            "gà trống",
+            "giữa sân",
+            "chạy tót",
+            "sớm mai"
+          ],
+          "answer": "chạy tót",
+          "hint": "Từ tả hành động chạy thật nhanh ra sân là 'chạy tót', đây là từ chỉ Hoạt động nhé bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 706,
+          "sub_topic": "Từ chỉ Đặc điểm, Tính chất",
+          "question_text": "Trong câu 'Hàng trăm cánh hoa giấy đỏ thắm phủ đầy giàn cây.', từ nào chỉ Đặc điểm màu sắc?",
+          "options": [
+            "hoa giấy",
+            "đỏ thắm",
+            "giàn cây",
+            "phủ đầy"
+          ],
+          "answer": "đỏ thắm",
+          "hint": "Từ chỉ màu sắc rực rỡ 'đỏ thắm' chính là từ chỉ Đặc điểm của cánh hoa giấy đấy bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 707,
+          "sub_topic": "Từ chỉ Sự vật quanh bé",
+          "question_text": "Từ 'con chó' (loài vật trung thành canh giữ nhà cho chủ) thuộc nhóm từ loại nào?",
+          "options": [
+            "Từ chỉ sự vật",
+            "Từ chỉ hoạt động",
+            "Từ chỉ đặc điểm",
+            "Từ chỉ cảm xúc"
+          ],
+          "answer": "Từ chỉ sự vật",
+          "hint": "Con chó là từ gọi tên một loài vật quen thuộc, nên nó nằm trong gia đình từ chỉ Sự vật.",
+          "image_url": "assets/images/con_cho.png"
+        },
+        {
+          "question_id": 708,
+          "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+          "question_text": "Chú cá vàng nhởn nhơ bơi lội lượn vòng dưới nước. Từ 'bơi lội' thuộc nhóm từ loại nào?",
+          "options": [
+            "Từ chỉ hoạt động",
+            "Từ chỉ sự vật",
+            "Từ chỉ đặc điểm",
+            "Từ chỉ âm thanh"
+          ],
+          "answer": "Từ chỉ hoạt động",
+          "hint": "Từ tả cử động của chú cá dưới nước là 'bơi lội', đây là từ chỉ Hoạt động.",
+          "image_url": "assets/images/con_vit.png"
+        },
+        {
+          "question_id": 709,
+          "sub_topic": "Từ chỉ Đặc điểm, Tính chất",
+          "question_text": "Những bông hoa mai nở vàng rực rỡ đón Tết về. Từ 'vàng rực' thuộc nhóm từ loại nào?",
+          "options": [
+            "Từ chỉ đặc điểm",
+            "Từ chỉ sự vật",
+            "Từ chỉ hoạt động",
+            "Từ chỉ tiếng kêu"
+          ],
+          "answer": "Từ chỉ đặc điểm",
+          "hint": "Từ tả màu sắc rực rỡ của cánh hoa là 'vàng rực', đây là từ chỉ Đặc điểm.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 710,
+          "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+          "question_text": "Trong các từ dưới đây, từ nào là từ chỉ Hoạt động học tập của bé ở trường?",
+          "options": [
+            "đọc sách",
+            "bút chì",
+            "bảng đen",
+            "xinh xắn"
+          ],
+          "answer": "đọc sách",
+          "hint": "Hành động mở sách ra và đọc gọi là 'đọc sách', đây thuộc gia đình từ chỉ Hoạt động bé nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 8,
+      "topic_name": "NHÀ THÔNG THÁI SẮP CÂU",
+      "description": "Bé thử tài ghép các từ ngữ đơn lẻ đứng xáo trộn thành một câu hoàn chỉnh, đúng ngữ pháp tiếng Việt.",
+      "lecture_title": "Bài Giảng: Kỹ Năng Ghép Từ Thành Câu",
+      "lecture_content": "Chào mừng nhà thông thái nhỏ tuổi đến với lớp học đặt câu! Bé biết không, một câu hoàn chỉnh giống như một đoàn tàu hỏa vậy, các từ ngữ chính là các toa tàu được sắp xếp theo đúng thứ tự logic. Luật viết câu quy định: **chữ cái đầu tiên của câu bắt buộc phải viết hoa**, và **khi kết thúc câu phải có dấu chấm tròn** nhỏ để ngăn cách. Thỏ Hồng sẽ cho bé các từ ngữ đứng xáo trộn, nhiệm vụ của bé là sắp xếp lại thành một câu thật hay và có nghĩa nhé!",
+      "lecture_audio_text": "Chào mừng nhà thông thái nhí đến với bài học Nhà thông thái sắp câu. Cùng Cô Giáo Thỏ Hồng học cách ghép các từ xáo trộn thành câu kể hoàn chỉnh và đúng ngữ pháp nhé!",
+      "questions": [
+        {
+          "question_id": 801,
+          "sub_topic": "Ghép câu đơn ngắn",
+          "question_text": "Bé hãy giúp Thỏ Hồng sắp xếp các từ sau thành câu đúng: 'vẽ / cò / Bố / và / bé'?",
+          "options": [
+            "Bố và bé vẽ cò.",
+            "bé và bố vẽ cò.",
+            "Vẽ cò bố và bé.",
+            "Cò vẽ bố và bé."
+          ],
+          "answer": "Bố và bé vẽ cò.",
+          "hint": "Câu viết đúng ngữ pháp và viết hoa đầu câu, có dấu chấm cuối câu là: 'Bố và bé vẽ cò.' bé nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 802,
+          "sub_topic": "Ghép câu đơn ngắn",
+          "question_text": "Bé hãy sắp xếp lại các từ xáo trộn sau thành một câu nói tình cảm dành cho mẹ: 'yêu / bé / Mẹ / nhiều'?",
+          "options": [
+            "Mẹ yêu bé nhiều.",
+            "bé yêu mẹ nhiều.",
+            "Nhiều yêu bé mẹ.",
+            "Yêu mẹ bé nhiều."
+          ],
+          "answer": "Mẹ yêu bé nhiều.",
+          "hint": "Đáp án đúng là 'Mẹ yêu bé nhiều.' (viết hoa chữ M đầu câu và có dấu chấm cuối câu).",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 803,
+          "sub_topic": "Xây dựng câu kể, câu tả",
+          "question_text": "Bé ngắm nhìn chú diều sáo bay cao lượn lờ. Sắp xếp các từ sau thành câu tả chiếc diều: 'gió / diều / Cánh / no'?",
+          "options": [
+            "Cánh diều no gió.",
+            "diều cánh no gió.",
+            "No gió cánh diều.",
+            "Gió no cánh diều."
+          ],
+          "answer": "Cánh diều no gió.",
+          "hint": "Cánh diều no gió thì mới bay cao được, ta viết câu tả: 'Cánh diều no gió.' nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 804,
+          "sub_topic": "Xây dựng câu kể, câu tả",
+          "question_text": "Khi bị mèo bắt, chú chim sẻ nhỏ đã nhanh trí tìm cách cứu mạng mình. Bé sắp xếp câu: 'sẻ / thông / Chú / chim / minh'?",
+          "options": [
+            "Chú chim sẻ thông minh.",
+            "chim sẻ chú thông minh.",
+            "Thông minh chú chim sẻ.",
+            "Sẻ chú chim thông minh."
+          ],
+          "answer": "Chú chim sẻ thông minh.",
+          "hint": "Sắp xếp đúng trật tự từ chỉ sự vật đứng trước, đặc điểm đứng sau: 'Chú chim sẻ thông minh.'",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 805,
+          "sub_topic": "Xây dựng câu kể, câu tả",
+          "question_text": "Báo hiệu mùa hoa nở ấm áp dịu dàng. Bé sắp xếp câu: 'đã / về / xuân / Mùa'?",
+          "options": [
+            "Mùa xuân đã về.",
+            "xuân mùa đã về.",
+            "Đã về mùa xuân.",
+            "Về đã mùa xuân."
+          ],
+          "answer": "Mùa xuân đã về.",
+          "hint": "Khi mùa đông lạnh giá qua đi thì 'Mùa xuân đã về.' đem ấm áp muôn nơi!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 806,
+          "sub_topic": "Sắp xếp câu dài",
+          "question_text": "Bé muốn tiến bộ hàng ngày để được cô khen. Sắp xếp câu: 'học / Bé / chăm / bài / chỉ'?",
+          "options": [
+            "Bé chăm chỉ học bài.",
+            "học bài bé chăm chỉ.",
+            "Chăm chỉ học bài bé.",
+            "Bài học bé chăm chỉ."
+          ],
+          "answer": "Bé chăm chỉ học bài.",
+          "hint": "Câu kể về thói quen tốt học tập của bé là: 'Bé chăm chỉ học bài.'",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 807,
+          "sub_topic": "Xây dựng câu kể, câu tả",
+          "question_text": "Hồ nước xanh giữa lòng thủ đô Hà Nội vô cùng rực rỡ. Sắp xếp câu: 'rất / Gươm / đẹp / Hồ'?",
+          "options": [
+            "Hồ Gươm rất đẹp.",
+            "gươm hồ rất đẹp.",
+            "Rất đẹp hồ Gươm.",
+            "Hồ rất đẹp Gươm."
+          ],
+          "answer": "Hồ Gươm rất đẹp.",
+          "hint": "Đáp án viết hoa đúng tên riêng địa danh là: 'Hồ Gươm rất đẹp.'",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 808,
+          "sub_topic": "Sắp xếp câu dài",
+          "question_text": "Chú gà trống khỏe mạnh thích đánh thức mọi người. Sắp xếp câu: 'dây / gà / ưa / Chú / sớm / trống'?",
+          "options": [
+            "Chú gà trống ưa dậy sớm.",
+            "gà trống chú ưa dậy sớm.",
+            "Ưa dậy sớm chú gà trống.",
+            "Chú gà trống dậy sớm ưa."
+          ],
+          "answer": "Chú gà trống ưa dậy sớm.",
+          "hint": "Toa tàu sắp xếp kể về chú gà siêng năng là: 'Chú gà trống ưa dậy sớm.'",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 809,
+          "sub_topic": "Xây dựng câu kể, câu tả",
+          "question_text": "Mô tả đôi mắt tròn xoe sáng ngời của em bé ngoan. Sắp xếp câu: 'bé / mắt / xoe / Đôi / tròn'?",
+          "options": [
+            "Đôi mắt bé tròn xoe.",
+            "mắt bé đôi tròn xoe.",
+            "Tròn xoe đôi mắt bé.",
+            "Bé đôi mắt tròn xoe."
+          ],
+          "answer": "Đôi mắt bé tròn xoe.",
+          "hint": "Câu mô tả đáng yêu nhất là: 'Đôi mắt bé tròn xoe.'",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 810,
+          "sub_topic": "Sắp xếp câu dài",
+          "question_text": "Mô tả cô giáo dạy Tiếng Việt lớp 1 xinh ngoan của chúng mình. Sắp xếp câu: 'rất / giáo / hiền / Cô / Hồng / Thỏ'?",
+          "options": [
+            "Cô giáo Thỏ Hồng rất hiền.",
+            "cô giáo thỏ hồng rất hiền.",
+            "Rất hiền cô giáo Thỏ Hồng.",
+            "Cô giáo hiền rất Thỏ Hồng."
+          ],
+          "answer": "Cô giáo Thỏ Hồng rất hiền.",
+          "hint": "Đáp án viết hoa đúng tên riêng của cô giáo là: 'Cô giáo Thỏ Hồng rất hiền.'",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 9,
+      "topic_name": "ĐIỀN TỪ VÀO CÂU & TỤC NGỮ",
+      "description": "Bé làm quen với các câu ca dao, tục ngữ Việt Nam, điền từ thích hợp rèn luyện đạo đức ngoan ngoãn.",
+      "lecture_title": "Bài Giảng: Điền Từ Khám Phá Tục Ngữ Dân Gian",
+      "lecture_content": "Bé yêu ơi! Ca dao, tục ngữ chính là những lời khuyên dạy quý báu mà ông bà xưa truyền lại cho chúng mình để học làm người ngoan, hiếu thảo. Hôm nay, Thỏ Hồng sẽ cùng bé bước vào hành trình đi tìm những từ ngữ còn ẩn giấu dưới những bông hoa để hoàn thành các câu tục ngữ quen thuộc như: 'Ăn quả nhớ kẻ trồng cây', 'Chị ngã em nâng', 'Gần mực thì đen, gần đèn thì sáng'. Chúc bé nhanh chóng trở thành một nhà thông thái hiếu thảo nhé!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài giảng Điền từ vào câu và Tục ngữ. Cùng Cô Giáo Thỏ Hồng tìm hiểu những câu tục ngữ dân gian ý nghĩa dạy bé biết hiếu thảo và siêng năng nhé!",
+      "questions": [
+        {
+          "question_id": 901,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Bé hãy điền từ còn thiếu để hoàn thành câu tục ngữ dạy lòng biết ơn: 'Ăn quả nhớ kẻ trồng ...'?",
+          "options": [
+            "cây",
+            "hoa",
+            "quả",
+            "vườn"
+          ],
+          "answer": "cây",
+          "hint": "Câu tục ngữ đầy đủ dạy chúng mình phải biết ơn người giúp đỡ là: 'Ăn quả nhớ kẻ trồng cây' nha bé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 902,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Bé hãy tìm từ trái nghĩa thích hợp điền vào câu khuyên răn chọn bạn tốt: 'Gần mực thì đen, gần đèn thì ...'?",
+          "options": [
+            "sáng",
+            "tối",
+            "mờ",
+            "đỏ"
+          ],
+          "answer": "sáng",
+          "hint": "Đèn tỏa ra ánh sáng soi rõ mọi vật, nên 'gần đèn thì sáng' khuyên bé chơi với bạn tốt sẽ tiến bộ nhé!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 903,
+          "sub_topic": "Hoàn thành câu nói hàng ngày",
+          "question_text": "Tình cảm anh chị em trong nhà phải luôn yêu thương đùm bọc lẫn nhau: 'Chị ngã em ...'?",
+          "options": [
+            "nâng",
+            "đỡ",
+            "cười",
+            "nhìn"
+          ],
+          "answer": "nâng",
+          "hint": "Đáp án khuyên nhủ anh em tương trợ là: 'Chị ngã em nâng' cực kỳ ấm áp!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 904,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Bài ca dao nổi tiếng ca ngợi lòng mẹ mênh mông: 'Công cha như núi Thái Sơn, nghĩa mẹ như ... trong nguồn chảy ra'?",
+          "options": [
+            "nước",
+            "sữa",
+            "mật",
+            "sông"
+          ],
+          "answer": "nước",
+          "hint": "Nghĩa mẹ bao la như nguồn nước mát lành tuôn chảy mãi không bao giờ vơi: 'Nghĩa mẹ như nước trong nguồn chảy ra'!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 905,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Câu tục ngữ rèn luyện tính kiên nhẫn học hành của bé: 'Có công mài sắt, có ngày nên ...'?",
+          "options": [
+            "kim",
+            "búa",
+            "kéo",
+            "dao"
+          ],
+          "answer": "kim",
+          "hint": "Nếu kiên trì rèn luyện, thanh sắt to cũng mài thành cây kim nhỏ sắc sảo: 'Có công mài sắt, có ngày nên kim'!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 906,
+          "sub_topic": "Thành ngữ về loài vật",
+          "question_text": "Bài hát đồng dao ngộ nghĩnh của bé: 'Con mèo mà trèo cây cau / Hỏi thăm chú ... đi đâu vắng nhà'?",
+          "options": [
+            "chuột",
+            "chó",
+            "vịt",
+            "trâu"
+          ],
+          "answer": "chuột",
+          "hint": "Chú chuột nhỏ bé lẩn trốn trong bóng tối là nhân vật được chú mèo hỏi thăm trong bài hát: 'Hỏi thăm chú chuột đi đâu vắng nhà'.",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 907,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Lòng nhân ái, yêu thương mọi người chung quanh: 'Thương người như thể thương ...'?",
+          "options": [
+            "thân",
+            "bạn",
+            "nhà",
+            "mẹ"
+          ],
+          "answer": "thân",
+          "hint": "Hãy thương yêu người gặp hoạn nạn như thương chính bản thân mình: 'Thương người như thể thương thân'!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 908,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Khuyên nhủ đồng bào, mọi người trong cùng tổ quốc: 'Bầu ơi thương lấy bí cùng, tuy rằng khác giống nhưng chung một ...'?",
+          "options": [
+            "giàn",
+            "vườn",
+            "nhà",
+            "ruộng"
+          ],
+          "answer": "giàn",
+          "hint": "Quả bầu và bí tuy khác loại nhưng đều leo chung trên một giàn tre, ta nói: 'tuy rằng khác giống nhưng chung một giàn'.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 909,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Tình bạn bầy đàn đoàn kết sẻ chia của loài vật: 'Một con ngựa đau, cả tàu bỏ ...'?",
+          "options": [
+            "cỏ",
+            "chạy",
+            "thóc",
+            "nước"
+          ],
+          "answer": "cỏ",
+          "hint": "Khi một bạn trong đàn bị ốm đau buồn bã, cả đàn ngựa đều lo lắng quên ăn: 'Một con ngựa đau, cả tàu bỏ cỏ'!",
+          "image_url": "assets/images/con_vit.png"
+        },
+        {
+          "question_id": 910,
+          "sub_topic": "Điền từ vào Ca dao, Tục ngữ",
+          "question_text": "Bài học đoàn kết vô cùng thiêng liêng: 'Nhiễu điều phủ lấy giá gương, người trong một nước phải ... cùng'?",
+          "options": [
+            "thương nhau",
+            "giúp nhau",
+            "chia nhau",
+            "yêu nhau"
+          ],
+          "answer": "thương nhau",
+          "hint": "Câu tục ngữ đầy đủ khuyên bảo đồng bào cả nước đùm bọc nhau là: 'người trong một nước phải thương nhau cùng'!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 10,
+      "topic_name": "ĐỐ VUI BÉ NGOAN (IQ)",
+      "description": "Kho tàng câu đố dân gian vui nhộn về con vật, đồ dùng trong nhà rèn luyện trí thông minh cho bé.",
+      "lecture_title": "Bài Giảng: Bí Quyết Giải Câu Đố Dân Gian",
+      "lecture_content": "Chào mừng bé yêu đến với Sân chơi Trí tuệ IQ cùng Cô Giáo Thỏ Hồng! Các câu đố dân gian Việt Nam cực kỳ hóm hỉnh và sâu sắc đấy bé ơi. Để giải được câu đố, bé hãy tập thói quen: (1) Nhắm mắt lại và tưởng tượng ra hình ảnh mô tả trong bài thơ. (2) Phân tích các đặc điểm độc đáo (như loài vật có mào đỏ gáy ò ó o là chú gà trống, loài vật bò ngang có 8 cẳng 2 càng là chú cua). Chắc chắn bé Vy của chúng ta sẽ bách chiến bách thắng giật thật nhiều Sao vàng IQ nhé!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với góc đố vui thông minh IQ. Hãy cùng Cô Giáo Thỏ Hồng rèn luyện tư duy và trí tưởng tượng thông qua các câu đố dân gian cực vui nhé!",
+      "questions": [
+        {
+          "question_id": 1001,
+          "sub_topic": "Đố vui loài vật quen thuộc",
+          "question_text": "Bé đoán xem đây là con vật nào nhé: 'Con gì hai mắt trong veo / Thích nằm sưởi nắng, thích trèo cây cau'?",
+          "options": [
+            "con chó",
+            "con chuột",
+            "con mèo",
+            "con thỏ"
+          ],
+          "answer": "con mèo",
+          "hint": "Đôi mắt tròn trong veo lấp lánh và tài trèo cau thoăn thoắt để bắt chuột chính là bạn mèo mèo đấy!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 1002,
+          "sub_topic": "Đố vui loài vật quen thuộc",
+          "question_text": "Bé đoán xem đây là bạn động vật nào nhé: 'Thường nằm đầu hè / Giữ nhà cho chủ / Người lạ nó sủa / Người quen nó mừng'?",
+          "options": [
+            "con mèo",
+            "con chó",
+            "con trâu",
+            "con chuột"
+          ],
+          "answer": "con chó",
+          "hint": "Bạn chó xù trung thành gác cổng canh nhà, sủa gâu gâu đuổi người lạ đấy bé!",
+          "image_url": "assets/images/con_cho.png"
+        },
+        {
+          "question_id": 1003,
+          "sub_topic": "Đố vui loài vật quen thuộc",
+          "question_text": "Câu đố dân gian siêu thú vị: 'Con gì tám cẳng hai càng / Chẳng đi mà lại bò ngang cả ngày'?",
+          "options": [
+            "con rùa",
+            "con ếch",
+            "con cua",
+            "con cá"
+          ],
+          "answer": "con cua",
+          "hint": "Bạn cua bể có 8 chân nhỏ và hai chiếc càng to đùng, thích bò ngang lổm ngổm lách cách!",
+          "image_url": "assets/images/con_cua.png"
+        },
+        {
+          "question_id": 1004,
+          "sub_topic": "Đố vui loài vật quen thuộc",
+          "question_text": "Đố bé yêu: 'Con gì mào đỏ / Gáy ò ó o... / Từ sáng tinh mơ / Gọi người thức giấc'?",
+          "options": [
+            "con gà trống",
+            "con vịt",
+            "con cò",
+            "con bồ câu"
+          ],
+          "answer": "con gà trống",
+          "hint": "Chú gà trống khỏe mạnh thức dậy sớm gáy vang 'ò ó o' đánh thức bé yêu dậy chuẩn bị đi học!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1005,
+          "sub_topic": "Đố vui loài vật quen thuộc",
+          "question_text": "Một loại củ có màu cam đo đỏ ngọt lành, giòn ngọt mà bạn Thỏ Hồng và các bạn thỏ đều thích mê?",
+          "options": [
+            "củ khoai lang",
+            "củ khoai tây",
+            "củ cà rốt",
+            "củ từ"
+          ],
+          "answer": "củ cà rốt",
+          "hint": "Củ cà rốt màu cam tươi chứa nhiều vitamin bổ mắt, thỏ con thích gặm rôm rốp rực rỡ!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1006,
+          "sub_topic": "Đố vui đồ dùng học tập",
+          "question_text": "Đố bé đây là cái gì giúp bé gọn gàng trước khi đến trường: 'Cái gì có răng mà không có mồm / Giúp bé chải tóc sớm hôm đến trường'?",
+          "options": [
+            "cái lược",
+            "cái bàn chải",
+            "cái kéo",
+            "cái gương"
+          ],
+          "answer": "cái lược",
+          "hint": "Chiếc lược xinh xắn có các răng lược xếp đều tăm tắp giúp bé chải tóc thật gọn gàng, suôn mượt!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1007,
+          "sub_topic": "Đố vui đồ vật trong nhà",
+          "question_text": "Đố bé yêu đoán xem đồ vật này là cái gì: 'Thân hình bằng gỗ / Có bốn chân cao / Mặt phẳng phiu phiu / Bày cỗ lên trên'?",
+          "options": [
+            "cái ghế",
+            "cái giường",
+            "cái bàn",
+            "cái tủ"
+          ],
+          "answer": "cái bàn",
+          "hint": "Chiếc bàn học hoặc bàn ăn bốn chân phẳng phiu để bé đặt sách vở và ăn cơm ngon lành hàng ngày!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1008,
+          "sub_topic": "Đố vui đồ vật trong nhà",
+          "question_text": "Đồ dùng yêu thích trong phòng bé: 'Cái gì lấp la lấp lánh / Treo ở trên tường / Trước khi đến trường / Bé soi chải tóc'?",
+          "options": [
+            "cái gương",
+            "cái đài",
+            "cái quạt",
+            "bóng đèn"
+          ],
+          "answer": "cái gương",
+          "hint": "Chiếc gương soi sáng bừng phản chiếu nụ cười công chúa đáng yêu của bé mỗi buổi sáng!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1009,
+          "sub_topic": "Đố vui đồ dùng học tập",
+          "question_text": "Đố bé người bạn học sinh thân thiết này là ai: 'Ruột thì thẳng băng / Tính hay làm bạn / Với bạn học sinh / Vẽ đường kẻ dọc'?",
+          "options": [
+            "cây thước kẻ",
+            "bút chì",
+            "quyển tập",
+            "cục tẩy"
+          ],
+          "answer": "cây thước kẻ",
+          "hint": "Cây thước kẻ dẹt thẳng băng có chia vạch xăng-ti-mét giúp bé kẻ dòng chữ thẳng tắp ngay ngắn!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1010,
+          "sub_topic": "Đố vui đồ vật trong nhà",
+          "question_text": "Đố bé đồ vật di động ngộ nghĩnh này: 'Cái gì đi thì nằm, đứng cũng nằm, nhưng nằm thì lại đứng'?",
+          "options": [
+            "bàn chân",
+            "cái nôi",
+            "cái giường",
+            "đôi dép"
+          ],
+          "answer": "bàn chân",
+          "hint": "Đó chính là bàn chân đáng yêu của bé đấy! Khi nằm ngủ bàn chân đứng dựng đứng lên trời ngộ nghĩnh!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    },
+    {
+      "topic_id": 11,
+      "topic_name": "ĐỌC HIỂU - TRẢ LỜI",
+      "description": "Luyện đọc diễn cảm các tác phẩm thơ, nhạc và câu chuyện văn học ngắn ngụ ngôn ý nghĩa.",
+      "lecture_title": "Bài Giảng: Kỹ Năng Đọc Diễn Cảm Và Trả Lời Câu Hỏi",
+      "lecture_content": "Chào mừng bé yêu đến với góc Đọc hiểu và Cảm thụ văn học! Hôm nay chúng mình bước sang chặng đường phát triển kỹ năng nâng cao: Đọc diễn cảm câu chuyện và trả lời câu hỏi. Khi đọc, bé hãy đọc chậm rãi, ngắt nghỉ đúng chỗ sau các dấu phẩy, dấu chấm nhé. Sau khi đọc xong, bé hãy trả lời các câu hỏi trắc nghiệm của Thỏ Hồng để kiểm tra xem mình đã hiểu hết ý nghĩa tốt đẹp của câu chuyện chưa nhé. Thỏ Hồng tin bé Vy sẽ làm rất xuất sắc thôi!",
+      "lecture_audio_text": "Chào mừng bé yêu đến với bài đọc hiểu và cảm thụ văn học ngắn lớp 1. Cùng Cô Giáo Thỏ Hồng luyện đọc diễn cảm và tìm câu trả lời đúng nhất nhé!",
+      "questions": [
+        {
+          "question_id": 1101,
+          "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
+          "passage_title": "Bài thơ: Ai gõ cửa?",
+          "reading_passage": "Cộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là gió mát\nMang hương thơm trời\nGhé vào chơi nhé!\n\nCộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là mưa rào\nMang nước mát lành\nTưới cho cây trái.",
+          "question_text": "Trong bài thơ trên, nhân vật nào đã gõ cửa đầu tiên để mang hương thơm trời ghé vào chơi?",
+          "options": [
+            "Mưa rào",
+            "Gió mát",
+            "Cây trái",
+            "Bé Thỏ"
+          ],
+          "answer": "Gió mát",
+          "hint": "Khổ thơ đầu tiên viết: 'Tôi là gió mát, Mang hương thơm trời, Ghé vào chơi nhé!' nên gió mát chính là người gõ cửa đầu tiên!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1102,
+          "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
+          "passage_title": "Bài thơ: Ai gõ cửa?",
+          "reading_passage": "Cộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là gió mát\nMang hương thơm trời\nGhé vào chơi nhé!\n\nCộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là mưa rào\nMang nước mát lành\nTưới cho cây trái.",
+          "question_text": "Nhân vật gõ cửa thứ hai trong bài thơ là Mưa Rào mang điều mát lành gì đến tưới cho cây trái tươi xanh?",
+          "options": [
+            "Gió bão",
+            "Hương thơm trời",
+            "Nước mát lành",
+            "Nắng ấm"
+          ],
+          "answer": "Nước mát lành",
+          "hint": "Mưa rào gõ cửa thứ hai và hát vang: 'Tôi là mưa rào, Mang nước mát lành, Tưới cho cây trái.' đấy bé yêu!",
+          "image_url": "assets/images/con_vit.png"
+        },
+        {
+          "question_id": 1103,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Câu chuyện: Chú chim sẻ thông minh",
+          "reading_passage": "Một chú chim sẻ nhỏ đậu trên cành cây cao. Bỗng một chú mèo mướp rón rén đi tới định vồ lấy sẻ. Sẻ nhanh trí kêu to lên: 'Chào bác Mèo! Bác đã rửa mặt chưa mà đi săn thế ạ?'. Mèo ngượng ngùng dừng lại dùng chân lau mặt. Sẻ lập tức đập cánh bay vút lên bầu trời xanh mát.",
+          "question_text": "Chú sẻ nhỏ trong câu chuyện đã làm gì khi phát hiện mèo mướp đang rón rén đi tới định vồ mình?",
+          "options": [
+            "Sẻ sợ hãi khóc lóc van xin.",
+            "Sẻ nhanh trí hỏi mèo đã rửa mặt chưa để mèo phân tâm.",
+            "Sẻ đứng im chịu trận không động đậy.",
+            "Sẻ gọi các bạn chim sẻ khác tới đánh mèo."
+          ],
+          "answer": "Sẻ nhanh trí hỏi mèo đã rửa mặt chưa để mèo phân tâm.",
+          "hint": "Sẻ hỏi mèo rửa mặt chưa để mèo dừng lại lấy chân lau mặt. Nhờ vậy sẻ có thời gian đập cánh bay đi cứu mạng mình! Thật thông minh phải không bé!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 1104,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Câu chuyện: Chú chim sẻ thông minh",
+          "reading_passage": "Một chú chim sẻ nhỏ đậu trên cành cây cao. Bỗng một chú mèo mướp rón rén đi tới định vồ lấy sẻ. Sẻ nhanh trí kêu to lên: 'Chào bác Mèo! Bác đã rửa mặt chưa mà đi săn thế ạ?'. Mèo ngượng ngùng dừng lại dùng chân lau mặt. Sẻ lập tức đập cánh bay vút lên bầu trời xanh mát.",
+          "question_text": "Khi nghe sẻ hỏi về việc rửa mặt, phản ứng ngượng ngùng của chú Mèo mướp là gì?",
+          "options": [
+            "Mèo lập tức vồ lấy ăn thịt sẻ luôn.",
+            "Mèo ngượng ngùng dừng lại dùng chân lau mặt.",
+            "Mèo sợ hãi bỏ chạy trốn đi mất.",
+            "Mèo ngửa mặt lên trời kêu ngoao ngoao."
+          ],
+          "answer": "Mèo ngượng ngùng dừng lại dùng chân lau mặt.",
+          "hint": "Mèo ta rất đỏ mặt ngượng ngùng nên dừng phắt lại, cúi đầu lấy chân lau mặt, tạo cơ hội cho chú sẻ thông minh bay biến!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 1105,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Ngụ ngôn: Ve và Kiến",
+          "reading_passage": "Ve và kiến cùng sống trên cây nhưng mỗi người một nết. Kiến chăm chỉ làm việc suốt ngày để dành thức ăn phòng khi mùa đông lạnh giá. Còn Ve thì lười biếng, nhởn nhơ ca hát vui đùa suốt cả mùa hè. Khi mùa đông đến, tuyết rơi phủ trắng mặt đất, không tìm được thức ăn, ve đói lả đành gõ cửa xin kiến cứu giúp. Kiến thương tình cho ve ăn rồi dặn ve: 'Vui chơi ca hát rất tốt, nhưng cũng phải biết chăm chỉ lao động nữa nhé!'",
+          "question_text": "Trong câu chuyện ngụ ngôn, nhân vật nào đã chăm chỉ làm việc suốt cả ngày để lo tích trữ thức ăn cho mùa đông lạnh?",
+          "options": [
+            "Bạn Ve lười biếng",
+            "Bạn Thỏ Hồng",
+            "Đàn Kiến chăm chỉ",
+            "Bạn Sóc nhỏ"
+          ],
+          "answer": "Đàn Kiến chăm chỉ",
+          "hint": "Bạn Kiến rất siêng năng lo xa, chăm chỉ dọn dẹp và tha mồi dự trữ ăn suốt mùa đông dài không lo bị đói bụng!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1106,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Ngụ ngôn: Ve và Kiến",
+          "reading_passage": "Ve và kiến cùng sống trên cây nhưng mỗi người một nết. Kiến chăm chỉ làm việc suốt ngày để dành thức ăn phòng khi mùa đông lạnh giá. Còn Ve thì lười biếng, nhởn nhơ ca hát vui đùa suốt cả mùa hè. Khi mùa đông đến, tuyết rơi phủ trắng mặt đất, không tìm được thức ăn, ve đói lả đành gõ cửa xin kiến cứu giúp. Kiến thương tình cho ve ăn rồi dặn ve: 'Vui chơi ca hát rất tốt, nhưng cũng phải biết chăm chỉ lao động nữa nhé!'",
+          "question_text": "Khi mùa đông lạnh giá tuyết rơi đầy nhà, bạn Ve sầu gặp phải hoàn cảnh khó khăn gì?",
+          "options": [
+            "Ve bị ốm sốt nóng tai.",
+            "Ve đói lả người và không tìm được gì để ăn.",
+            "Ve bị lạc đường trong rừng sâu.",
+            "Ve được đi sưởi nắng cùng các bạn."
+          ],
+          "answer": "Ve đói lả người và không tìm được gì để ăn.",
+          "hint": "Vì cả mùa hè chỉ mải chơi ca hát không tích trữ mồi, mùa đông đến Ve sầu không tìm được gì ăn và lả đói, đành phải đi xin cứu giúp.",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1107,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Bài văn: Chú gà trống ưa dậy sớm",
+          "reading_passage": "Càng về sáng, tiết trời đông càng giá lạnh. Trong bếp, bác mèo mướp vẫn nằm lì lười biếng bên đống tro ấm, gừ gừ than thở 'Rét! Rét!'. Thế nhưng, mới sớm tinh mơ, chú gà trống dũng cảm đã chạy tót ra giữa sân. Chú vươn mình, dang đôi cánh to, khỏe như hai chiếc quạt vỗ phành phạch, gáy vang đánh thức ông mặt trời: 'Ò... ó... o... o...'",
+          "question_text": "Bác mèo mướp nằm lì sưởi ấm trốn rét ở xó nào trong ngôi nhà?",
+          "options": [
+            "Trong buồng ngủ ấm áp",
+            "Nằm lì bên đống tro ấm trong bếp",
+            "Ngoài sân chơi cát",
+            "Đậu trên cành khế đầu nhà"
+          ],
+          "answer": "Nằm lì bên đống tro ấm trong bếp",
+          "hint": "Bác mèo lười mèo mướp nằm im re cuộn tròn lười biếng sưởi ấm bên đống tro tàn ấm áp của căn bếp đất sình!",
+          "image_url": "assets/images/con_meo.png"
+        },
+        {
+          "question_id": 1108,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Bài văn: Chú gà trống ưa dậy sớm",
+          "reading_passage": "Càng về sáng, tiết trời đông càng giá lạnh. Trong bếp, bác mèo mướp vẫn nằm lì lười biếng bên đống tro ấm, gừ gừ than thở 'Rét! Rét!'. Thế nhưng, mới sớm tinh mơ, chú gà trống dũng cảm đã chạy tót ra giữa sân. Chú vươn mình, dang đôi cánh to, khỏe như hai chiếc quạt vỗ phành phạch, gáy vang đánh thức ông mặt trời: 'Ò... ó... o... o...'",
+          "question_text": "Chú gà trống khỏe mạnh đã làm hành động dũng mãnh gì trước khi gáy vang đánh thức mọi người dậy?",
+          "options": [
+            "Nhảy nhót kiếm mồi ăn thóc.",
+            "Vươn mình, dang đôi cánh to vỗ phành phạch.",
+            "Chạy đi tìm chú mèo chơi đùa.",
+            "Nằm lì ngủ gật trốn gió rét."
+          ],
+          "answer": "Vươn mình, dang đôi cánh to vỗ phành phạch.",
+          "hint": "Chú gà vươn mình dang cánh to khỏe như đôi quạt vỗ phành phạch rồi lấy hơi gáy vang giòn rã ò ó o khắp xóm nhỏ!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1109,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Truyện: Sự tích mùa xuân",
+          "reading_passage": "Ngày xưa, trái đất chỉ có ba mùa: hạ, thu, đông. Mùa xuân ấm áp chỉ đến khi có cầu vồng xuất hiện rực rỡ và muôn hoa cùng khoe sắc chào đón. Trong khu rừng nọ, mỗi khi chuyển mùa lạnh, thỏ mẹ lại bị ốm. Thương mẹ quá, thỏ con bàn với bác khỉ già làm cầu vồng rực rỡ. Các loài muông thú liền góp những sợi lông đẹp nhất của mình, bạn chim sâu khéo tay dệt nên dải màu cầu vồng. Thỏ con băng rừng vượt thác nhờ các loài hoa tích tụ nhựa sống cùng nở hoa đón mùa xuân ấm áp về chữa khỏi bệnh cho mẹ.",
+          "question_text": "Vì sao chú thỏ con hiếu thảo lại quyết tâm đi tìm mọi người cùng giúp dệt cầu vồng đón mùa xuân về?",
+          "options": [
+            "Để được đi chơi vui vẻ.",
+            "Vì mỗi khi mùa đông lạnh tràn về thỏ mẹ lại bị ốm.",
+            "Để khoe bộ lông rực rỡ.",
+            "Để rủ các bạn thú đi nhảy múa."
+          ],
+          "answer": "Vì mỗi khi mùa đông lạnh tràn về thỏ mẹ lại bị ốm.",
+          "hint": "Thỏ con thương mẹ bị ốm lạnh yếu nên quyết chí tìm cách đón mùa xuân ấm áp dễ chịu về sưởi ấm cho thỏ mẹ mau lành bệnh!",
+          "image_url": "assets/images/tho_hong.png"
+        },
+        {
+          "question_id": 1110,
+          "sub_topic": "Đọc truyện ngắn & Trả lời",
+          "passage_title": "Truyện: Sự tích mùa xuân",
+          "reading_passage": "Ngày xưa, trái đất chỉ có ba mùa: hạ, thu, đông. Mùa xuân ấm áp chỉ đến khi có cầu vồng xuất hiện rực rỡ và muôn hoa cùng khoe sắc chào đón. Trong khu rừng nọ, mỗi khi chuyển mùa lạnh, thỏ mẹ lại bị ốm. Thương mẹ quá, thỏ con bàn với bác khỉ già làm cầu vồng rực rỡ. Các loài muông thú liền góp những sợi lông đẹp nhất của mình, bạn chim sâu khéo tay dệt nên dải màu cầu vồng. Thỏ con băng rừng vượt thác nhờ các loài hoa tích tụ nhựa sống cùng nở hoa đón mùa xuân ấm áp về chữa khỏi bệnh cho mẹ.",
+          "question_text": "Ai là người khéo tay có công dệt nên dải màu rực rỡ của chiếc cầu vồng lấp lánh?",
+          "options": [
+            "Bác khỉ già thông thái",
+            "Chú thỏ con hiếu thảo",
+            "Bạn chim sâu khéo tay",
+            "Chị gió mát lành"
+          ],
+          "answer": "Bạn chim sâu khéo tay",
+          "hint": "Chim sâu khéo tay ngậm chỉ kết nối các mảng lông màu của các muông thú dệt thành dải cầu vồng bảy sắc tuyệt đẹp!",
+          "image_url": "assets/images/tho_hong.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,349 +1,169 @@
 {
   "topic_id": 11,
   "topic_name": "ĐỌC HIỂU - TRẢ LỜI",
-  "description": "Luyện đọc trơn diễn cảm các tác phẩm truyện ngụ ngôn ý nghĩa và bài thơ ca dao giàu nhịp điệu Tiếng Việt.",
-  "lecture_title": "BÀI GIẢNG: KỸ NĂNG ĐỌC HIỂU TRUYỆN THƠ 🎶",
-  "lecture_content": "Chào mừng nhà thông thái nhỏ tuổi đến với lớp học Đọc Hiểu! Đọc hiểu là một kỹ năng cực kỳ quan trọng, giúp bé khám phá những câu chuyện ngụ ngôn thú vị, những bài thơ êm ái giàu nhịp điệu của đất nước. Để trả lời đúng, con hãy luyện đọc trơn trôi chảy cả bài đọc trước, sau đó tìm kiếm những chi tiết, tên nhân vật, màu sắc được nhắc đến trong đoạn văn để trả lời câu hỏi nhé!",
-  "lecture_audio_text": "Chào mừng bé yêu đến với bài học Đọc hiểu và trả lời. Chúng ta cùng rèn luyện khả năng đọc diễn cảm và phân tích chi tiết câu chuyện, bài thơ ý nghĩa nhé!",
+  "description": "Luyện đọc diễn cảm các tác phẩm thơ, nhạc và câu chuyện văn học ngắn ngụ ngôn ý nghĩa.",
+  "lecture_title": "Bài Giảng: Kỹ Năng Đọc Diễn Cảm Và Trả Lời Câu Hỏi",
+  "lecture_content": "Chào mừng bé yêu đến với góc Đọc hiểu và Cảm thụ văn học! Hôm nay chúng mình bước sang chặng đường phát triển kỹ năng nâng cao: Đọc diễn cảm câu chuyện và trả lời câu hỏi. Khi đọc, bé hãy đọc chậm rãi, ngắt nghỉ đúng chỗ sau các dấu phẩy, dấu chấm nhé. Sau khi đọc xong, bé hãy trả lời các câu hỏi trắc nghiệm của Thỏ Hồng để kiểm tra xem mình đã hiểu hết ý nghĩa tốt đẹp của câu chuyện chưa nhé. Thỏ Hồng tin bé Vy sẽ làm rất xuất sắc thôi!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với bài đọc hiểu và cảm thụ văn học ngắn lớp 1. Cùng Cô Giáo Thỏ Hồng luyện đọc diễn cảm và tìm câu trả lời đúng nhất nhé!",
   "questions": [
     {
       "question_id": 1101,
-      "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 1",
-      "reading_passage": "Ve và kiến cùng sống trên cây nhưng mỗi người một nết. Kiến chăm chỉ làm việc suốt ngày. Thức ăn kiếm được ăn không hết, kiến để dành phòng khi mùa đông. Ve thì nhởn nhơ ca hát suốt cả mùa hè.\nMùa đông đến, thức ăn khan hiếm, ve đói đành tìm kiến xin ăn.",
-      "question_text": "Mùa đông đến, chú Ve đói bụng phải đi tìm ai để xin ăn?",
+      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
+      "passage_title": "Bài thơ: Ai gõ cửa?",
+      "reading_passage": "Cộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là gió mát\nMang hương thơm trời\nGhé vào chơi nhé!\n\nCộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là mưa rào\nMang nước mát lành\nTưới cho cây trái.",
+      "question_text": "Trong bài thơ trên, nhân vật nào đã gõ cửa đầu tiên để mang hương thơm trời ghé vào chơi?",
       "options": [
-        "Bạn Kiến",
-        "Chú mèo mướp",
-        "Chị gà trống",
-        "Bác nông dân"
+        "Mưa rào",
+        "Gió mát",
+        "Cây trái",
+        "Bé Thỏ"
       ],
-      "answer": "Bạn Kiến",
-      "hint": "Vì lười biếng ham chơi suốt hè, ve đói bèn sang nhà bạn kiến chăm chỉ gõ cửa cầu cứu.",
+      "answer": "Gió mát",
+      "hint": "Khổ thơ đầu tiên viết: 'Tôi là gió mát, Mang hương thơm trời, Ghé vào chơi nhé!' nên gió mát chính là người gõ cửa đầu tiên!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1102,
-      "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 2",
-      "reading_passage": "Ve và kiến cùng sống trên cây nhưng mỗi người một nết. Kiến chăm chỉ làm việc suốt ngày. Thức ăn kiếm được ăn không hết, kiến để dành phòng khi mùa đông. Ve thì nhởn nhơ ca hát suốt cả mùa hè.",
-      "question_text": "Kiến chăm chỉ làm gì suốt cả ngày mùa hè để chuẩn bị thức ăn cho mùa đông?",
+      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
+      "passage_title": "Bài thơ: Ai gõ cửa?",
+      "reading_passage": "Cộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là gió mát\nMang hương thơm trời\nGhé vào chơi nhé!\n\nCộc... cộc... cộc...\nAi gõ cửa đấy?\nTôi là mưa rào\nMang nước mát lành\nTưới cho cây trái.",
+      "question_text": "Nhân vật gõ cửa thứ hai trong bài thơ là Mưa Rào mang điều mát lành gì đến tưới cho cây trái tươi xanh?",
       "options": [
-        "làm việc tích trữ",
-        "hát ca nhảy múa",
-        "nằm lì trong bếp",
-        "rong chơi bắt bướm"
+        "Gió bão",
+        "Hương thơm trời",
+        "Nước mát lành",
+        "Nắng ấm"
       ],
-      "answer": "làm việc tích trữ",
-      "hint": "Kiến rất cần mẫn, chăm chỉ gom góp đồ ăn dự phòng cho lúc giá rét.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "Nước mát lành",
+      "hint": "Mưa rào gõ cửa thứ hai và hát vang: 'Tôi là mưa rào, Mang nước mát lành, Tưới cho cây trái.' đấy bé yêu!",
+      "image_url": "assets/images/con_vit.png"
     },
     {
       "question_id": 1103,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 3",
-      "reading_passage": "Càng về sáng, tiết trời càng lạnh giá. Trong bếp, bác mèo mướp vẫn nằm lì bên đống tro ấm. Bác lim dim đôi mắt, luôn miệng gừ gừ kêu: 'Rét! Rét!'\nThế nhưng, mới sớm tinh mơ, chú gà trống đã chạy tót ra giữa sân.",
-      "question_text": "Bác mèo mướp nằm ở đâu kêu rét vào buổi sáng sớm lạnh giá?",
+      "passage_title": "Câu chuyện: Chú chim sẻ thông minh",
+      "reading_passage": "Một chú chim sẻ nhỏ đậu trên cành cây cao. Bỗng một chú mèo mướp rón rén đi tới định vồ lấy sẻ. Sẻ nhanh trí kêu to lên: 'Chào bác Mèo! Bác đã rửa mặt chưa mà đi săn thế ạ?'. Mèo ngượng ngùng dừng lại dùng chân lau mặt. Sẻ lập tức đập cánh bay vút lên bầu trời xanh mát.",
+      "question_text": "Chú sẻ nhỏ trong câu chuyện đã làm gì khi phát hiện mèo mướp đang rón rén đi tới định vồ mình?",
       "options": [
-        "Bên đống tro ấm trong bếp",
-        "Giữa sân cỏ xanh",
-        "Trên cành lộc vừng",
-        "Trong chiếc cặp sách"
+        "Sẻ sợ hãi khóc lóc van xin.",
+        "Sẻ nhanh trí hỏi mèo đã rửa mặt chưa để mèo phân tâm.",
+        "Sẻ đứng im chịu trận không động đậy.",
+        "Sẻ gọi các bạn chim sẻ khác tới đánh mèo."
       ],
-      "answer": "Bên đống tro ấm trong bếp",
-      "hint": "Chú mèo lười sợ rét, cuộn tròn sưởi ấm trong bếp lò.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "Sẻ nhanh trí hỏi mèo đã rửa mặt chưa để mèo phân tâm.",
+      "hint": "Sẻ hỏi mèo rửa mặt chưa để mèo dừng lại lấy chân lau mặt. Nhờ vậy sẻ có thời gian đập cánh bay đi cứu mạng mình! Thật thông minh phải không bé!",
+      "image_url": "assets/images/con_meo.png"
     },
     {
       "question_id": 1104,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 4",
-      "reading_passage": "Càng về sáng, tiết trời càng lạnh giá. Trong bếp, bác mèo mướp vẫn nằm lì bên đống tro ấm. Bác lim dim đôi mắt, luôn miệng gừ gừ kêu: 'Rét! Rét!'\nThế nhưng, mới sớm tinh mơ, chú gà trống đã chạy tót ra giữa sân gáy vang.",
-      "question_text": "Chú gà trống đã chạy ra đâu để gáy vang từ sáng tinh mơ?",
+      "passage_title": "Câu chuyện: Chú chim sẻ thông minh",
+      "reading_passage": "Một chú chim sẻ nhỏ đậu trên cành cây cao. Bỗng một chú mèo mướp rón rén đi tới định vồ lấy sẻ. Sẻ nhanh trí kêu to lên: 'Chào bác Mèo! Bác đã rửa mặt chưa mà đi săn thế ạ?'. Mèo ngượng ngùng dừng lại dùng chân lau mặt. Sẻ lập tức đập cánh bay vút lên bầu trời xanh mát.",
+      "question_text": "Khi nghe sẻ hỏi về việc rửa mặt, phản ứng ngượng ngùng của chú Mèo mướp là gì?",
       "options": [
-        "Ra giữa sân",
-        "Vào trong bếp lò",
-        "Lên ngọn cây cau",
-        "Vào buồng ngủ"
+        "Mèo lập tức vồ lấy ăn thịt sẻ luôn.",
+        "Mèo ngượng ngùng dừng lại dùng chân lau mặt.",
+        "Mèo sợ hãi bỏ chạy trốn đi mất.",
+        "Mèo ngửa mặt lên trời kêu ngoao ngoao."
       ],
-      "answer": "Ra giữa sân",
-      "hint": "Gà trống siêng năng chạy tót ra giữa sân gáy vang ò ó o gọi mọi người.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "Mèo ngượng ngùng dừng lại dùng chân lau mặt.",
+      "hint": "Mèo ta rất đỏ mặt ngượng ngùng nên dừng phắt lại, cúi đầu lấy chân lau mặt, tạo cơ hội cho chú sẻ thông minh bay biến!",
+      "image_url": "assets/images/con_meo.png"
     },
     {
       "question_id": 1105,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 5",
-      "reading_passage": "Trong khi các bạn tíu tít chuẩn bị sách vở cho năm học mới thì mèo Mướp vẫn rong chơi bắt bướm, hái hoa... Mèo Mướp vốn là chú mèo ham chơi, lười biếng nhất vùng.",
-      "question_text": "Mèo Mướp đã làm gì trong khi các bạn chuẩn bị sách vở đi học lớp Một?",
+      "passage_title": "Ngụ ngôn: Ve và Kiến",
+      "reading_passage": "Ve và kiến cùng sống trên cây nhưng mỗi người một nết. Kiến chăm chỉ làm việc suốt ngày để dành thức ăn phòng khi mùa đông lạnh giá. Còn Ve thì lười biếng, nhởn nhơ ca hát vui đùa suốt cả mùa hè. Khi mùa đông đến, tuyết rơi phủ trắng mặt đất, không tìm được thức ăn, ve đói lả đành gõ cửa xin kiến cứu giúp. Kiến thương tình cho ve ăn rồi dặn ve: 'Vui chơi ca hát rất tốt, nhưng cũng phải biết chăm chỉ lao động nữa nhé!'",
+      "question_text": "Trong câu chuyện ngụ ngôn, nhân vật nào đã chăm chỉ làm việc suốt cả ngày để lo tích trữ thức ăn cho mùa đông lạnh?",
       "options": [
-        "Rong chơi bắt bướm hái hoa",
-        "Chăm chỉ chép bài",
-        "Giúp mẹ quét dọn nhà",
-        "Nằm đọc sách chăm ngoan"
+        "Bạn Ve lười biếng",
+        "Bạn Thỏ Hồng",
+        "Đàn Kiến chăm chỉ",
+        "Bạn Sóc nhỏ"
       ],
-      "answer": "Rong chơi bắt bướm hái hoa",
-      "hint": "Chú mèo lười Mướp lơ là việc học, ham mê rong chơi bên hoa bướm.",
+      "answer": "Đàn Kiến chăm chỉ",
+      "hint": "Bạn Kiến rất siêng năng lo xa, chăm chỉ dọn dẹp và tha mồi dự trữ ăn suốt mùa đông dài không lo bị đói bụng!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1106,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 6",
-      "reading_passage": "Chú chuồn chuồn nước mới đẹp làm sao! Màu vàng trên lưng chú lấp lánh. Bốn cái cánh mỏng như giấy bóng. Cái đầu tròn và hai con mắt long lanh như thủy tinh. Thân hình chú nhỏ và thon vàng như màu vàng của nắng mùa thu.",
-      "question_text": "Thân hình của chú chuồn chuồn nước có đặc điểm màu sắc đặc biệt gì?",
+      "passage_title": "Ngụ ngôn: Ve và Kiến",
+      "reading_passage": "Ve và kiến cùng sống trên cây nhưng mỗi người một nết. Kiến chăm chỉ làm việc suốt ngày để dành thức ăn phòng khi mùa đông lạnh giá. Còn Ve thì lười biếng, nhởn nhơ ca hát vui đùa suốt cả mùa hè. Khi mùa đông đến, tuyết rơi phủ trắng mặt đất, không tìm được thức ăn, ve đói lả đành gõ cửa xin kiến cứu giúp. Kiến thương tình cho ve ăn rồi dặn ve: 'Vui chơi ca hát rất tốt, nhưng cũng phải biết chăm chỉ lao động nữa nhé!'",
+      "question_text": "Khi mùa đông lạnh giá tuyết rơi đầy nhà, bạn Ve sầu gặp phải hoàn cảnh khó khăn gì?",
       "options": [
-        "thon vàng như nắng mùa thu",
-        "đen thui nhấp nháy",
-        "đỏ rực sặc sỡ",
-        "xanh biếc lấp lánh"
+        "Ve bị ốm sốt nóng tai.",
+        "Ve đói lả người và không tìm được gì để ăn.",
+        "Ve bị lạc đường trong rừng sâu.",
+        "Ve được đi sưởi nắng cùng các bạn."
       ],
-      "answer": "thon vàng như nắng mùa thu",
-      "hint": "Thân chú nhỏ nhắn và mang màu 'thon vàng' của ánh nắng dịu êm thu.",
+      "answer": "Ve đói lả người và không tìm được gì để ăn.",
+      "hint": "Vì cả mùa hè chỉ mải chơi ca hát không tích trữ mồi, mùa đông đến Ve sầu không tìm được gì ăn và lả đói, đành phải đi xin cứu giúp.",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1107,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 7",
-      "reading_passage": "Chú chuồn chuồn nước mới đẹp làm sao! Màu vàng trên lưng chú lấp lánh. Bốn cái cánh mỏng như giấy bóng. Cái đầu tròn và hai con mắt long lanh như thủy tinh. Chú đậu trên một cành lộc vừng ngả dài trên mặt hồ.",
-      "question_text": "Cặp mắt của chú chuồn chuồn nước long lanh được ví với vật gì?",
+      "passage_title": "Bài văn: Chú gà trống ưa dậy sớm",
+      "reading_passage": "Càng về sáng, tiết trời đông càng giá lạnh. Trong bếp, bác mèo mướp vẫn nằm lì lười biếng bên đống tro ấm, gừ gừ than thở 'Rét! Rét!'. Thế nhưng, mới sớm tinh mơ, chú gà trống dũng cảm đã chạy tót ra giữa sân. Chú vươn mình, dang đôi cánh to, khỏe như hai chiếc quạt vỗ phành phạch, gáy vang đánh thức ông mặt trời: 'Ò... ó... o... o...'",
+      "question_text": "Bác mèo mướp nằm lì sưởi ấm trốn rét ở xó nào trong ngôi nhà?",
       "options": [
-        "Thủy tinh",
-        "Pha lê",
-        "Hạt ngọc",
-        "Ngôi sao"
+        "Trong buồng ngủ ấm áp",
+        "Nằm lì bên đống tro ấm trong bếp",
+        "Ngoài sân chơi cát",
+        "Đậu trên cành khế đầu nhà"
       ],
-      "answer": "Thủy tinh",
-      "hint": "Hai mắt chuồn chuồn tròn xoe dạt dào, sáng lấp lánh như thủy tinh tròn trịa.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "Nằm lì bên đống tro ấm trong bếp",
+      "hint": "Bác mèo lười mèo mướp nằm im re cuộn tròn lười biếng sưởi ấm bên đống tro tàn ấm áp của căn bếp đất sình!",
+      "image_url": "assets/images/con_meo.png"
     },
     {
       "question_id": 1108,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 8",
-      "reading_passage": "Khi làm bạn với bé Hiền, giấy kể rất hạnh phúc. Bé Hiền nâng niu giấy kể, tập viết những chữ cái kín cả hai mặt giấy. Hiền học xong, giấy kể được đưa đến nhà máy tái chế sạch sẽ.",
-      "question_text": "Giấy kể cảm thấy thế nào khi làm bạn đồng hành cùng bé Hiền chăm ngoan?",
+      "passage_title": "Bài văn: Chú gà trống ưa dậy sớm",
+      "reading_passage": "Càng về sáng, tiết trời đông càng giá lạnh. Trong bếp, bác mèo mướp vẫn nằm lì lười biếng bên đống tro ấm, gừ gừ than thở 'Rét! Rét!'. Thế nhưng, mới sớm tinh mơ, chú gà trống dũng cảm đã chạy tót ra giữa sân. Chú vươn mình, dang đôi cánh to, khỏe như hai chiếc quạt vỗ phành phạch, gáy vang đánh thức ông mặt trời: 'Ò... ó... o... o...'",
+      "question_text": "Chú gà trống khỏe mạnh đã làm hành động dũng mãnh gì trước khi gáy vang đánh thức mọi người dậy?",
       "options": [
-        "rất hạnh phúc",
-        "rất buồn bã",
-        "rất tức giận",
-        "xấu hổ đỏ mặt"
+        "Nhảy nhót kiếm mồi ăn thóc.",
+        "Vươn mình, dang đôi cánh to vỗ phành phạch.",
+        "Chạy đi tìm chú mèo chơi đùa.",
+        "Nằm lì ngủ gật trốn gió rét."
       ],
-      "answer": "rất hạnh phúc",
-      "hint": "Bé Hiền nâng niu, tập viết nắn nót gọn gàng sạch sẽ khiến trang giấy hạnh phúc.",
+      "answer": "Vươn mình, dang đôi cánh to vỗ phành phạch.",
+      "hint": "Chú gà vươn mình dang cánh to khỏe như đôi quạt vỗ phành phạch rồi lấy hơi gáy vang giòn rã ò ó o khắp xóm nhỏ!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1109,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 9",
-      "reading_passage": "Khác với Hiền, Minh chỉ viết được vài chữ là vứt luôn giấy kể vào thùng rác. Vừa vứt xong, Minh bỗng nghe tiếng thì thầm khuyên bảo: 'Cậu phải viết cẩn thận và tiết kiệm giấy chứ!'",
-      "question_text": "Bạn Minh đã làm hành động gì chưa tốt với trang giấy học tập?",
+      "passage_title": "Truyện: Sự tích mùa xuân",
+      "reading_passage": "Ngày xưa, trái đất chỉ có ba mùa: hạ, thu, đông. Mùa xuân ấm áp chỉ đến khi có cầu vồng xuất hiện rực rỡ và muôn hoa cùng khoe sắc chào đón. Trong khu rừng nọ, mỗi khi chuyển mùa lạnh, thỏ mẹ lại bị ốm. Thương mẹ quá, thỏ con bàn với bác khỉ già làm cầu vồng rực rỡ. Các loài muông thú liền góp những sợi lông đẹp nhất của mình, bạn chim sâu khéo tay dệt nên dải màu cầu vồng. Thỏ con băng rừng vượt thác nhờ các loài hoa tích tụ nhựa sống cùng nở hoa đón mùa xuân ấm áp về chữa khỏi bệnh cho mẹ.",
+      "question_text": "Vì sao chú thỏ con hiếu thảo lại quyết tâm đi tìm mọi người cùng giúp dệt cầu vồng đón mùa xuân về?",
       "options": [
-        "Viết vài chữ rồi vứt sọt rác",
-        "Nâng niu giữ gìn cẩn thận",
-        "Tặng cho bạn bè đọc",
-        "Tô điểm vẽ hình đẹp đẽ"
+        "Để được đi chơi vui vẻ.",
+        "Vì mỗi khi mùa đông lạnh tràn về thỏ mẹ lại bị ốm.",
+        "Để khoe bộ lông rực rỡ.",
+        "Để rủ các bạn thú đi nhảy múa."
       ],
-      "answer": "Viết vài chữ rồi vứt sọt rác",
-      "hint": "Bạn Minh lãng phí giấy, viết bậy bạ bừa bãi rồi vứt đi lãng phí.",
+      "answer": "Vì mỗi khi mùa đông lạnh tràn về thỏ mẹ lại bị ốm.",
+      "hint": "Thỏ con thương mẹ bị ốm lạnh yếu nên quyết chí tìm cách đón mùa xuân ấm áp dễ chịu về sưởi ấm cho thỏ mẹ mau lành bệnh!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1110,
       "sub_topic": "Đọc truyện ngắn & Trả lời",
-      "week": 11,
-      "reading_title": "BÀI ĐỌC HIỂU SỐ 10",
-      "reading_passage": "Bé Nga rất ngoan ngoãn. Chiều chiều mẹ đi làm về, bé ra xách đồ giúp mẹ đỡ mỏi mệt. Mẹ khen bé Nga ngoan và thơm lên đôi má hồng hào thương yêu của bé.",
-      "question_text": "Mẹ khen bé Nga điều gì khi bé ra xách đồ đỡ đần giúp mẹ?",
+      "passage_title": "Truyện: Sự tích mùa xuân",
+      "reading_passage": "Ngày xưa, trái đất chỉ có ba mùa: hạ, thu, đông. Mùa xuân ấm áp chỉ đến khi có cầu vồng xuất hiện rực rỡ và muôn hoa cùng khoe sắc chào đón. Trong khu rừng nọ, mỗi khi chuyển mùa lạnh, thỏ mẹ lại bị ốm. Thương mẹ quá, thỏ con bàn với bác khỉ già làm cầu vồng rực rỡ. Các loài muông thú liền góp những sợi lông đẹp nhất của mình, bạn chim sâu khéo tay dệt nên dải màu cầu vồng. Thỏ con băng rừng vượt thác nhờ các loài hoa tích tụ nhựa sống cùng nở hoa đón mùa xuân ấm áp về chữa khỏi bệnh cho mẹ.",
+      "question_text": "Ai là người khéo tay có công dệt nên dải màu rực rỡ của chiếc cầu vồng lấp lánh?",
       "options": [
-        "Bé rất tình cảm và ngoan ngoãn",
-        "Bé rất lười học bài",
-        "Bé nghịch ngợm chạy nhảy",
-        "Bé ham ăn bánh kẹo"
+        "Bác khỉ già thông thái",
+        "Chú thỏ con hiếu thảo",
+        "Bạn chim sâu khéo tay",
+        "Chị gió mát lành"
       ],
-      "answer": "Bé rất tình cảm và ngoan ngoãn",
-      "hint": "Nga ngoan ngoãn hiếu thảo giúp đỡ mẹ, xứng đáng nhận nụ hôn của mẹ yêu.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1111,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 1",
-      "reading_passage": "Một ngày yên ả\nBên cửa khép hờ\nBé ngồi đọc sách\nCún nằm ngủ mơ.\n\nNghe tiếng gõ cửa\nCún liền dạ thưa\nChạy ra chào khách\nChỉ thấy nắng trưa.",
-      "question_text": "Khổ thơ thứ nhất cho biết bé đang làm việc bổ ích gì bên cửa khép hờ?",
-      "options": [
-        "Bé ngồi đọc sách",
-        "Bé chơi xếp hình",
-        "Bé hát múa ca",
-        "Bé quét dọn nhà"
-      ],
-      "answer": "Bé ngồi đọc sách",
-      "hint": "Bám sát bài thơ Ai Gõ Cửa của Phạm Hải Lê: 'Bé ngồi đọc sách'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1112,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 2",
-      "reading_passage": "Nghe tiếng gõ cửa\nCún liền dạ thưa\nChạy ra chào khách\nChỉ thấy nắng trưa.\n\nLại nghe xịch cửa\nCún ngó ra ngay\nThì ra bạn gió\nMỉm cười nhận sai...",
-      "question_text": "Ai là 'vị khách' tinh nghịch đã gõ cửa khiến chú cún lầm tưởng?",
-      "options": [
-        "Bạn Gió tinh nghịch",
-        "Bác mèo mướp",
-        "Thỏ hồng đi học",
-        "Cún con ngủ mơ"
-      ],
-      "answer": "Bạn Gió tinh nghịch",
-      "hint": "Đó chính là bạn Gió mải chơi xô đẩy chiếc cửa làm cún tưởng có khách đến chơi.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1113,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 3",
-      "reading_passage": "Bên thềm gió mát\nBé nặn đồ chơi\nMèo nằm vẫy đuôi\nTròn xoe đôi mắt.\n\nĐây là quả thị\nĐây là quả na\nQuả này phần mẹ\nQuả này tặng cha.",
-      "question_text": "Trong bài thơ nặn đồ chơi, chú mèo nằm vẫy đuôi có đôi mắt thế nào?",
-      "options": [
-        "Tròn xoe",
-        "Lim dim sưởi ấm",
-        "Sáng nhấp nháy",
-        "Nhắm tịt lại"
-      ],
-      "answer": "Tròn xoe",
-      "hint": "Bám sát ý thơ: 'Mèo nằm vẫy đuôi / Tròn xoe đôi mắt.'",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1114,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 4",
-      "reading_passage": "Đây là quả thị\nĐây là quả na\nQuả này phần mẹ\nQuả này tặng cha.\n\n(Trích Nặn Đồ Chơi)",
-      "question_text": "Bé nặn những loại quả đồ chơi đáng yêu nào để dành phần cho cha và mẹ?",
-      "options": [
-        "quả thị, quả na",
-        "quả nho, quả lê",
-        "quả cam, quả bưởi",
-        "quả mận, quả dưa"
-      ],
-      "answer": "quả thị, quả na",
-      "hint": "Bé hiếu thảo nặn quả thị thơm, quả na nhiều mắt để biếu tặng mẹ cha.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1115,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 5",
-      "reading_passage": "Mẹ bé đi gặt vắng,\nBé ở nhà với em.\nEm múa cho bé xem,\nVõng đu cho bé thích.\n\n(Thùy Dương - Dỗ Bé)",
-      "question_text": "Khi mẹ đi gặt lúa vắng nhà, ai đã ở nhà múa ca dỗ bé ngoan nín khóc?",
-      "options": [
-        "Người em thương yêu",
-        "Bác mèo mướp",
-        "Bố của bé",
-        "Bà ngoại hiền từ"
-      ],
-      "answer": "Người em thương yêu",
-      "hint": "Bài thơ tả tình anh em ruột thịt, em múa dỗ bé ngoan nín khóc cười tươi.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1116,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 6",
-      "reading_passage": "Lúc nào bé đòi nghịch\nEm lấy cho đồ chơi.\nLúc nào bé ngủ rồi,\nEm buông màn cho bé.\n\n(Thùy Dương - Dỗ Bé)",
-      "question_text": "Khi em bé yêu đã ngủ ngon rồi, người em làm hành động yêu thương che chở gì?",
-      "options": [
-        "Em buông màn chống muỗi",
-        "Em múa cho bé xem",
-        "Em mang đồ chơi ra",
-        "Em chạy đi chơi"
-      ],
-      "answer": "Em buông màn chống muỗi",
-      "hint": "Dỗ bé ngủ say sưa rồi, em nhẹ nhàng buông màn bảo vệ bé khỏi muỗi cắn.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1117,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 7",
-      "reading_passage": "Mưa tạnh, nắng lên,\nTrời cao xanh bát ngát.\nOng bướm đua nhau\nBay lượn từng đàn.\n\n(Mưa tạnh nắng lên)",
-      "question_text": "Khi cơn mưa tạnh ráo và ánh nắng bừng lên, bầu trời có đặc điểm gì?",
-      "options": [
-        "cao xanh bát ngát rộng lớn",
-        "tối sầm mây xám xịt",
-        "mưa rơi lách tách dạt dào",
-        "gió thổi ù ù giông bão"
-      ],
-      "answer": "cao xanh bát ngát rộng lớn",
-      "hint": "Bầu trời sau cơn mưa tươi tắn cực kỳ, 'cao xanh bát ngát rộng lớn'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1118,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 8",
-      "reading_passage": "Kim ngắn chỉ giờ\nKim dài chỉ phút\nTích tắc tích tắc\nThì giờ vùn vụt\nNhanh như tên bay\nChớ phí một giây\nEm chăm chỉ học.\n\n(Kim Đồng Hồ Tích Tắc)",
-      "question_text": "Chiếc kim ngắn trên đồng hồ có công dụng quan trọng chỉ gì?",
-      "options": [
-        "chỉ giờ",
-        "chỉ phút",
-        "chỉ giây",
-        "chỉ ngày"
-      ],
-      "answer": "chỉ giờ",
-      "hint": "Kim ngắn thì chỉ giờ, kim dài chỉ phút, quay tích tắc liên tục.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1119,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 9",
-      "reading_passage": "Chớ phí một giây\nEm chăm chỉ học.\n\n(Kim Đồng Hồ Tích Tắc)",
-      "question_text": "Từ thời gian trôi nhanh như tên bay, bài thơ khuyên các bé học sinh điều gì?",
-      "options": [
-        "Chăm chỉ học tập, chớ lãng phí thời gian",
-        "Hãy đi rong chơi rong đùa",
-        "Hãy ngủ sưởi ấm trong bếp lò",
-        "Nghịch ngợm phá phách đồ dùng"
-      ],
-      "answer": "Chăm chỉ học tập, chớ lãng phí thời gian",
-      "hint": "Đồng hồ nhắc nhở thì giờ quý báu như vàng ngọc, bé chớ lãng phí một giây mà hãy học tập chăm ngoan.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1120,
-      "sub_topic": "Đọc thơ & Nhạc thiếu nhi",
-      "week": 11,
-      "reading_title": "BÀI THƠ ĐỌC HIỂU SỐ 10",
-      "reading_passage": "Bé ơi mau dậy\nĐến lớp mầm non\nCon trâu tai vẫy\nCon gà mào son\nĐều đi cả rồi\nBé ơi mau dậy.\n\n(Bé ơi mau dậy)",
-      "question_text": "Bài thơ thúc giục em bé thức dậy sớm để nhanh chân đến đâu?",
-      "options": [
-        "Đến lớp mầm non",
-        "Ra ruộng chăn trâu",
-        "Ra bếp lò sưởi ấm",
-        "Ra vườn bắt bướm"
-      ],
-      "answer": "Đến lớp mầm non",
-      "hint": "Thúc giục bé thức dậy đúng giờ để tới trường mẫu giáo, nơi bạn bè đang đón đợi.",
+      "answer": "Bạn chim sâu khéo tay",
+      "hint": "Chim sâu khéo tay ngậm chỉ kết nối các mảng lông màu của các muông thú dệt thành dải cầu vồng bảy sắc tuyệt đẹp!",
       "image_url": "assets/images/tho_hong.png"
     }
   ]

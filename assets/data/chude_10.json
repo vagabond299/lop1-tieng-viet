@@ -1,459 +1,149 @@
 {
   "topic_id": 10,
-  "topic_name": "ĐỐ VUI BÉ NGOAN",
-  "description": "Phát triển chỉ số thông minh IQ và trí tưởng tượng phong phú qua kho tàng câu đố dân gian giàu vần điệu.",
-  "lecture_title": "BÀI GIẢNG: BÍ QUYẾT GIẢI ĐỐ CỦA THỎ HỒNG 🦉",
-  "lecture_content": "Chào nhà thông thái nhí của Thỏ Hồng! Giải câu đố là một trò chơi trí tuệ vô cùng bổ ích, giúp con phát triển tư duy logic và óc liên tưởng phong phú. Mỗi câu đố đều mô tả các đặc điểm nổi bật nhất của một sự vật (tiếng kêu, hình dáng, công dụng...). Con hãy lắng nghe hoặc đọc thật thong thả, liên hệ với thế giới thực xung quanh để tìm ra đáp án chính xác nhất nhé!",
-  "lecture_audio_text": "Chào mừng bé yêu đến với bài học Đố vui bé ngoan. Chúng ta cùng rèn luyện khả năng suy luận, kích thích trí thông minh qua kho tàng câu đố dân gian đặc sắc nhé!",
+  "topic_name": "ĐỐ VUI BÉ NGOAN (IQ)",
+  "description": "Kho tàng câu đố dân gian vui nhộn về con vật, đồ dùng trong nhà rèn luyện trí thông minh cho bé.",
+  "lecture_title": "Bài Giảng: Bí Quyết Giải Câu Đố Dân Gian",
+  "lecture_content": "Chào mừng bé yêu đến với Sân chơi Trí tuệ IQ cùng Cô Giáo Thỏ Hồng! Các câu đố dân gian Việt Nam cực kỳ hóm hỉnh và sâu sắc đấy bé ơi. Để giải được câu đố, bé hãy tập thói quen: (1) Nhắm mắt lại và tưởng tượng ra hình ảnh mô tả trong bài thơ. (2) Phân tích các đặc điểm độc đáo (như loài vật có mào đỏ gáy ò ó o là chú gà trống, loài vật bò ngang có 8 cẳng 2 càng là chú cua). Chắc chắn bé Vy của chúng ta sẽ bách chiến bách thắng giật thật nhiều Sao vàng IQ nhé!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với góc đố vui thông minh IQ. Hãy cùng Cô Giáo Thỏ Hồng rèn luyện tư duy và trí tưởng tượng thông qua các câu đố dân gian cực vui nhé!",
   "questions": [
     {
       "question_id": 1001,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Con gì tám cẳng hai càng / Chẳng đi mà lại bò ngang cả ngày?",
+      "sub_topic": "Đố vui loài vật quen thuộc",
+      "question_text": "Bé đoán xem đây là con vật nào nhé: 'Con gì hai mắt trong veo / Thích nằm sưởi nắng, thích trèo cây cau'?",
       "options": [
-        "Con cua",
-        "Con tôm",
-        "Con cá",
-        "Con rùa"
+        "con chó",
+        "con chuột",
+        "con mèo",
+        "con thỏ"
       ],
-      "answer": "Con cua",
-      "hint": "Đó chính là chú cua bò ngang ngộ nghĩnh!",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "con mèo",
+      "hint": "Đôi mắt tròn trong veo lấp lánh và tài trèo cau thoăn thoắt để bắt chuột chính là bạn mèo mèo đấy!",
+      "image_url": "assets/images/con_meo.png"
     },
     {
       "question_id": 1002,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Con gì ăn cỏ, đầu có hai sừng, lỗ mũi buộc thừng, kéo cày rất giỏi?",
+      "sub_topic": "Đố vui loài vật quen thuộc",
+      "question_text": "Bé đoán xem đây là bạn động vật nào nhé: 'Thường nằm đầu hè / Giữ nhà cho chủ / Người lạ nó sủa / Người quen nó mừng'?",
       "options": [
-        "Con trâu",
-        "Con bò",
-        "Con ngựa",
-        "Con heo"
+        "con mèo",
+        "con chó",
+        "con trâu",
+        "con chuột"
       ],
-      "answer": "Con trâu",
-      "hint": "Đó là chú trâu đen dũng mãnh dầm vũng bùn kéo cày trên ruộng ruộng.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "con chó",
+      "hint": "Bạn chó xù trung thành gác cổng canh nhà, sủa gâu gâu đuổi người lạ đấy bé!",
+      "image_url": "assets/images/con_cho.png"
     },
     {
       "question_id": 1003,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Con gì đuôi ngắn tai dài, mắt hồng lông mượt, có tài chạy nhanh?",
+      "sub_topic": "Đố vui loài vật quen thuộc",
+      "question_text": "Câu đố dân gian siêu thú vị: 'Con gì tám cẳng hai càng / Chẳng đi mà lại bò ngang cả ngày'?",
       "options": [
-        "Con thỏ",
-        "Con chó",
-        "Con mèo",
-        "Con chuột"
+        "con rùa",
+        "con ếch",
+        "con cua",
+        "con cá"
       ],
-      "answer": "Con thỏ",
-      "hint": "Chú thỏ trắng dễ thương của chúng ta chạy nhảy cực kỳ nhanh!",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "con cua",
+      "hint": "Bạn cua bể có 8 chân nhỏ và hai chiếc càng to đùng, thích bò ngang lổm ngổm lách cách!",
+      "image_url": "assets/images/con_cua.png"
     },
     {
       "question_id": 1004,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Thường nằm đầu hè, giữ nhà cho chủ, người lạ nó sủa, người quen nó mừng. Là con gì?",
+      "sub_topic": "Đố vui loài vật quen thuộc",
+      "question_text": "Đố bé yêu: 'Con gì mào đỏ / Gáy ò ó o... / Từ sáng tinh mơ / Gọi người thức giấc'?",
       "options": [
-        "Con chó",
-        "Con mèo",
-        "Con lợn",
-        "Con gà"
+        "con gà trống",
+        "con vịt",
+        "con cò",
+        "con bồ câu"
       ],
-      "answer": "Con chó",
-      "hint": "Chú chó vàng trung thành canh gác bảo vệ gia đình.",
+      "answer": "con gà trống",
+      "hint": "Chú gà trống khỏe mạnh thức dậy sớm gáy vang 'ò ó o' đánh thức bé yêu dậy chuẩn bị đi học!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1005,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Con gì mào đỏ, gáy ò ó o, từ sáng tinh mơ, gọi người thức giấc?",
+      "sub_topic": "Đố vui loài vật quen thuộc",
+      "question_text": "Một loại củ có màu cam đo đỏ ngọt lành, giòn ngọt mà bạn Thỏ Hồng và các bạn thỏ đều thích mê?",
       "options": [
-        "Con gà trống",
-        "Con vịt",
-        "Con gà mái",
-        "Con bồ câu"
+        "củ khoai lang",
+        "củ khoai tây",
+        "củ cà rốt",
+        "củ từ"
       ],
-      "answer": "Con gà trống",
-      "hint": "Chú gà trống gáy dũng cảm gọi đón bình minh rực rỡ.",
+      "answer": "củ cà rốt",
+      "hint": "Củ cà rốt màu cam tươi chứa nhiều vitamin bổ mắt, thỏ con thích gặm rôm rốp rực rỡ!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1006,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Con gì chân ngắn, mà lại có màng, mỏ bẹt màu vàng, hay kêu cạp cạp?",
+      "sub_topic": "Đố vui đồ dùng học tập",
+      "question_text": "Đố bé đây là cái gì giúp bé gọn gàng trước khi đến trường: 'Cái gì có răng mà không có mồm / Giúp bé chải tóc sớm hôm đến trường'?",
       "options": [
-        "Con vịt",
-        "Con gà",
-        "Con ngỗng",
-        "Con cò"
+        "cái lược",
+        "cái bàn chải",
+        "cái kéo",
+        "cái gương"
       ],
-      "answer": "Con vịt",
-      "hint": "Chú vịt lông vàng mỏ vàng bơi lội tung tăng cạp cạp.",
+      "answer": "cái lược",
+      "hint": "Chiếc lược xinh xắn có các răng lược xếp đều tăm tắp giúp bé chải tóc thật gọn gàng, suôn mượt!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1007,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Bốn cột tứ trụ, người ngự lên trên, gươm bạc hai bên, chầu vua thượng đế. Là con gì?",
+      "sub_topic": "Đố vui đồ vật trong nhà",
+      "question_text": "Đố bé yêu đoán xem đồ vật này là cái gì: 'Thân hình bằng gỗ / Có bốn chân cao / Mặt phẳng phiu phiu / Bày cỗ lên trên'?",
       "options": [
-        "Con voi",
-        "Con hổ",
-        "Con sư tử",
-        "Con trâu"
+        "cái ghế",
+        "cái giường",
+        "cái bàn",
+        "cái tủ"
       ],
-      "answer": "Con voi",
-      "hint": "Đó là chú voi to lớn có vòi dài dũng mãnh.",
+      "answer": "cái bàn",
+      "hint": "Chiếc bàn học hoặc bàn ăn bốn chân phẳng phiu để bé đặt sách vở và ăn cơm ngon lành hàng ngày!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1008,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Con gì không có chân mà vẫn leo núi vèo vèo?",
+      "sub_topic": "Đố vui đồ vật trong nhà",
+      "question_text": "Đồ dùng yêu thích trong phòng bé: 'Cái gì lấp la lấp lánh / Treo ở trên tường / Trước khi đến trường / Bé soi chải tóc'?",
       "options": [
-        "Con rắn",
-        "Con rết",
-        "Con sâu",
-        "Con sên"
+        "cái gương",
+        "cái đài",
+        "cái quạt",
+        "bóng đèn"
       ],
-      "answer": "Con rắn",
-      "hint": "Chú rắn dài ngoằn nghèo trườn bò đi rất nhanh dù không chân.",
+      "answer": "cái gương",
+      "hint": "Chiếc gương soi sáng bừng phản chiếu nụ cười công chúa đáng yêu của bé mỗi buổi sáng!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1009,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Con gì hai mắt trong veo, thích nằm sưởi nắng, thích trèo cây cau?",
+      "sub_topic": "Đố vui đồ dùng học tập",
+      "question_text": "Đố bé người bạn học sinh thân thiết này là ai: 'Ruột thì thẳng băng / Tính hay làm bạn / Với bạn học sinh / Vẽ đường kẻ dọc'?",
       "options": [
-        "Con mèo",
-        "Con chó",
-        "Con chuột",
-        "Con khỉ"
+        "cây thước kẻ",
+        "bút chì",
+        "quyển tập",
+        "cục tẩy"
       ],
-      "answer": "Con mèo",
-      "hint": "Con mèo kêu meo meo trèo cây cau rình chuột.",
+      "answer": "cây thước kẻ",
+      "hint": "Cây thước kẻ dẹt thẳng băng có chia vạch xăng-ti-mét giúp bé kẻ dòng chữ thẳng tắp ngay ngắn!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 1010,
-      "sub_topic": "Câu đố dân gian về các con vật quen thuộc",
-      "week": 10,
-      "question_text": "Thân em bé nhỏ tí ti, bụng mang ngọc sáng, bay đi khắp trời? Là con gì?",
+      "sub_topic": "Đố vui đồ vật trong nhà",
+      "question_text": "Đố bé đồ vật di động ngộ nghĩnh này: 'Cái gì đi thì nằm, đứng cũng nằm, nhưng nằm thì lại đứng'?",
       "options": [
-        "Con đom đóm",
-        "Con ve sầu",
-        "Con muỗi",
-        "Con bướm"
+        "bàn chân",
+        "cái nôi",
+        "cái giường",
+        "đôi dép"
       ],
-      "answer": "Con đom đóm",
-      "hint": "Đó là chú đom đóm thắp đèn sáng lấp lánh ban đêm.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1011,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Bé tô, bé vẽ ruột dần mòn theo. Là cái gì?",
-      "options": [
-        "Cái bút chì",
-        "Cái thước kẻ",
-        "Cái cặp sách",
-        "Cục tẩy"
-      ],
-      "answer": "Cái bút chì",
-      "hint": "Bút chì giúp bé vẽ tranh tô màu, gọt dần ruột mòn theo.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1012,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Bút gì màu đỏ, màu xanh / Mẹ mua cho bé vẽ tranh tô màu?",
-      "options": [
-        "Cái bút màu",
-        "Cái bút chì",
-        "Viên phấn",
-        "Cái thước kẻ"
-      ],
-      "answer": "Cái bút màu",
-      "hint": "Chiếc bút sáp màu giúp bé tô điểm rực rỡ những bức tranh.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1013,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Thân em dài, trắng lại tròn / Viết bao nhiêu chữ em mòn bấy nhiêu. Là gì?",
-      "options": [
-        "Viên phấn",
-        "Cái bút mực",
-        "Cái bút chì",
-        "Cái thước"
-      ],
-      "answer": "Viên phấn",
-      "hint": "Viên phấn trắng viết lên chiếc bảng đen rồi mòn dần.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1014,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Vừa mềm, vừa bé bỏng thôi / Mà làm sạch vết mực rơi mới tài. Là cái gì?",
-      "options": [
-        "Cục tẩy",
-        "Cái kéo",
-        "Cái thước",
-        "Cái cặp sách"
-      ],
-      "answer": "Cục tẩy",
-      "hint": "Cục tẩy giúp bé tẩy sạch vết chì sai gọn gàng.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1015,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Cái gì hai lưỡi không răng / Mà nhai giấy vải băng băng lạ kỳ?",
-      "options": [
-        "Cái kéo",
-        "Cái dao",
-        "Cái lược",
-        "Cái búa"
-      ],
-      "answer": "Cái kéo",
-      "hint": "Chiếc kéo sắc bén giúp bé cắt giấy làm thủ công.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1016,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Suốt đời đi với học sinh / Sách, vở, thước, bút trong mình tôi mang. Là gì?",
-      "options": [
-        "Cái cặp",
-        "Cái bàn",
-        "Cái ghế",
-        "Cái hộp bút"
-      ],
-      "answer": "Cái cặp",
-      "hint": "Cặp sách mang theo cả kho tàng kiến thức trên lưng bé.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1017,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Cái gì thường vẫn để đo / Giúp anh học trò kẻ, vẽ thường xuyên?",
-      "options": [
-        "Cái thước kẻ",
-        "Cái compa",
-        "Cái êke",
-        "Cái bút"
-      ],
-      "answer": "Cái thước kẻ",
-      "hint": "Thước kẻ thẳng hàng giúp bé tập kẻ lề vở sạch sẽ.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1018,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Đầu đuôi vuông vắn như nhau / Thân chia nhiều đốt rất mau rất đều... Muốn biết dài ngắn mọi điều có em. Là gì?",
-      "options": [
-        "Cái thước kẻ",
-        "Cây bút",
-        "Quyển sách",
-        "Cái bảng"
-      ],
-      "answer": "Cái thước kẻ",
-      "hint": "Thước kẻ chia vạch xăng-ti-mét giúp đo đạc chính xác.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1019,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Da trắng muốt, ruột trắng tinh / Bạn của học sinh, là cái gì?",
-      "options": [
-        "Viên phấn",
-        "Quyển vở",
-        "Cái bảng",
-        "Cái bút"
-      ],
-      "answer": "Viên phấn",
-      "hint": "Đó chính là viên phấn trắng tinh viết bảng.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1020,
-      "sub_topic": "Câu đố về đồ dùng học tập và trường lớp",
-      "week": 10,
-      "question_text": "Không phải bò, không phải trâu / Uống nước ao sâu, lên cày ruộng cạn? Là cái gì?",
-      "options": [
-        "Cái bút mực",
-        "Cái bút chì",
-        "Cái bàn",
-        "Cái thước"
-      ],
-      "answer": "Cái bút mực",
-      "hint": "Bút mực hút mực từ lọ rồi cày chữ trên trang giấy trắng tinh.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1021,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Cái gì có nhiều răng mà không nhai được?",
-      "options": [
-        "Cái lược",
-        "Cái cày",
-        "Con dao",
-        "Cái rổ"
-      ],
-      "answer": "Cái lược",
-      "hint": "Cái lược giúp chải mái tóc mượt mà, nhiều răng nhưng không nhai ăn.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1022,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Cái gì có bốn chân mà không biết đi?",
-      "options": [
-        "Cái bàn",
-        "Cái giường",
-        "Cái ghế",
-        "Cả cái bàn và cái ghế"
-      ],
-      "answer": "Cả cái bàn và cái ghế",
-      "hint": "Bàn ghế có bốn chân đứng yên phẳng lì cho bé ngồi học bài.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1023,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Cái gì càng lau lại càng thấy ướt?",
-      "options": [
-        "Cái khăn",
-        "Cái bàn",
-        "Cái chổi",
-        "Cái kính"
-      ],
-      "answer": "Cái khăn",
-      "hint": "Khăn lau mặt thấm hút nước dạt dào dĩ nhiên luôn ẩm ướt.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1024,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Cái gì có mặt mà không có đầu, có số mà không có chữ?",
-      "options": [
-        "Cái đồng hồ",
-        "Cái bàn",
-        "Quyển sách",
-        "Cái gương"
-      ],
-      "answer": "Cái đồng hồ",
-      "hint": "Đồng hồ tích tắc chỉ giờ chỉ phút giúp bé học tập đúng quy định.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1025,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Miệng tròn, một mắt, không có chân tay, hễ ai động vào, kêu la inh ỏi? Là cái gì?",
-      "options": [
-        "Cái trống",
-        "Cái quạt",
-        "Cái đèn",
-        "Cái chuông"
-      ],
-      "answer": "Cái trống",
-      "hint": "Chiếc trống trường giòn giã tùng tùng tùng đón bé vào lớp.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1026,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Vừa bằng một gang, mà lang khắp nhà. Là cái gì?",
-      "options": [
-        "Cái chổi",
-        "Cái quạt",
-        "Cái lược",
-        "Cục tẩy"
-      ],
-      "answer": "Cái chổi",
-      "hint": "Cái chổi quét dọn rác bẩn giúp ngôi nhà mát mẻ sạch bong.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1027,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Cái gì có cổ mà không có miệng?",
-      "options": [
-        "Cái áo",
-        "Cái bàn",
-        "Cái đèn",
-        "Cái quạt"
-      ],
-      "answer": "Cái áo",
-      "hint": "Chiếc áo bé mặc có cổ áo nhưng không biết nói.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1028,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Cái gì có cánh mà không biết bay, thổi gió mát rượi ngày hè oi nóng?",
-      "options": [
-        "Cái quạt",
-        "Cái bàn",
-        "Cánh diều",
-        "Cái mũ"
-      ],
-      "answer": "Cái quạt",
-      "hint": "Cái quạt máy quay tít tỏa làn gió mát rượi sảng khoái.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1029,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Sáng thì sinh ra, tối thì biến mất chết đi. Là cái gì?",
-      "options": [
-        "Bóng của mình",
-        "Mặt trời",
-        "Hạt mưa",
-        "Cái bóng đèn"
-      ],
-      "answer": "Bóng của mình",
-      "hint": "Cái bóng phản chiếu hình người khi có ánh sáng rọi chiếu ban ngày.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 1030,
-      "sub_topic": "Câu đố về hiện tượng thiên nhiên và đồ gia dụng",
-      "week": 10,
-      "question_text": "Cái gì để che mưa che nắng, có một chân mà đứng vững?",
-      "options": [
-        "Cái ô (dù)",
-        "Cái quạt",
-        "Cái bàn",
-        "Cái chổi"
-      ],
-      "answer": "Cái ô (dù)",
-      "hint": "Cây dù có một chân đứng vững vàng che chở nắng mưa che đầu bé.",
+      "answer": "bàn chân",
+      "hint": "Đó chính là bàn chân đáng yêu của bé đấy! Khi nằm ngủ bàn chân đứng dựng đứng lên trời ngộ nghĩnh!",
       "image_url": "assets/images/tho_hong.png"
     }
   ]

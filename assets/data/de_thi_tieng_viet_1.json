@@ -1,0 +1,595 @@
+{
+  "exams": [
+    {
+      "exam_id": 1,
+      "exam_category": "Học kỳ 1",
+      "exam_name": "ĐỀ THI THỬ HỌC KỲ 1 - ĐỀ SỐ 1",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1201,
+          "question_text": "Bé hãy tìm chữ cái là nguyên âm chính xuất hiện trong tiếng 'táo' (của từ 'quả táo')?",
+          "options": [
+            "ă",
+            "â",
+            "a",
+            "o"
+          ],
+          "answer": "a",
+          "hint": "Trong tiếng 'táo', nguyên âm chính là chữ 'a' đứng trước chữ 'o' nha bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1202,
+          "question_text": "Từ nào dưới đây có chứa thanh sắc trong tên của nó nhỉ?",
+          "options": [
+            "con cá",
+            "quả chuối",
+            "lá cây",
+            "tất cả các đáp án đều có chứa thanh sắc"
+          ],
+          "answer": "tất cả các đáp án đều có chứa thanh sắc",
+          "hint": "Cả ba tiếng 'cá', 'chuối', 'lá' đều có dấu thanh sắc lấp lánh đấy bé ơi!",
+          "image_url": "assets/images/con_vit.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1203,
+          "question_text": "Bé hãy ghép âm 'b' với vần 'an' và thanh 'huyền' để được một từ có nghĩa chỉ đồ dùng học tập phẳng phiu?",
+          "options": [
+            "bản",
+            "bán",
+            "bàn",
+            "bản nháp"
+          ],
+          "answer": "bàn",
+          "hint": "Phụ âm 'b' đứng trước, vần 'an' đứng sau, thêm thanh huyền ở trên đầu chữ 'a' ta được từ 'bàn' học thân thiết!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1204,
+          "question_text": "Từ nào dưới đây viết SAI quy tắc chính tả đứng trước âm 'e, ê, i'?",
+          "options": [
+            "gầm gừ",
+            "con cá",
+            "gế gỗ",
+            "ghế gỗ"
+          ],
+          "answer": "gế gỗ",
+          "hint": "Âm 'gờ' khi đứng trước chữ 'ê' bắt buộc phải viết là 'gh' (gờ kép). Viết 'gế gỗ' là sai rồi bé nhé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C2",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1205,
+          "question_text": "Bác sĩ Thỏ Hồng bắt bệnh chính tả cho câu sau: 'bé vy đi học vẽ'. Sửa lại thế nào cho đúng quy tắc viết hoa tên riêng?",
+          "options": [
+            "bé Vy đi học vẽ",
+            "Bé Vy đi học vẽ",
+            "Bé vy đi học vẽ",
+            "bé vy đi Học vẽ"
+          ],
+          "answer": "Bé Vy đi học vẽ",
+          "hint": "Chúng mình cần viết hoa chữ cái đầu câu 'B' trong 'Bé', và viết hoa chữ 'V' trong tên riêng 'Vy' của bé nhé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C2",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1206,
+          "question_text": "Mùa hè oi ả, bé được mẹ cho ăn một que kem vừa lấy từ tủ lạnh ra. Kem có cảm giác thế nào nhỉ?",
+          "options": [
+            "cay xè",
+            "nóng hổi",
+            "lạnh buốt",
+            "chua loét"
+          ],
+          "answer": "lạnh buốt",
+          "hint": "Kem lạnh buốt và ngọt ngào sẽ làm xua tan đi cái nóng mùa hè của bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C3",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1207,
+          "question_text": "Trong câu: 'Chú chó vàng ngoan ngoãn đang vẫy đuôi mừng chủ.', có những từ nào thuộc nhóm từ chỉ Sự vật?",
+          "options": [
+            "chú chó vàng",
+            "chó, chủ",
+            "ngoan ngoãn, vẫy đuôi",
+            "mừng, đuôi"
+          ],
+          "answer": "chó, chủ",
+          "hint": "Từ chỉ con vật 'chó' và từ chỉ người 'chủ' đều thuộc nhóm từ chỉ Sự vật quanh bé!",
+          "image_url": "assets/images/con_cho.png",
+          "skill_tag": "TV1_C3",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1208,
+          "question_text": "Bé hãy đóng vai nhà thông thái sắp xếp các từ sau thành câu tả chú mèo mướp đúng nghĩa nhé: 'mèo / ngủ / mướp / đang / lim dim'",
+          "options": [
+            "Mèo mướp lim dim đang ngủ.",
+            "Chú mèo mướp đang ngủ lim dim.",
+            "Đang ngủ lim dim mèo mướp.",
+            "Lim dim chú mèo mướp ngủ."
+          ],
+          "answer": "Chú mèo mướp đang ngủ lim dim.",
+          "hint": "Sắp xếp đúng trật tự từ: Chủ ngữ 'Chú mèo mướp' đứng trước, hoạt động 'đang ngủ lim dim' đứng sau tạo nên câu kể sinh động!",
+          "image_url": "assets/images/con_meo.png",
+          "skill_tag": "TV1_C4",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1209,
+          "question_text": "Bé hãy tìm chữ thích hợp điền vào chỗ trống để hoàn thành câu tục ngữ sau: 'Chị ngã em ...'?",
+          "options": [
+            "nâng",
+            "đỡ",
+            "bế",
+            "cười"
+          ],
+          "answer": "nâng",
+          "hint": "Câu tục ngữ khuyên bảo anh chị em trong nhà phải thương yêu, giúp đỡ lẫn nhau là: 'Chị ngã em nâng'!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C4",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1210,
+          "question_text": "Đố bé đoán xem đây là con gì nhé: 'Con gì tám cẳng hai càng / Chẳng đi mà lại bò ngang cả ngày'?",
+          "options": [
+            "con cá",
+            "con cua",
+            "con ếch",
+            "con rùa"
+          ],
+          "answer": "con cua",
+          "hint": "Chú cua bể bò ngang lách cách lổm ngổm có hai cái càng to bự chính là đáp án đúng!",
+          "image_url": "assets/images/con_cua.png",
+          "skill_tag": "TV1_C6",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1211,
+          "question_text": "Bạn nào giúp bé chải tóc mượt mà trước khi đến trường hàng ngày nhỉ: 'Cái gì có răng mà không có mồm / Giúp bé chải tóc sớm hôm đến trường'?",
+          "options": [
+            "cái bàn chải",
+            "cái lược",
+            "cái gương",
+            "cái bút"
+          ],
+          "answer": "cái lược",
+          "hint": "Chiếc lược có răng lược xếp đều tăm tắp giúp bé chải đầu gọn gàng trước khi đi học!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C6",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1212,
+          "question_text": "Bé hãy đọc bài thơ dưới đây và GÕ CHỮ TRẢ LỜI CÂU HỎI:\n\n'Gió thổi hoa bay\nLá vàng rơi đầy\nBé cầm chổi quét\nSạch sân nhà nay.'\n\nCâu hỏi: Bé cầm cái gì để quét sạch sân nhà nhỉ?",
+          "options": [],
+          "answer": "chổi",
+          "hint": "Trong bài thơ có câu 'Bé cầm chổi quét' nên từ đúng để điền vào ô trống là từ 'chổi' nha bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C5",
+          "diem": 1.0,
+          "reading_title": "Bé Quét Sân",
+          "reading_passage": "Gió thổi hoa bay\nLá vàng rơi đầy\nBé cầm chổi quét\nSạch sân nhà nay."
+        },
+        {
+          "question_id": 1213,
+          "question_text": "Bé hãy đọc câu chuyện ngắn dưới đây và GÕ CHỮ TRẢ LỜI CÂU HỎI:\n\n'Một chú chim sẻ nhỏ đậu trên cành cây cao. Bỗng một chú mèo mướp rón rén đi tới định vồ lấy sẻ. Sẻ nhanh trí kêu to lên: 'Chào bác Mèo! Bác đã rửa mặt chưa mà đi săn thế ạ?'. Mèo ngượng ngùng dừng lại dùng chân lau mặt. Sẻ lập tức đập cánh bay vút lên bầu trời xanh mát.'\n\nCâu hỏi: Chú chim nào đã nhanh trí thoát khỏi mèo mướp hung dữ?",
+          "options": [],
+          "answer": "chim sẻ",
+          "hint": "Chú chim sẻ thông minh đã lừa mèo mướp lấy chân lau mặt để đập cánh bay vút đi thoát mạng!",
+          "image_url": "assets/images/con_meo.png",
+          "skill_tag": "TV1_C5",
+          "diem": 1.0,
+          "reading_title": "Sẻ và Mèo",
+          "reading_passage": "Một chú chim sẻ nhỏ đậu trên cành cây cao. Bỗng một chú mèo mướp rón rén đi tới định vồ lấy sẻ. Sẻ nhanh trí kêu to lên: 'Chào bác Mèo! Bác đã rửa mặt chưa mà đi săn thế ạ?'. Mèo ngượng ngùng dừng lại dùng chân lau mặt. Sẻ lập tức đập cánh bay vút lên bầu trời xanh mát."
+        }
+      ]
+    },
+    {
+      "exam_id": 2,
+      "exam_category": "Học kỳ 2",
+      "exam_name": "ĐỀ THI THỬ HỌC KỲ 2 - ĐỀ SỐ 1",
+      "time_limit_minutes": 40,
+      "questions": [
+        {
+          "question_id": 1301,
+          "question_text": "Bé hãy tìm nguyên âm đôi (vần ghép) xuất hiện trong tiếng 'chuối'?",
+          "options": [
+            "uôi",
+            "uông",
+            "ươi",
+            "iêu"
+          ],
+          "answer": "uôi",
+          "hint": "Tiếng 'chuối' có phụ âm đầu là 'ch', vần đôi đứng sau là 'uôi' và thanh sắc trên đầu chữ 'ô'!",
+          "image_url": "assets/images/con_vit.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1302,
+          "question_text": "Vần nào dưới đây xuất hiện trong tiếng 'thuyền'?",
+          "options": [
+            "uyên",
+            "uân",
+            "oanh",
+            "uông"
+          ],
+          "answer": "uyên",
+          "hint": "Tiếng 'thuyền' có vần 'uyên' ghép từ u-y-ê-n đó bé ơi!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1303,
+          "question_text": "Tiếng 'khăn' có phụ âm ghép nào đứng đầu nhỉ?",
+          "options": [
+            "kh",
+            "th",
+            "ph",
+            "nh"
+          ],
+          "answer": "kh",
+          "hint": "Phụ âm ghép 'kh' (khờ) gồm chữ 'k' và chữ 'h' ghép lại đứng đầu tiếng 'khăn'!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1304,
+          "question_text": "Quy tắc chính tả quy định âm 'ngờ kép' viết là 'ngh' khi đứng trước những chữ cái nào?",
+          "options": [
+            "e, ê, i",
+            "a, o, u",
+            "ơ, ư, â",
+            "ă, â, o"
+          ],
+          "answer": "e, ê, i",
+          "hint": "Chữ 'ngh' chỉ đi liền với ba chữ cái 'e', 'ê', 'i' thôi nha bé yêu!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C2",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1305,
+          "question_text": "Bác sĩ chính tả Thỏ Hồng phát hiện một từ viết SAI trong câu: 'Bố mua cho bé quả Ghế gỗ'. Từ viết sai là gì?",
+          "options": [
+            "Bố mua",
+            "quả Ghế",
+            "ghế gỗ",
+            "Ghế gỗ"
+          ],
+          "answer": "Ghế gỗ",
+          "hint": "Từ 'ghế gỗ' là danh từ chung không được viết hoa chữ 'G' ở giữa câu, nên viết 'Ghế' là sai chính tả nha bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C2",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1306,
+          "question_text": "Sờ bộ lông của chú thỏ trắng muốt mềm mịn, bé cảm nhận được điều gì?",
+          "options": [
+            "mềm mại",
+            "thô ráp",
+            "gồ ghề",
+            "cứng ngắc"
+          ],
+          "answer": "mềm mại",
+          "hint": "Lông chú thỏ mềm mịn, sờ vào rất mềm mại và ấm áp dễ chịu cực kỳ!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C3",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1307,
+          "question_text": "Từ 'bơi lội' (tả hành động nhịp nhàng dưới nước của chú cá vàng) thuộc gia đình từ loại nào?",
+          "options": [
+            "Từ chỉ sự vật",
+            "Từ chỉ hoạt động",
+            "Từ chỉ đặc điểm",
+            "Từ chỉ màu sắc"
+          ],
+          "answer": "Từ chỉ hoạt động",
+          "hint": "Mọi cử động bơi, chạy, nhảy, viết đều thuộc nhóm từ chỉ Hoạt động nhé bé Vy!",
+          "image_url": "assets/images/con_vit.png",
+          "skill_tag": "TV1_C3",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1308,
+          "question_text": "Bé hãy giúp chú Thỏ Hồng sắp xếp các từ sau thành câu tả đồng quê đúng nghĩa nhé: 'đồng / lúa / chín / cánh / vàng'",
+          "options": [
+            "Cánh đồng chín lúa vàng.",
+            "Cánh đồng lúa chín vàng.",
+            "Chín vàng cánh lúa đồng.",
+            "Lúa chín vàng cánh đồng."
+          ],
+          "answer": "Cánh đồng lúa chín vàng.",
+          "hint": "Câu hoàn chỉnh mô tả vẻ đẹp thiên nhiên thanh bình gặt hái là: 'Cánh đồng lúa chín vàng.'!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C4",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1309,
+          "question_text": "Bé hãy điền từ còn thiếu vào câu tục ngữ sau: 'Ăn quả nhớ kẻ ... cây'?",
+          "options": [
+            "trồng",
+            "hái",
+            "tưới",
+            "chăm"
+          ],
+          "answer": "trồng",
+          "hint": "Câu tục ngữ nhắc nhở chúng ta lòng biết ơn công lao người đi trước: 'Ăn quả nhớ kẻ trồng cây'!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C4",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1310,
+          "question_text": "Đố bé đoán xem đây là con vật trung thành nào nhé: 'Thường nằm đầu hè / Giữ nhà cho chủ / Người lạ nó sủa / Người quen nó mừng'?",
+          "options": [
+            "con mèo",
+            "con chó",
+            "con trâu",
+            "con chuột"
+          ],
+          "answer": "con chó",
+          "hint": "Chú chó xù dũng cảm sủa gâu gâu đuổi trộm canh gác nhà cửa chính là chú chó đấy!",
+          "image_url": "assets/images/con_cho.png",
+          "skill_tag": "TV1_C6",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1311,
+          "question_text": "Đố bé yêu đoán xem đồ vật này là cái gì nhé: 'Thân hình bằng gỗ / Có bốn chân cao / Mặt phẳng phiu phiu / Bày cỗ lên trên'?",
+          "options": [
+            "cái bàn",
+            "cái ghế",
+            "cái tủ",
+            "cái giường"
+          ],
+          "answer": "cái bàn",
+          "hint": "Mặt bàn phẳng phiu để xếp cơm dọn cỗ và bốn chân cao đứng thẳng chính là chiếc bàn gỗ nhà mình!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C6",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1312,
+          "question_text": "Bé hãy đọc bài thơ và GÕ CHỮ TRẢ LỜI CÂU HỎI:\n\n'Gió nâng cánh diều\nBay cao bay cao\nDiều vẫy ông sao\nChào cô mây biếc.'\n\nCâu hỏi: Gió nâng cái gì bay cao bay cao lên bầu trời xanh biếc nhỉ?",
+          "options": [],
+          "answer": "diều",
+          "hint": "Bài thơ mô tả 'Gió nâng cánh diều / Bay cao bay cao' nên vật được nâng bay cao chính là cánh 'diều'!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C5",
+          "diem": 1.0,
+          "reading_title": "Cánh Diều Tuổi Thơ",
+          "reading_passage": "Gió nâng cánh diều\nBay cao bay cao\nDiều vẫy ông sao\nChào cô mây biếc."
+        },
+        {
+          "question_id": 1313,
+          "question_text": "Bé hãy đọc đoạn truyện cổ tích ngắn dưới đây và GÕ CHỮ TRẢ LỜI CÂU HỎI:\n\n'Mùa đông giá lạnh trút xuống khu rừng rực rỡ sắc màu. Ve sầu lười biếng đói lả người và không tìm được gì để ăn, bèn gõ cửa nhà kiến xin cứu giúp. Kiến chăm chỉ thương tình cho ve sầu thức ăn, nhưng khuyên bảo: Mùa hè ve phải chịu khó lao động tích trữ thức ăn nhé, đừng chỉ múa hát rong chơi cả ngày.'\n\nCâu hỏi: Bạn nào chăm chỉ tích trữ đồ ăn và đã giúp đỡ ve sầu vượt qua nạn đói mùa đông?",
+          "options": [],
+          "answer": "kiến",
+          "hint": "Kiến chăm chỉ làm lụng tích lũy lương thực suốt mùa hè đã chia sẻ thức ăn cứu ve sầu!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C5",
+          "diem": 1.0,
+          "reading_title": "Ve Sầu và Kiến",
+          "reading_passage": "Mùa đông giá lạnh trút xuống khu rừng rực rỡ sắc màu. Ve sầu lười biếng đói lả người và không tìm được gì để ăn, bèn gõ cửa nhà kiến xin cứu giúp. Kiến chăm chỉ thương tình cho ve sầu thức ăn, nhưng khuyên bảo: Mùa hè ve phải chịu khó lao động tích trữ thức ăn nhé, đừng chỉ múa hát rong chơi cả ngày."
+        }
+      ]
+    },
+    {
+      "exam_id": 3,
+      "exam_category": "Học sinh giỏi",
+      "exam_name": "ĐỀ THI HỌC SINH GIỎI - ĐỀ SỐ 1",
+      "time_limit_minutes": 45,
+      "questions": [
+        {
+          "question_id": 1401,
+          "question_text": "Bé hãy tìm xem tiếng nào dưới đây có cấu tạo phức tạp nhất chứa cả âm đệm 'u' và âm chính 'ê'?",
+          "options": [
+            "thuế",
+            "đê",
+            "chuyên",
+            "quê"
+          ],
+          "answer": "thuế",
+          "hint": "Tiếng 'thuế' gồm phụ âm 'th', âm đệm 'u', âm chính 'ê' và thanh sắc trên đầu chữ 'ê' đó bé học giỏi!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1402,
+          "question_text": "Trong tiếng 'khoai', bộ phận vần của tiếng là vần gì?",
+          "options": [
+            "oai",
+            "oay",
+            "ai",
+            "ay"
+          ],
+          "answer": "oai",
+          "hint": "Tiếng 'khoai' có phụ âm đầu 'kh' và vần 'oai' đứng sau ghép từ o-a-i nha bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1403,
+          "question_text": "Từ nào sau đây có chứa nguyên âm ghép 'ươm'?",
+          "options": [
+            "con bướm",
+            "quả mướp",
+            "đường đi",
+            "con lươn"
+          ],
+          "answer": "con bướm",
+          "hint": "Tiếng 'bướm' trong từ 'con bướm' có chứa vần 'ươm' ghép từ ư-ơ-m nha bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C1",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1404,
+          "question_text": "Cặp từ nào dưới đây viết ĐÚNG luật chính tả phân biệt s/x?",
+          "options": [
+            "xinh xắn, sạch sẽ",
+            "sinh xắn, sạc sẽ",
+            "xinh sắn, sạch xẽ",
+            "sinh sắn, xạch xẽ"
+          ],
+          "answer": "xinh xắn, sạch sẽ",
+          "hint": "Từ tả vẻ đẹp 'xinh xắn' dùng âm 'xờ nhẹ' (x), còn từ tả vệ sinh gọn gàng 'sạch sẽ' dùng âm 'sờ nặng' (s) mới đúng chính tả!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C2",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1405,
+          "question_text": "Bác sĩ chính tả Thỏ Hồng cần sửa lỗi viết hoa cho câu thơ: 'Sông Hương nước xanh biếc / chảy qua thành phố huế.' Từ nào viết sai quy tắc tên địa danh riêng?",
+          "options": [
+            "Thành phố",
+            "thành phố huế",
+            "thành phố Huế",
+            "Huế"
+          ],
+          "answer": "thành phố Huế",
+          "hint": "Tên thành phố cổ kính mang tên riêng 'Huế' bắt buộc phải viết hoa chữ 'H' thành 'Huế' mới đúng chuẩn tôn kính!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C2",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1406,
+          "question_text": "Khi mẹ kho cá bằng niêu đất đun củi sực nức hương thơm ngọt ngào, bé ngửi thấy mùi gì?",
+          "options": [
+            "khét lẹt",
+            "thơm phức",
+            "nhạt nhẽo",
+            "chua loét"
+          ],
+          "answer": "thơm phức",
+          "hint": "Niêu cá kho thơm ngon bốc khói nghi ngút tỏa mùi hương thơm phức khơi gợi cơn thèm ăn của bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C3",
+          "diem": 0.5
+        },
+        {
+          "question_id": 1407,
+          "question_text": "Từ 'vàng rực' (mô tả màu sắc rực rỡ của khóm hoa cúc mùa thu) thuộc gia đình từ loại nào?",
+          "options": [
+            "Từ chỉ đặc điểm",
+            "Từ chỉ sự vật",
+            "Từ chỉ hoạt động",
+            "Từ chỉ âm thanh"
+          ],
+          "answer": "Từ chỉ đặc điểm",
+          "hint": "Các từ miêu tả màu sắc tươi thắm như xanh mướt, đỏ thắm, vàng rực đều thuộc nhóm từ chỉ Đặc điểm nhé bé!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C3",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1408,
+          "question_text": "Bé hãy ghép các từ xáo trộn dưới đây thành một câu tục ngữ dạy về tinh thần đoàn kết keo sơn cực hay nhé: 'cây / núi / chụm / ba / cao / nên / lại / làm'",
+          "options": [
+            "Ba cây chụm lại nên hòn núi cao.",
+            "Núi cao nên chụm lại ba cây làm.",
+            "Ba cây chụm lại làm nên núi cao.",
+            "Cây ba chụm lại làm nên núi cao."
+          ],
+          "answer": "Ba cây chụm lại nên hòn núi cao.",
+          "hint": "Câu tục ngữ gốc là 'Ba cây chụm lại nên hòn núi cao' dạy chúng ta đoàn kết cùng nhau làm việc lớn!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C4",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1409,
+          "question_text": "Bé hãy điền chữ thích hợp vào thành ngữ sau: 'Thẳng cánh ... bay'?",
+          "options": [
+            "cò",
+            "sẻ",
+            "gà",
+            "chim"
+          ],
+          "answer": "cò",
+          "hint": "Thành ngữ ví von không gian đồng ruộng quê hương rộng lớn bao la bát ngát là: 'Thẳng cánh cò bay'!",
+          "image_url": "assets/images/con_vit.png",
+          "skill_tag": "TV1_C4",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1410,
+          "question_text": "Câu đố IQ cực kỳ lắt léo: 'Cái gì đi thì nằm, đứng cũng nằm, nhưng nằm thì lại đứng dựng đứng lên trời'?",
+          "options": [
+            "bàn chân",
+            "cái nôi",
+            "đôi dép",
+            "cái giường"
+          ],
+          "answer": "bàn chân",
+          "hint": "Chính là bàn chân xinh xắn của bé! Khi bé nằm ngủ bàn chân dựng đứng vuông góc lên trời trông cực ngộ nghĩnh!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C6",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1411,
+          "question_text": "Đố bé đoán xem đồ vật bí ẩn này trong phòng khách nhà mình là bạn nào nhé: 'Lấp la lấp lánh / Treo ở trên tường / Mỗi buổi sáng sớm / Bé soi chải đầu'?",
+          "options": [
+            "bóng đèn",
+            "cái quạt",
+            "cái đài",
+            "cái gương"
+          ],
+          "answer": "cái gương",
+          "hint": "Chiếc gương soi soi chiếu nụ cười xinh xắn rực rỡ đón chào ngày mới của bé học sinh giỏi!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C6",
+          "diem": 1.0
+        },
+        {
+          "question_id": 1412,
+          "question_text": "Bé hãy đọc bài thơ dưới đây và GÕ CHỮ TRẢ LỜI CÂU HỎI:\n\n'Tre già yêu lấy măng non\nỦ ấp che chở, bão bùng chẳng phai\nTấm lòng người mẹ dẻo dai\nNuôi măng khôn lớn ngày mai nên người.'\n\nCâu hỏi: Bài thơ ví von 'Tre già' yêu lấy nhân vật nào non nớt biểu trưng cho thế hệ thiếu nhi nhỉ?",
+          "options": [],
+          "answer": "măng non",
+          "hint": "Dòng thơ đầu viết 'Tre già yêu lấy măng non', vậy đối tượng được tre già che chở là 'măng non'!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C5",
+          "diem": 1.0,
+          "reading_title": "Tre Già Măng Non",
+          "reading_passage": "Tre già yêu lấy măng non\nỦ ấp che chở, bão bùng chẳng phai\nTấm lòng người mẹ dẻo dai\nNuôi măng khôn lớn ngày mai nên người."
+        },
+        {
+          "question_id": 1413,
+          "question_text": "Bé hãy đọc đoạn truyện ngụ ngôn ý nghĩa dưới đây và GÕ CHỮ TRẢ LỜI CÂU HỎI:\n\n'Gấu đen mải đi chơi nên bị lạc đường trong rừng sâu tăm tối. Trời đổ cơn mưa bão lớn, gấu đen gõ cửa nhà Thỏ nâu xin trú nhờ nhưng Thỏ nâu ích kỷ từ chối đuổi đi vì sợ bẩn nhà. Gấu đen buồn bã đi tiếp đến nhà Thỏ trắng. Thỏ trắng tốt bụng vội vàng mở cửa đón gấu đen vào nhà sưởi ấm, đốt lửa nướng bánh ngọt thơm phức cho gấu ăn. Sáng hôm sau Thỏ nâu xấu hổ hối lỗi khóc lóc.'\n\nCâu hỏi: Chú thỏ có màu lông gì tốt bụng đã mở cửa giúp đỡ Gấu đen trong cơn bão dữ dội nhỉ?",
+          "options": [],
+          "answer": "Thỏ trắng",
+          "hint": "Thỏ trắng nhân hậu đã mở toang cửa đốt lửa nướng bánh sưởi ấm cứu bạn gấu đen tốt bụng!",
+          "image_url": "assets/images/tho_hong.png",
+          "skill_tag": "TV1_C5",
+          "diem": 1.0,
+          "reading_title": "Thỏ Trắng và Gấu Đen",
+          "reading_passage": "Gấu đen mải đi chơi nên bị lạc đường trong rừng sâu tăm tối. Trời đổ cơn mưa bão lớn, gấu đen gõ cửa nhà Thỏ nâu xin trú nhờ nhưng Thỏ nâu ích kỷ từ chối đuổi đi vì sợ bẩn nhà. Gấu đen buồn bã đi tiếp đến nhà Thỏ trắng. Thỏ trắng tốt bụng vội vàng mở cửa đón gấu đen vào nhà sưởi ấm, đốt lửa nướng bánh ngọt thơm phức cho gấu ăn. Sáng hôm sau Thỏ nâu xấu hổ hối lỗi khóc lóc."
+        }
+      ]
+    }
+  ]
+}

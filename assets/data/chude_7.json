@@ -1,459 +1,149 @@
 {
   "topic_id": 7,
   "topic_name": "GIA ĐÌNH TỪ LOẠI",
-  "description": "Làm quen với ngữ pháp cơ bản lớp 1: Phân loại chính xác các từ chỉ Sự vật, từ chỉ Hoạt động và từ chỉ Đặc điểm.",
-  "lecture_title": "BÀI GIẢNG: GIA ĐÌNH TỪ LOẠI 🏠",
-  "lecture_content": "Chào mừng bé yêu đến với ngôi nhà Gia đình từ loại! Trong tiếng Việt, các từ được chia thành 3 gia đình lớn cực kỳ dễ thương:\n1. Gia đình từ chỉ Sự vật: Chỉ người (em bé), con vật (con mèo), cây cối (bông hoa) và đồ vật (cái bàn).\n2. Gia đình từ chỉ Hoạt động: Chỉ những hành động của chúng ta hoặc sự vật, như chạy, nhảy, múa, hót, bay...\n3. Gia đình từ chỉ Đặc điểm: Chỉ màu sắc (đỏ rực), hình dáng (thon vàng), tính chất (lạnh buốt) hoặc tính cách (chăm chỉ) của sự vật.",
-  "lecture_audio_text": "Chào mừng bé yêu đến với bài học Gia đình từ loại. Chúng ta cùng rèn luyện cách phân biệt danh từ sự vật, động từ hoạt động và tính từ chỉ đặc điểm nhé!",
+  "description": "Bé học cách phân loại các từ ngữ quen thuộc thành 3 nhóm từ loại lớn: từ chỉ sự vật, hoạt động, đặc điểm.",
+  "lecture_title": "Bài Giảng: Gia Đình Ba Nhóm Từ Loại",
+  "lecture_content": "Bé yêu ơi! Trong tiếng Việt, các từ ngữ được chia thành 3 gia đình lớn cực kỳ thân thiết: (1) Từ chỉ Sự vật: gồm những từ gọi tên con người, con vật, cây cối, đồ vật xung quanh bé (như con chó, cái bàn, quả táo). (2) Từ chỉ Hoạt động: gồm những từ tả cử động của tay chân, hành động của cơ thể (như chạy, nhảy, bơi, viết). (3) Từ chỉ Đặc điểm: gồm những từ tả màu sắc, hình dáng, tính nết của con người và đồ vật (như đỏ, ngoan, xinh, tròn). Chúng mình cùng tập phân loại các thành viên này nhé!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với bài giảng Gia đình từ loại. Cùng Cô Giáo Thỏ Hồng học cách nhận diện và phân biệt 3 nhóm từ: chỉ sự vật, chỉ hoạt động và chỉ đặc điểm nhé!",
   "questions": [
     {
       "question_id": 701,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Trong các từ sau, từ nào là từ chỉ sự vật?",
+      "sub_topic": "Từ chỉ Sự vật quanh bé",
+      "question_text": "Từ nào dưới đây thuộc nhóm từ chỉ Sự vật (chỉ đồ vật bé dùng để viết bài hàng ngày)?",
       "options": [
-        "con chó",
-        "chạy nhảy",
-        "xinh xắn",
-        "hót líu lo"
+        "chạy bộ",
+        "bút chì",
+        "xinh đẹp",
+        "đọc sách"
       ],
-      "answer": "con chó",
-      "hint": "Con chó là danh từ chỉ con vật (sự vật) quen thuộc.",
+      "answer": "bút chì",
+      "hint": "Bút chì là một đồ vật học tập vô cùng quen thuộc của học sinh, nên nó thuộc nhóm từ chỉ Sự vật nha bé!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 702,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Từ nào chỉ sự vật dùng để viết vẽ của học sinh?",
+      "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+      "question_text": "Trong giờ thể dục, các bạn nhỏ đang nô đùa vui vẻ. Từ nào dưới đây chỉ Hoạt động?",
       "options": [
-        "quyển vở",
-        "viết bài",
-        "đẹp đẽ",
-        "chăm chỉ"
+        "con chó",
+        "chạy nhảy",
+        "quả táo",
+        "hiền lành"
       ],
-      "answer": "quyển vở",
-      "hint": "Quyển vở là đồ vật (sự vật) bé dùng để ghi bài học.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "chạy nhảy",
+      "hint": "Từ tả cử động di chuyển của chân như 'chạy nhảy' chính là từ chỉ Hoạt động đấy bé yêu!",
+      "image_url": "assets/images/con_meo.png"
     },
     {
       "question_id": 703,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Từ nào chỉ sự vật mọc trong vườn tỏa hương thơm?",
+      "sub_topic": "Từ chỉ Đặc điểm, Tính chất",
+      "question_text": "Bé Vy luôn đi học đúng giờ, lễ phép chào hỏi mọi người nên ai cũng khen bé rất ngoan. Từ nào chỉ Đặc điểm tính nết của bé?",
       "options": [
-        "bông hoa",
-        "thơm nức",
-        "nở rộ",
-        "tưới nước"
+        "ngoan ngoãn",
+        "đi học",
+        "bàn học",
+        "chào hỏi"
       ],
-      "answer": "bông hoa",
-      "hint": "Bông hoa là từ chỉ cây cối (sự vật).",
+      "answer": "ngoan ngoãn",
+      "hint": "Từ tả tính nết, phẩm chất ngoan hiền của con người như 'ngoan ngoãn' là từ chỉ Đặc điểm nhé bé!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 704,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Trong câu 'Bé Thu quét nhà', tiếng nào chỉ người (sự vật)?",
+      "sub_topic": "Từ chỉ Sự vật quanh bé",
+      "question_text": "Trong câu 'Bác mèo mướp vẫn nằm lì bên đống tro ấm.', từ nào là từ chỉ Sự vật con vật?",
       "options": [
-        "Bé Thu",
-        "quét",
-        "nhà",
-        "giúp mẹ"
+        "mèo mướp",
+        "nằm lì",
+        "ấm áp",
+        "kêu gừ gừ"
       ],
-      "answer": "Bé Thu",
-      "hint": "Tiếng 'Bé Thu' chỉ người con gái dễ thương (sự vật).",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "mèo mướp",
+      "hint": "Từ gọi tên con vật 'mèo mướp' thuộc nhóm từ chỉ Sự vật bé nhé!",
+      "image_url": "assets/images/con_meo.png"
     },
     {
       "question_id": 705,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Từ nào dưới đây KHÔNG PHẢI từ chỉ sự vật?",
+      "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+      "question_text": "Trong câu 'Mới sớm tinh mơ, chú gà trống đã chạy tót ra giữa sân gáy vang.', từ nào chỉ Hoạt động cử động?",
       "options": [
-        "múa hát",
-        "cái bàn",
-        "con trâu",
-        "quả cam"
+        "gà trống",
+        "giữa sân",
+        "chạy tót",
+        "sớm mai"
       ],
-      "answer": "múa hát",
-      "hint": "Múa hát là từ chỉ hoạt động, các từ còn lại đều chỉ sự vật.",
+      "answer": "chạy tót",
+      "hint": "Từ tả hành động chạy thật nhanh ra sân là 'chạy tót', đây là từ chỉ Hoạt động nhé bé!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 706,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Từ nào chỉ sự vật bay lượn trên bầu trời xanh?",
+      "sub_topic": "Từ chỉ Đặc điểm, Tính chất",
+      "question_text": "Trong câu 'Hàng trăm cánh hoa giấy đỏ thắm phủ đầy giàn cây.', từ nào chỉ Đặc điểm màu sắc?",
       "options": [
-        "cánh diều",
-        "bay cao",
-        "lộng gió",
-        "chao liệng"
+        "hoa giấy",
+        "đỏ thắm",
+        "giàn cây",
+        "phủ đầy"
       ],
-      "answer": "cánh diều",
-      "hint": "Cánh diều là đồ vật (sự vật) bay trên cao nhờ sức gió.",
+      "answer": "đỏ thắm",
+      "hint": "Từ chỉ màu sắc rực rỡ 'đỏ thắm' chính là từ chỉ Đặc điểm của cánh hoa giấy đấy bé!",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 707,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Từ nào chỉ sự vật chiếu sáng rực rỡ vào ban ngày?",
+      "sub_topic": "Từ chỉ Sự vật quanh bé",
+      "question_text": "Từ 'con chó' (loài vật trung thành canh giữ nhà cho chủ) thuộc nhóm từ loại nào?",
       "options": [
-        "ông mặt trời",
-        "tỏa nắng",
-        "chói chang",
-        "lặn xuống"
+        "Từ chỉ sự vật",
+        "Từ chỉ hoạt động",
+        "Từ chỉ đặc điểm",
+        "Từ chỉ cảm xúc"
       ],
-      "answer": "ông mặt trời",
-      "hint": "Ông mặt trời là từ chỉ thiên thể tự nhiên (sự vật).",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "Từ chỉ sự vật",
+      "hint": "Con chó là từ gọi tên một loài vật quen thuộc, nên nó nằm trong gia đình từ chỉ Sự vật.",
+      "image_url": "assets/images/con_cho.png"
     },
     {
       "question_id": 708,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Trong từ 'bàn học, thước kẻ, bút mực', tất cả đều thuộc nhóm từ nào?",
+      "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+      "question_text": "Chú cá vàng nhởn nhơ bơi lội lượn vòng dưới nước. Từ 'bơi lội' thuộc nhóm từ loại nào?",
       "options": [
-        "Từ chỉ Sự vật",
-        "Từ chỉ Hoạt động",
-        "Từ chỉ Đặc điểm",
-        "Từ chỉ Tính chất"
+        "Từ chỉ hoạt động",
+        "Từ chỉ sự vật",
+        "Từ chỉ đặc điểm",
+        "Từ chỉ âm thanh"
       ],
-      "answer": "Từ chỉ Sự vật",
-      "hint": "Cả bàn học, thước kẻ, bút mực đều là đồ dùng học tập chỉ sự vật.",
-      "image_url": "assets/images/tho_hong.png"
+      "answer": "Từ chỉ hoạt động",
+      "hint": "Từ tả cử động của chú cá dưới nước là 'bơi lội', đây là từ chỉ Hoạt động.",
+      "image_url": "assets/images/con_vit.png"
     },
     {
       "question_id": 709,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Từ nào dưới đây là từ chỉ sự vật?",
+      "sub_topic": "Từ chỉ Đặc điểm, Tính chất",
+      "question_text": "Những bông hoa mai nở vàng rực rỡ đón Tết về. Từ 'vàng rực' thuộc nhóm từ loại nào?",
       "options": [
-        "ngôi trường",
-        "học tập",
-        "vui vẻ",
-        "chơi đùa"
+        "Từ chỉ đặc điểm",
+        "Từ chỉ sự vật",
+        "Từ chỉ hoạt động",
+        "Từ chỉ tiếng kêu"
       ],
-      "answer": "ngôi trường",
-      "hint": "Ngôi trường chỉ công trình xây dựng (sự vật).",
+      "answer": "Từ chỉ đặc điểm",
+      "hint": "Từ tả màu sắc rực rỡ của cánh hoa là 'vàng rực', đây là từ chỉ Đặc điểm.",
       "image_url": "assets/images/tho_hong.png"
     },
     {
       "question_id": 710,
-      "sub_topic": "Nhóm từ chỉ Sự vật",
-      "week": 7,
-      "question_text": "Trong câu 'Con trâu ăn cỏ trên đồi', có mấy từ chỉ sự vật?",
-      "options": [
-        "hai từ (con trâu, cỏ)",
-        "ba từ (con trâu, cỏ, đồi)",
-        "một từ (con trâu)",
-        "bốn từ"
-      ],
-      "answer": "ba từ (con trâu, cỏ, đồi)",
-      "hint": "Có 3 sự vật xuất hiện trong câu: con trâu (con vật), cỏ (cây cối), đồi (địa hình).",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 711,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Trong các từ sau, từ nào là từ chỉ hoạt động?",
-      "options": [
-        "chạy bộ",
-        "con mèo",
-        "mềm mịn",
-        "đáng yêu"
-      ],
-      "answer": "chạy bộ",
-      "hint": "Chạy bộ là hành động di chuyển nhanh của cơ thể (hoạt động).",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 712,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Bé làm gì với quyển sách hàng ngày để lấy kiến thức?",
+      "sub_topic": "Từ chỉ Hoạt động nhanh nhẹn",
+      "question_text": "Trong các từ dưới đây, từ nào là từ chỉ Hoạt động học tập của bé ở trường?",
       "options": [
         "đọc sách",
-        "quyển sách",
-        "sách hay",
-        "bọc sách"
+        "bút chì",
+        "bảng đen",
+        "xinh xắn"
       ],
       "answer": "đọc sách",
-      "hint": "Hành động 'đọc sách' là từ chỉ hoạt động.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 713,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Chim làm gì bằng đôi cánh của mình?",
-      "options": [
-        "bay lượn",
-        "bầu trời",
-        "cánh mỏng",
-        "tổ chim"
-      ],
-      "answer": "bay lượn",
-      "hint": "Hành động dùng cánh để di chuyển trên không là 'bay lượn'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 714,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Từ nào chỉ hoạt động viết chữ của học sinh?",
-      "options": [
-        "tập viết",
-        "bút chì",
-        "chữ đẹp",
-        "vở sạch"
-      ],
-      "answer": "tập viết",
-      "hint": "Hành động nắn nót viết từng nét chữ là 'tập viết'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 715,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Trong câu 'Mẹ đi gặt lúa', từ nào chỉ hành động gặt?",
-      "options": [
-        "gặt lúa",
-        "mẹ",
-        "đi gặt",
-        "lúa"
-      ],
-      "answer": "gặt lúa",
-      "hint": "Hành động dùng liềm cắt lúa mang về là 'gặt lúa'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 716,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Từ nào KHÔNG PHẢI từ chỉ hoạt động?",
-      "options": [
-        "xinh xắn",
-        "quét nhà",
-        "tưới cây",
-        "nhảy dây"
-      ],
-      "answer": "xinh xắn",
-      "hint": "Xinh xắn là từ chỉ đặc điểm, các từ còn lại chỉ hoạt động.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 717,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Bé ngoan giúp mẹ làm gì với chiếc chổi tre?",
-      "options": [
-        "quét nhà",
-        "cái chổi",
-        "nhà sạch",
-        "bụi bẩn"
-      ],
-      "answer": "quét nhà",
-      "hint": "Hành động dùng chổi quét rác là 'quét nhà'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 718,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Động vật dưới nước làm gì để di chuyển?",
-      "options": [
-        "bơi lội",
-        "con cá",
-        "nước mát",
-        "vảy xanh"
-      ],
-      "answer": "bơi lội",
-      "hint": "Di chuyển bằng vây và đuôi dưới nước gọi là 'bơi lội'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 719,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Từ nào chỉ hoạt động học tập ở trường lớp?",
-      "options": [
-        "nghe giảng",
-        "bảng đen",
-        "học sinh",
-        "cô giáo"
-      ],
-      "answer": "nghe giảng",
-      "hint": "Hành động chăm chú lắng nghe cô dạy là 'nghe giảng'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 720,
-      "sub_topic": "Nhóm từ chỉ Hoạt động",
-      "week": 7,
-      "question_text": "Trong câu 'Bé múa cho bà xem', từ nào chỉ hoạt động?",
-      "options": [
-        "múa",
-        "bé",
-        "bà",
-        "bà xem"
-      ],
-      "answer": "múa",
-      "hint": "Hành động uốn dẻo cơ thể theo nhạc của bé là 'múa'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 721,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Trong các từ sau, từ nào chỉ đặc điểm?",
-      "options": [
-        "xinh xắn",
-        "con bướm",
-        "múa hát",
-        "quét nhà"
-      ],
-      "answer": "xinh xắn",
-      "hint": "Xinh xắn là từ chỉ vẻ đẹp bên ngoài (đặc điểm).",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 722,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Từ nào chỉ đặc điểm màu sắc của lá cây mùa hè?",
-      "options": [
-        "xanh ngắt",
-        "lá cây",
-        "tưới cây",
-        "mọc mầm"
-      ],
-      "answer": "xanh ngắt",
-      "hint": "Màu xanh đậm đà tươi tốt của lá cây là đặc điểm 'xanh ngắt'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 723,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Từ nào chỉ đặc điểm ánh nắng mặt trời buổi trưa hè?",
-      "options": [
-        "chói chang",
-        "ông mặt trời",
-        "tỏa nắng",
-        "lặn xuống"
-      ],
-      "answer": "chói chang",
-      "hint": "Ánh nắng gay gắt, rực rỡ gọi là đặc điểm 'chói chang'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 724,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Bông hoa hồng nở rộ có đặc điểm màu sắc gì?",
-      "options": [
-        "đỏ rực",
-        "mùi thơm",
-        "bông hoa",
-        "nở hoa"
-      ],
-      "answer": "đỏ rực",
-      "hint": "Đỏ rực là đặc điểm chỉ màu đỏ chói lọi rực rỡ của bông hoa.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 725,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Chú chuồn chuồn nước có thân hình thế nào?",
-      "options": [
-        "thon vàng",
-        "bay lượn",
-        "mặt hồ",
-        "đậu trên cành"
-      ],
-      "answer": "thon vàng",
-      "hint": "Thân hình nhỏ nhắn và vàng óng như nắng thu của chú chuồn chuồn là đặc điểm 'thon vàng'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 726,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Từ nào KHÔNG PHẢI từ chỉ đặc điểm?",
-      "options": [
-        "nhảy dây",
-        "xinh xắn",
-        "đỏ rực",
-        "lạnh buốt"
-      ],
-      "answer": "nhảy dây",
-      "hint": "Nhảy dây là từ chỉ hoạt động, không phải chỉ đặc điểm.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 727,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Nước đá lạnh có đặc điểm xúc giác thế nào?",
-      "options": [
-        "lạnh buốt",
-        "mát mẻ",
-        "ấm áp",
-        "nước đá"
-      ],
-      "answer": "lạnh buốt",
-      "hint": "Cảm giác tê lạnh mạnh khi chạm vào nước đá là đặc điểm 'lạnh buốt'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 728,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Từ nào chỉ đặc điểm tính cách chăm học của học sinh?",
-      "options": [
-        "chăm chỉ",
-        "học bài",
-        "học sinh",
-        "ngôi trường"
-      ],
-      "answer": "chăm chỉ",
-      "hint": "Siêng năng, không lười biếng học bài là đặc điểm 'chăm chỉ'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 729,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Từ nào chỉ đặc điểm vẻ bề ngoài bé bỏng, đáng yêu của em bé?",
-      "options": [
-        "bú mẫm",
-        "bé con",
-        "khóc nhè",
-        "ăn bột"
-      ],
-      "answer": "bú mẫm",
-      "hint": "Em bé mập mạp, khỏe mạnh dễ thương có đặc điểm là 'bú mẫm' hoặc 'bụ bẫm'.",
-      "image_url": "assets/images/tho_hong.png"
-    },
-    {
-      "question_id": 730,
-      "sub_topic": "Nhóm từ chỉ Đặc điểm",
-      "week": 7,
-      "question_text": "Trong câu 'Mái tóc bà bạc trắng', từ nào chỉ đặc điểm?",
-      "options": [
-        "bạc trắng",
-        "mái tóc",
-        "bà",
-        "tóc bà"
-      ],
-      "answer": "bạc trắng",
-      "hint": "Màu sắc tóc của bà đã nhuốm màu thời gian là đặc điểm 'bạc trắng'.",
+      "hint": "Hành động mở sách ra và đọc gọi là 'đọc sách', đây thuộc gia đình từ chỉ Hoạt động bé nhé!",
       "image_url": "assets/images/tho_hong.png"
     }
   ]

@@ -1,12 +1,14 @@
 {
   "topic_id": 2,
   "topic_name": "NĂM THANH ĐIỆU KÌ DIỆU",
-  "description": "Bé tập nhận diện dấu thanh: sắc, huyền, hỏi, ngã, nặng để đánh vần đúng âm điệu.",
+  "description": "Bé tập nhận diện năm dấu thanh: sắc, huyền, hỏi, ngã, nặng để đánh vần đúng âm điệu tiếng Việt.",
+  "lecture_title": "Bài Giảng: Năm Thanh Điệu Kì Diệu",
+  "lecture_content": "Bé yêu ơi! Tiếng Việt của chúng mình hay như một bản nhạc nhờ có 5 dấu thanh đấy! Bé hãy ghi nhớ bài thơ này cùng Thỏ Hồng nhé: 'Thanh ngang không dấu đi chơi / Dấu sắc lên dốc, dấu huyền xuôi xuôi / Dấu hỏi cúi gập xuống rồi / Dấu ngã gợn sóng, dấu nặng rơi rụng'. Khi thêm dấu thanh vào một chữ cái, ta sẽ được các tiếng mang ý nghĩa hoàn toàn khác nhau. Chúng mình cùng tập nhận diện các dấu thanh để phát âm thật chuẩn nha!",
+  "lecture_audio_text": "Chào mừng bé yêu đến với bài giảng Năm thanh điệu kì diệu. Cùng Cô Giáo Thỏ Hồng học cách nhận diện các dấu thanh: sắc, huyền, hỏi, ngã, nặng để đánh vần thật hay nhé!",
   "questions": [
     {
       "question_id": 201,
       "sub_topic": "Nhận diện Thanh sắc và Thanh huyền",
-      "week": 1,
       "question_text": "Khi thêm dấu thanh vào chữ 'ca' để được tiếng chỉ con vật biết bay, có chân dài lội ruộng kiếm ăn, bé chọn dấu nào?",
       "options": [
         "dấu sắc",
@@ -21,7 +23,6 @@
     {
       "question_id": 202,
       "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
-      "week": 1,
       "question_text": "Mẹ mua cho bé một cốc 'sữa' ấm. Từ 'sữa' có chứa thanh điệu nào dưới đây?",
       "options": [
         "thanh sắc",
@@ -36,7 +37,6 @@
     {
       "question_id": 203,
       "sub_topic": "Ôn tập phản xạ nhanh dấu thanh",
-      "week": 1,
       "question_text": "Từ 'mẹ' có chứa thanh điệu nào nằm dưới chữ 'e'?",
       "options": [
         "thanh huyền",
@@ -46,6 +46,104 @@
       ],
       "answer": "thanh nặng",
       "hint": "Thanh nặng (.) nằm ở phía dưới chữ cái nguyên âm 'e' tạo thành tiếng 'mẹ' kính yêu!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 204,
+      "sub_topic": "Nhận diện Thanh sắc và Thanh huyền",
+      "question_text": "Trong tiếng 'cá chép', cả hai tiếng 'cá' và 'chép' đều có chung dấu thanh nào?",
+      "options": [
+        "dấu sắc",
+        "dấu huyền",
+        "dấu hỏi",
+        "dấu nặng"
+      ],
+      "answer": "dấu sắc",
+      "hint": "Tiếng 'cá' có dấu sắc trên chữ a, tiếng 'chép' có dấu sắc trên chữ e. Cả hai đều dùng dấu sắc (/) nhé bé!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 205,
+      "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+      "question_text": "Tiếng 'hổ' (trong từ hổ vằn - chúa sơn lâm) có chứa dấu thanh nào dưới đây?",
+      "options": [
+        "dấu hỏi",
+        "dấu ngã",
+        "dấu sắc",
+        "dấu huyền"
+      ],
+      "answer": "dấu hỏi",
+      "hint": "Tiếng 'hổ' có dấu hỏi (?) đặt trên đầu nguyên âm 'ô' đấy bé yêu ơi!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 206,
+      "sub_topic": "Ôn tập phản xạ nhanh dấu thanh",
+      "question_text": "Từ nào dưới đây KHÔNG có chứa dấu thanh (gọi là thanh ngang)?",
+      "options": [
+        "mẹ",
+        "ba",
+        "bố",
+        "bà"
+      ],
+      "answer": "ba",
+      "hint": "Từ 'ba' (trong từ ba mẹ) không viết kèm bất kỳ dấu thanh nào, ta phát âm bình thản, nhẹ nhàng.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 207,
+      "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+      "question_text": "Chú thỏ trắng có đôi tai dài rất ngoan. Tiếng 'thỏ' có dấu thanh nào?",
+      "options": [
+        "dấu hỏi",
+        "dấu ngã",
+        "dấu huyền",
+        "dấu nặng"
+      ],
+      "answer": "dấu hỏi",
+      "hint": "Tiếng 'thỏ' được viết bằng phụ âm 'th', nguyên âm 'o' và thêm dấu hỏi (?) nằm trên đầu chữ o nhé.",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 208,
+      "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+      "question_text": "Bé đi học đội chiếc 'mũ' tròn để che nắng. Tiếng 'mũ' chứa dấu thanh gì?",
+      "options": [
+        "dấu ngã",
+        "dấu hỏi",
+        "dấu sắc",
+        "dấu nặng"
+      ],
+      "answer": "dấu ngã",
+      "hint": "Tiếng 'mũ' có nguyên âm 'u' và dấu ngã (~) nằm ở trên chữ u bé nhé!",
+      "image_url": "assets/images/tho_hong.png"
+    },
+    {
+      "question_id": 209,
+      "sub_topic": "Chinh phục Thanh hỏi, Thanh ngã và Thanh nặng",
+      "question_text": "Chú 'ngựa' phi nhanh như bay trên đồng cỏ. Tiếng 'ngựa' có dấu thanh nào?",
+      "options": [
+        "dấu nặng",
+        "dấu huyền",
+        "dấu hỏi",
+        "dấu ngã"
+      ],
+      "answer": "dấu nặng",
+      "hint": "Tiếng 'ngựa' có nguyên âm 'ư' đi với âm cuối 'a' tạo thành vần 'ưa', thêm dấu nặng (.) nằm dưới chữ ư.",
+      "image_url": "assets/images/con_trau.png"
+    },
+    {
+      "question_id": 210,
+      "sub_topic": "Nhận diện Thanh sắc và Thanh huyền",
+      "question_text": "Mỗi chiều đi học về, bé thích nhất được trở về ngôi 'nhà' của mình. Tiếng 'nhà' có dấu thanh gì?",
+      "options": [
+        "dấu huyền",
+        "dấu hỏi",
+        "dấu sắc",
+        "dấu ngã"
+      ],
+      "answer": "dấu huyền",
+      "hint": "Tiếng 'nhà' có phụ âm ghép 'nh', nguyên âm 'a' và dấu huyền (\\) nằm trên chữ a.",
       "image_url": "assets/images/tho_hong.png"
     }
   ]
